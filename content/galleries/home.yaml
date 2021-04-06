@@ -1,12 +1,66 @@
-- image: ../images/japan_2019-26.jpg
-  alt: Kagoshima Skyline
-- image: ../images/japan_2019-27.jpg
-  alt: Kagoshima Temple
-- image: ../images/china-02.jpg
-  alt: CCTV Tower
-- image: ../images/japan_2019-04.jpg
+- image: ../images/travel/japan-2019/japan_2019-26.jpg
+  alt: Kagoshima
+- image: ../images/travel/japan-2019/japan_2019-27.jpg
+  alt: Kagoshima
+- image: ../images/travel/china/china-02.jpg
+  alt: Beijing
+- image: ../images/travel/japan-2019/japan_2019-04.jpg
   alt: Fukuoka
-- image: ../images/Yosemite-02.jpg
-  alt: Yosemite Half Dome
-- image: ../images/colorado-01.jpg
-  alt: Colorado
+- image: ../images/travel/yosemite/yosemite-02.jpg
+  alt: Half Dome
+- image: ../images/travel/colorado/colorado-01.jpg
+  alt: Dream Lake, Rocky Mountain National Park
+- image: ../images/travel/uncategorized/ucsd-03.jpg
+  alt: UCSD
+- image: ../images/portrait/portrait-01.jpg
+  alt: Portrait
+- image: ../images/portrait/portrait-05.jpg
+  alt: Portrait
+- image: ../images/travel/japan-2019/japan_2019-74.jpg
+  alt: Tokyo
+- image: ../images/travel/china/china-01.jpg
+  alt: Beijing
+- image: ../images/travel/japan-2019/japan_2019-37.jpg
+  alt: Kyoto
+- image: ../images/travel/japan-2019/japan_2019-72.jpg
+  alt: Tokyo
+- image: ../images/travel/japan-2019/japan_2019-69.jpg
+  alt: Mt Fuji
+- image: ../images/travel/china/china-18.jpg
+  alt: Zhangjiajie
+- image: ../images/travel/yosemite/yosemite-01.jpg
+  alt: Artist Point
+- image: ../images/travel/utah-arizona/utah-arizona-01.jpg
+  alt: Antelope Canyon, Arizona
+- image: ../images/travel/utah-arizona/utah-arizona-02.jpg
+  alt: Antelope Canyon, Arizona
+- image: ../images/travel/utah-arizona/utah-arizona-16.jpg
+  alt: Canyonlands, Utah
+- image: ../images/travel/utah-arizona/utah-arizona-09.jpg
+  alt: Bryce National Park, Utah
+- image: ../images/travel/japan-2017/japan_2017-40.jpg
+  alt: Tokyo
+- image: ../images/travel/japan-2017/japan_2017-24.jpg
+  alt: Kyoto
+- image: ../images/travel/japan-2017/japan_2017-46.jpg
+  alt: Tokyo
+- image: ../images/travel/china/china-24.jpg
+  alt: Tibet
+- image: ../images/travel/china/china-06.jpg
+  alt: Beijing
+- image: ../images/travel/china/china-17.jpg
+  alt: Yangtze River
+- image: ../images/travel/uncategorized/seattle-01.jpg
+  alt: Seattle
+- image: ../images/travel/japan-2017/japan_2017-30.jpg
+  alt: Kyoto
+- image: ../images/travel/japan-2019/japan_2019-57.jpg
+  alt: Tokyo
+- image: ../images/travel/colorado/colorado-21.jpg
+  alt: Sand Dunes National Park
+- image: ../images/travel/uncategorized/ucsd-01.jpg
+  alt: UCSD
+- image: ../images/travel/uncategorized/ucsd-02.jpg
+  alt: UCSD
+- image: ../images/travel/uncategorized/ucsd-04.jpg
+  alt: UCSD

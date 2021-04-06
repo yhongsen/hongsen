@@ -1,6 +1,26 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+const NavLink = ({ path, pathName }) => (
+    <Link
+        to={path}
+        className="navigation-link"
+        activeClassName="navigation__active"
+    >
+        {pathName}
+    </Link>
+);
+
+const SubnavLink = ({ path, pathName }) => (
+    <Link
+        to={path}
+        className="navigation-subnav-link"
+        activeClassName="navigation__active"
+    >
+        {pathName}
+    </Link>
+);
+
 const Navigation = () => (
     <div className="content-container">
         <div className="navigation-wrapper">
@@ -13,45 +33,19 @@ const Navigation = () => (
                 <span className="navigation-subnav">
                     <div className="navigation-link">Travel</div>
                     <div className="navigation-subnav-content">
-                        <Link
-                            to="/travel/japan-2019"
-                            className="navigation-subnav-link"
-                            activeClassName="navigation__active"
-                        >
-                            Japan II
-                        </Link>
-                        <Link
-                            to="/travel/japan-2017"
-                            className="navigation-subnav-link"
-                            activeClassName="navigation__active"
-                        >
-                            Japan I
-                        </Link>
-                        <div className="navigation-subnav-link">Yosemite</div>
+                        <SubnavLink path={"/travel/japan-2019"} pathName={"Japan II"}/>
+                        <SubnavLink path={"/travel/japan-2017"} pathName={"Japan I"}/>
+                        <SubnavLink path={"/travel/yosemite"} pathName={"Yosemite"}/>
+                        <SubnavLink path={"/travel/colorado"} pathName={"Colorado"}/>
+                        <SubnavLink path={"/travel/acadia"} pathName={"Acadia"}/>
+                        <SubnavLink path={"/travel/china"} pathName={"China"}/>
+                        <SubnavLink path={"/travel/utah-arizona"} pathName={"Utah & Arizona"}/>
                     </div>
                 </span>
 
-                <Link
-                    to="/portrait"
-                    className="navigation-link"
-                    activeClassName="navigation__active"
-                >
-                    Portrait
-                </Link>
-                <Link
-                    to="/design"
-                    className="navigation-link"
-                    activeClassName="navigation__active"
-                >
-                    Design
-                </Link>
-                <Link
-                    to="/about"
-                    className="navigation-link"
-                    activeClassName="navigation__active"
-                >
-                    About
-                </Link>
+                <NavLink path={"/portrait"} pathName={"Portrait"}/>
+                <NavLink path={"/design"} pathName={"Design"}/>
+                <NavLink path={"/about"} pathName={"About"}/>
             </nav>
         </div>
     </div>

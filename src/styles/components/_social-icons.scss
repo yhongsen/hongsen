@@ -1,0 +1,36 @@
+$social: 24px;
+$socialSmall: 22px;
+
+%_icon {
+    display: block;
+    fill: $black;
+    transition: fill $transition-time linear;
+
+    &:hover {
+        fill: $blue;
+    }
+}
+
+.socialIcon {
+    @extend %_icon;
+
+    height: $social;
+    width: $social;
+}
+
+.socialIcon-small {
+    @extend %_icon;
+
+    height: $socialSmall;
+    width: $socialSmall;
+}
+
+.socialLinks {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    &>* {
+        padding-right: $space-small;
+    }
+}

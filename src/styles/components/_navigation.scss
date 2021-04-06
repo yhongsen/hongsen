@@ -1,0 +1,81 @@
+%_link {
+    border-bottom: 2px solid rgba($light-grey, 0);
+    padding: 1px 0;
+    transition: color $transition-time linear, border-color $transition-time-fast linear;
+}
+
+.navigation-wrapper {
+    padding: 0;
+    padding-bottom: 60px;
+};
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+    text-transform: uppercase;
+}
+
+.navigation-header {
+    color: $dark-grey;
+    font-size: 72px;
+    line-height: 1em;
+    letter-spacing: 2px;
+    margin: 0 0 $l-size;
+    text-align: center;
+    @media screen and (max-width: 420px) {
+        font-size: 60px;
+    }
+}
+
+.navigation-link {
+    @extend %_link;
+
+    display: inline-block;
+    color: $grey;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 0 $s-size;
+    text-decoration-line: none;
+}
+
+.navigation-main {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: $m-size 0;
+}
+
+.navigation-subnav {
+    position: relative;
+    display: inline-block;
+
+    &:hover .navigation-subnav-content {
+        display: block;
+        pointer-events: auto;
+    }
+}
+
+.navigation-subnav-content {
+    display: none;
+    padding: 0px;
+    pointer-events: none;
+    position: absolute;
+    background-color: $white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 20px 0px rgba($black, .1);
+    transition: opacity $transition-time linear;
+    z-index: 1;
+}
+
+.navigation-subnav-link {
+    @extend .navigation-link;
+    display: block;
+    padding-top: 0px;
+    text-align: left;
+}
+
+.navigation__active {
+    color: $light-grey;
+    // border-color: $blue;
+}

@@ -9,7 +9,7 @@ const DesignTemplate = ({ data, pageContext }) => {
     // const { previous, next } = pageContext;
 
     return (
-        <Gallery images={images} />
+        <Gallery images={images} columns={numColumns} />
     );
 }
 

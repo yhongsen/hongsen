@@ -3,13 +3,11 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import useResizeObserver from 'use-resize-observer';
 import { getBreakPoint, getContentHeight, getContentWidth, getLayoutPosition } from '../utils/masonry';
 
-const Gallery = ({ images }) => {
+const Gallery = ({ images, columns }) => {
     const { ref: containerRef, width: containerWidth } = useResizeObserver();
 
-    const defaultColumns = 3;
+    const defaultColumns = !!columns ? columns : 3;
     const defaultGutter = 20;
-
-    // console.log(containerWidth);
 
     const { contentWidth, contentHeight, coordinates, maxHeight } = useMemo(() => {
         if (!containerWidth) {
@@ -22,8 +20,9 @@ const Gallery = ({ images }) => {
         const { coordinates, maxHeight } = getLayoutPosition(contentHeight, contentWidth, gutter, numColumns);
 
         return { contentWidth, contentHeight, coordinates, maxHeight };
-    }, [images, containerWidth]);
+    }, [images, containerWidth, defaultColumns]);
 
+    // Currently does not correctly render images with max-width < containerWidth.
     return (
         <div ref={containerRef} className="content-container">
             <div className="gallery-wrapper" style={{ height: maxHeight }}>
@@ -39,7 +38,7 @@ const Gallery = ({ images }) => {
                                 height: contentHeight[i]
                             }}
                         >
-                            <GatsbyImage image={getImage(image)} alt={alt} />
+                            <GatsbyImage image={getImage(image)} alt={alt}/>
                         </div>
                     );
                 })}

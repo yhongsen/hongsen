@@ -1,7 +1,9 @@
 ---
-slug: "/design"
+slug: "/design/chesscademy"
 type: design
 title: "Chesscademy"
-date: "2015-05-23"
-photos: ../../galleries/travel/acadia.yaml
+date: "2014-12-01"
+photos: ../../galleries/design/chesscademy.yaml
 ---
+
+Chesscademy is a free online platform that makes learning chess fun and easy. It offers a wide range of instructive courses for players of all skill levels, serving over a million learners from 190 countries.

@@ -2,6 +2,8 @@
 slug: "/design/illustrations"
 type: design
 title: "Illustrations"
-date: "2015-12-25"
+tags: "Branding"
+date: "2021-04-10"
+hero: ../../images/design/illustrations/illustrations-cover.png
 photos: ../../galleries/design/illustrations.yaml
 ---

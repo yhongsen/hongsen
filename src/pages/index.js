@@ -1,12 +1,8 @@
 import React from 'react'
 import { graphql } from "gatsby";
-// import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-// import GalleryGrid from '../components/GalleryGrid';
 import Gallery from '../components/Gallery';
 import '../styles/styles.scss';
 
-
-// import Gallery from '../components/Gallery';
 // import HomePage from '../components/HomePage';
 
 export default function Home({ data }) {

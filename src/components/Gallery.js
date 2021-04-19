@@ -38,7 +38,7 @@ const Gallery = ({ images, columns }) => {
                                 height: contentHeight[i]
                             }}
                         >
-                            <GatsbyImage image={getImage(image)} alt={alt}/>
+                            <GatsbyImage image={getImage(image)} alt={alt} />
                         </div>
                     );
                 })}

@@ -2,32 +2,10 @@
 @import './base/base';
 @import './components/content-container';
 @import './components/about';
+@import './components/collection';
 @import './components/gallery';
 @import './components/layout';
 @import './components/navigation';
 @import './components/social-icons';
 @import './components/footer';
 @import './components/not-found';
-
-// Push footer to page bottom
-html,
-body,
-#___gatsby,
-#gatsby-focus-wrapper {
-    height: 100%;
-}
-
-body {
-    margin: 0; // Set to 0, otherwise will cause vertical scrolling
-}
-
-// Applies on-hover color transition for Navigation bar
-a {
-    color: inherit;
-    text-decoration: none;
-    transition: color $transition-time linear;
-
-    &:hover {
-        color: $light-grey;
-    }
-}

@@ -1,3 +1,10 @@
+.not-found-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
 .not-found-wrapper {
     text-align: center;
 }
@@ -9,6 +16,7 @@
 }
 
 .not-found-text {
+    font-size: 24px;
     margin: 0;
 }
 

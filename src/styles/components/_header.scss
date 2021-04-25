@@ -1,0 +1,20 @@
+.header-wrapper {
+    margin-bottom: $l-size;
+    max-width: 550px;
+    // text-align: center;
+}
+
+.header-title {
+    margin-bottom: $xs-size;
+    text-transform: uppercase;
+}
+
+.header-subtitle {
+    color: $grey;
+}
+
+.header-description p {
+    display: flex;
+    margin: 0;
+    margin-bottom: $s-size;
+}

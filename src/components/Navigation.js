@@ -46,7 +46,7 @@ const Navigation = () => (
                 <NavLink path={"/portrait"} pathName={"Portrait"} />
 
                 <span className="navigation-subnav">
-                    <div className="navigation-link">Design</div>
+                    <NavLink path={"/design"} pathName={"Design"} />
                     <div className="navigation-subnav-content">
                         <SubnavLink path={"/design/illustrations"} pathName={"Illustrations"} />
                         <SubnavLink path={"/design/chesscademy"} pathName={"Chesscademy"} />

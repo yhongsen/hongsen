@@ -4,12 +4,12 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Get404Image = () => {
     return (
-        <div>
+        <div className="not-found-image">
             <StaticImage
                 src='../../content/assets/bb8-404.png'
                 alt='404'
                 placeholder='blurred'
-                width={400}
+                width={800}
             />
         </div>
     );

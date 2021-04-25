@@ -4,9 +4,10 @@
     padding: 0;
 }
 
-// .about {
-
-// }
+.about-header {
+    margin-top: $s-size;
+    text-transform: uppercase;
+}
 
 .about-text {
     line-height: 1.6;
@@ -16,4 +17,14 @@
 .about-image {
     display: flex;
     justify-content: center;
+}
+
+.about-links {
+    margin: 0;
+}
+
+.about-link {
+    display: block;
+    line-height: 1.6;
+    text-decoration: underline;
 }

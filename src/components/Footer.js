@@ -1,11 +1,11 @@
 import React from 'react';
-import SocialLinks from '../components/SocialLinks';
+import { Instagram } from '../components/SocialLinks';
 
 const Footer = () => (
     <footer className="footer">
         <div className="content-container">
             <div className="footer-social">
-                <SocialLinks />
+                <Instagram />
             </div>
             <div className={"footer-copyright"}>
                 Copyright Hongsen Yang {new Date().getFullYear()}.

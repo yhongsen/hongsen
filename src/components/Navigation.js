@@ -6,6 +6,7 @@ const NavLink = ({ path, pathName }) => (
         to={path}
         className="navigation-link"
         activeClassName="navigation__active"
+        partiallyActive={true}
     >
         {pathName}
     </Link>
@@ -31,7 +32,7 @@ const Navigation = () => (
 
             <nav className="navigation-main">
                 <span className="navigation-subnav">
-                    <div className="navigation-link">Travel</div>
+                    <NavLink path={"/travel"} pathName={"Travel"} />
                     <div className="navigation-subnav-content">
                         <SubnavLink path={"/travel/japan-2019"} pathName={"Japan II"} />
                         <SubnavLink path={"/travel/japan-2017"} pathName={"Japan I"} />

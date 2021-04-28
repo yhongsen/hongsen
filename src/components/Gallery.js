@@ -24,7 +24,7 @@ const Gallery = ({ images, columns }) => {
 
     // Currently does not correctly render images with max-width < containerWidth.
     return (
-        <div ref={containerRef} className="content-container">
+        <div ref={containerRef}>
             <div className="gallery-wrapper" style={{ height: maxHeight }}>
                 {contentWidth && images.map(({ alt, image }, i) => {
                     return (

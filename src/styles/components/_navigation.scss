@@ -1,7 +1,12 @@
 %_link {
-    border-bottom: 2px solid rgba($light-grey, 0);
-    padding: 1px 0;
-    transition: color $transition-time linear, border-color $transition-time-fast linear;
+    color: $grey;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 1px $s-size;
+    text-decoration-line: none;
+    // border-bottom: 2px solid rgba($light-grey, 0);
+    // padding: 1px 0;
+    // transition: color $transition-time linear, border-color $transition-time-fast linear;
 }
 
 .navigation-wrapper {
@@ -30,13 +35,7 @@
 
 .navigation-link {
     @extend %_link;
-
     display: inline-block;
-    color: $grey;
-    font-size: 14px;
-    letter-spacing: 2px;
-    padding: 0 $s-size;
-    text-decoration-line: none;
 }
 
 .navigation-main {
@@ -49,6 +48,10 @@
 .navigation-subnav {
     position: relative;
     display: inline-block;
+
+    &:hover .navigation-link {
+        color: $light-grey;
+    }
 
     &:hover .navigation-subnav-content {
         display: block;
@@ -71,7 +74,7 @@
 }
 
 .navigation-subnav-link {
-    @extend .navigation-link;
+    @extend %_link;
     display: block;
     padding-top: 0px;
     text-align: left;

@@ -39,8 +39,6 @@ exports.createPages = async ({ graphql, actions }) => {
 
     const componentPage = () => {
       switch (page.node.frontmatter.type) {
-        case 'gallery':
-          return galleryPage;
         case 'design':
           return designPage;
         default:

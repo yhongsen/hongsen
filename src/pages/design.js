@@ -8,9 +8,6 @@ const designPage = ({ data }) => {
     return (
         <Collection albums={albums} />
     );
-    // return (
-    //     <div>Test</div>
-    // )
 };
 
 export default designPage;
@@ -25,7 +22,7 @@ export const pageQuery = graphql`
                     frontmatter {
                         slug
                         title
-                        tags
+                        subtitle
                         date(formatString: "YYYY-MM")
                         hero {
                             id

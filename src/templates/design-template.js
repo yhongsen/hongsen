@@ -6,13 +6,13 @@ import Gallery from '../components/Gallery';
 const DesignTemplate = ({ data, pageContext }) => {
     const page = data.markdownRemark;
     const images = page.frontmatter.photos ? page.frontmatter.photos.childrenYaml : [];
-    const { title, tags } = { ...page.frontmatter };
+    const { title, subtitle } = { ...page.frontmatter };
     const numColumns = 1;
     // const { previous, next } = pageContext;
 
     return (
         <div className="content-container">
-            <Header title={title} subtitle={tags} description={page.html} />
+            <Header title={title} subtitle={subtitle} description={page.html} />
             <Gallery images={images} columns={numColumns} />
         </div>
     );
@@ -23,13 +23,12 @@ export default DesignTemplate;
 export const pageQuery = graphql`
         query DesignPageBySlug($slug: String!) {
             markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-                id
                 html
                 frontmatter {
                     slug
                     type
                     title
-                    tags
+                    subtitle
                     date(formatString: "MMMM YYYY")
                     photos {
                         childrenYaml {

@@ -1,14 +1,19 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import Header from '../components/Header';
 import Gallery from '../components/Gallery';
 
 const GalleryTemplate = ({ data, pageContext }) => {
     const page = data.markdownRemark;
     const images = page.frontmatter.photos ? page.frontmatter.photos.childrenYaml : [];
+    const { title, subtitle } = { ...page.frontmatter };
     // const { previous, next } = pageContext;
 
     return (
-        <Gallery images={images} />
+        <div className="content-container">
+            {!!title && <Header title={title} subtitle={subtitle} description={page.html} />}
+            <Gallery images={images} />
+        </div>
     );
 }
 
@@ -17,12 +22,12 @@ export default GalleryTemplate;
 export const pageQuery = graphql`
         query GalleryPageBySlug($slug: String!) {
             markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-                id
                 html
                 frontmatter {
                     slug
                     type
                     title
+                    subtitle
                     date(formatString: "MMMM YYYY")
                     photos {
                         childrenYaml {

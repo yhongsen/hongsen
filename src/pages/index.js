@@ -11,7 +11,9 @@ export default function Home({ data }) {
   // console.log(images[0].image.childImageSharp.gatsbyImageData.height);
 
   return (
-    <Gallery images={images} />
+    <div className="content-container">
+      <Gallery images={images} />
+    </div>
   )
 };
 

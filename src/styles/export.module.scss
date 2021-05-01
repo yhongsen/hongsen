@@ -1,0 +1,8 @@
+@import './base/settings';
+
+:export {
+    darkGrey: $dark-grey;
+    offWhite: rgba($white, .95);
+    mobileBreakpoint: $mobile-breakpoint;
+    desktopBreakpoint: $desktop-breakpoint;
+}

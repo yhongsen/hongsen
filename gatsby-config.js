@@ -9,9 +9,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sass',
       options: {
-        // Override the file regex for CSS modules
-        sassRuleModulesTest: /style\.s(a|c)ss$/,
-      }
+        // Override the file regex for CSS modules (see https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/)
+        // sassRuleModulesTest: /style\.s(a|c)ss$/,
+      },
     },
     {
       resolve: 'gatsby-plugin-react-svg',

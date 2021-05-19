@@ -13,13 +13,13 @@
 - image: ../../images/travel/china/china-07.jpg
   alt: Beijing
 - image: ../../images/travel/china/china-08.jpg
-  alt: Shanghai
+  alt: Beijing
 - image: ../../images/travel/china/china-09.jpg
   alt: Beijing
 - image: ../../images/travel/china/china-10.jpg
   alt: Yangtze River
 - image: ../../images/travel/china/china-11.jpg
-  alt: Yangtze River
+  alt: Shanghai
 - image: ../../images/travel/china/china-12.jpg
   alt: Yangtze River
 - image: ../../images/travel/china/china-13.jpg
@@ -33,15 +33,15 @@
 - image: ../../images/travel/china/china-17.jpg
   alt: Yangtze River
 - image: ../../images/travel/china/china-18.jpg
-  alt: Zhangjiajie
+  alt: Yangtze River
 - image: ../../images/travel/china/china-19.jpg
   alt: Zhangjiajie
 - image: ../../images/travel/china/china-20.jpg
-  alt: Hunan
+  alt: Zhangjiajie
 - image: ../../images/travel/china/china-21.jpg
-  alt: Tibet
+  alt: Hunan
 - image: ../../images/travel/china/china-22.jpg
-  alt: Tibet
+  alt: Hunan
 - image: ../../images/travel/china/china-23.jpg
   alt: Tibet
 - image: ../../images/travel/china/china-24.jpg
@@ -61,4 +61,8 @@
 - image: ../../images/travel/china/china-31.jpg
   alt: Tibet
 - image: ../../images/travel/china/china-32.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china-33.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china-34.jpg
   alt: Tibet

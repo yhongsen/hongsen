@@ -8,4 +8,4 @@ hero: ../../images/travel/utah-arizona/utah-arizona-cover.jpg
 photos: ../../galleries/travel/utah-arizona.yaml
 ---
 
-Photos from various national parks in Utah (2013) and Arizona (2012).
+From hiking upstream the Narrows of Zion Canyon to traversing through the slot canyons of Antelope Canyon, Utah and Arizona have a lot of unique experiences to offer.

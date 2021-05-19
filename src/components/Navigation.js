@@ -57,7 +57,7 @@ const Navigation = () => (
                 </span>
 
                 <NavLink path={"/about"} pathName={"About"} />
-                <NavLink path={"/404"} pathName={"Error"} />
+                {/*<NavLink path={"/404"} pathName={"Error"} />*/}
             </nav>
         </div>
     </div>

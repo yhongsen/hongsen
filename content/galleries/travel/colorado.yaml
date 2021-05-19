@@ -1,22 +1,20 @@
 - image: ../../images/travel/colorado/colorado-01.jpg
   alt: Dream Lake, Rocky Mountain National Park
-- image: ../../images/travel/colorado/colorado-25.jpg
-  alt: Rocky Mountain National Park
 - image: ../../images/travel/colorado/colorado-02.jpg
-  alt: Bear Lake Trailhead, Rocky Mountain National Park
+  alt: Rocky Mountain National Park
 - image: ../../images/travel/colorado/colorado-03.jpg
-  alt: Emerald Lake, Rocky Mountain National Park
+  alt: Bear Lake Trailhead, Rocky Mountain National Park
 - image: ../../images/travel/colorado/colorado-04.jpg
   alt: Emerald Lake, Rocky Mountain National Park
 - image: ../../images/travel/colorado/colorado-05.jpg
-  alt: Bear Lake Trailhead, Rocky Mountain National Park
+  alt: Emerald Lake, Rocky Mountain National Park
 - image: ../../images/travel/colorado/colorado-06.jpg
-  alt: Rocky Mountain National Park
+  alt: Bear Lake Trailhead, Rocky Mountain National Park
 - image: ../../images/travel/colorado/colorado-07.jpg
   alt: Rocky Mountain National Park
-- image: ../../images/travel/colorado/colorado-09.jpg
-  alt: Rocky Mountain National Park
 - image: ../../images/travel/colorado/colorado-08.jpg
+  alt: Rocky Mountain National Park
+- image: ../../images/travel/colorado/colorado-09.jpg
   alt: Alluvial Fan, Rocky Mountain National Park
 - image: ../../images/travel/colorado/colorado-10.jpg
   alt: Rocky Mountain National Park
@@ -25,7 +23,7 @@
 - image: ../../images/travel/colorado/colorado-12.jpg
   alt: Colorado National Monument
 - image: ../../images/travel/colorado/colorado-13.jpg
-  alt: Colorado
+  alt: Mesa Verde National Park
 - image: ../../images/travel/colorado/colorado-14.jpg
   alt: Colorado
 - image: ../../images/travel/colorado/colorado-15.jpg
@@ -33,7 +31,7 @@
 - image: ../../images/travel/colorado/colorado-16.jpg
   alt: Colorado
 - image: ../../images/travel/colorado/colorado-17.jpg
-  alt: Mesa Verde National Park
+  alt: Colorado
 - image: ../../images/travel/colorado/colorado-18.jpg
   alt: Sand Dunes National Park
 - image: ../../images/travel/colorado/colorado-19.jpg
@@ -42,9 +40,15 @@
   alt: Sand Dunes National Park
 - image: ../../images/travel/colorado/colorado-21.jpg
   alt: Sand Dunes National Park
-- image: ../../images/travel/colorado/colorado-23.jpg
-  alt: Garden of the Gods
 - image: ../../images/travel/colorado/colorado-22.jpg
-  alt: Colorado
+  alt: Sand Dunes National Park
+- image: ../../images/travel/colorado/colorado-23.jpg
+  alt: Sand Dunes National Park
 - image: ../../images/travel/colorado/colorado-24.jpg
+  alt: Garden of the Gods
+- image: ../../images/travel/colorado/colorado-25.jpg
+  alt: Colorado
+- image: ../../images/travel/colorado/colorado-26.jpg
+  alt: Colorado
+- image: ../../images/travel/colorado/colorado-27.jpg
   alt: Colorado

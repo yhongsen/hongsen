@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox"
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import useResizeObserver from 'use-resize-observer';
 import { getBreakPoint, getContentHeight, getContentWidth, getLayoutPosition } from '../utils/masonry';
 import { darkGrey, offWhite } from '../styles/export.module.scss';
@@ -11,10 +11,24 @@ const Gallery = ({ images, columns }) => {
     const defaultColumns = !!columns ? columns : 3;
     const defaultGutter = 20;
 
+    // simple-light-box scroll bar workaround.
+    let wasOpened = false;
+    const LIGHTBOX_CALLBACKS = {
+        onLightboxOpened: () => {
+            if (wasOpened) {
+                document.body.style.paddingRight = '17px';
+            }
+            wasOpened = true;
+        },
+        onLightboxClosed: () => setTimeout(() => {
+            document.body.style.paddingRight = '0px';
+        }, 600)
+    };
+
     const { contentWidth, contentHeight, coordinates, maxHeight } = useMemo(() => {
         if (!containerWidth) {
             return { contentWidth: null, contentHeight: null, coordinates: null, maxHeight: 0 };
-        }
+        };
 
         const numColumns = getBreakPoint(containerWidth, defaultColumns);
         const { contentWidth, gutter } = getContentWidth(containerWidth, numColumns, defaultGutter);
@@ -27,7 +41,7 @@ const Gallery = ({ images, columns }) => {
     // Currently does not correctly render images with max-width < containerWidth.
     return (
         <SimpleReactLightbox>
-            <SRLWrapper options={LIGHTBOX_OPTIONS}>
+            <SRLWrapper options={LIGHTBOX_OPTIONS} callbacks={LIGHTBOX_CALLBACKS}>
                 <div ref={containerRef}>
                     <div className="gallery-wrapper" style={{ height: maxHeight }}>
                         {contentWidth && images.map(({ alt, image }, i) => {
@@ -52,7 +66,6 @@ const Gallery = ({ images, columns }) => {
             </SRLWrapper>
         </SimpleReactLightbox>
     );
-
 };
 
 // simple-react-lightbox settings
@@ -81,6 +94,6 @@ const LIGHTBOX_OPTIONS = {
     thumbnails: {
         showThumbnails: false,
     },
-}
+};
 
 export default Gallery;

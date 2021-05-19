@@ -1,0 +1,25 @@
+.button {
+    border-color: $medium-grey;
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin-top: $l-size;
+    padding: 4px 12px;
+    transition: border-color $transition-time linear;
+}
+
+.button-link {
+    color: $medium-grey;
+    font-weight: bold;
+    text-decoration-line: none;
+    text-transform: uppercase;
+}
+
+.button-link:hover {
+    // color: $white;
+
+    &:hover .button {
+        // background-color: $medium-grey;
+        border-color: $light-grey;
+    }
+}

@@ -27,7 +27,7 @@ export const pageQuery = graphql`
                         hero {
                             id
                             childImageSharp {
-                                gatsbyImageData
+                                ...ImageFragment
                             }
                         }
                     }

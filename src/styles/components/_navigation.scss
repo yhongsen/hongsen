@@ -4,6 +4,10 @@
     letter-spacing: 2px;
     padding: 1px $s-size;
     text-decoration-line: none;
+    @media screen and (max-width: $mobile-breakpoint) {
+        font-size: 13px;
+        padding: 1px 8px;
+    }
     // border-bottom: 2px solid rgba($light-grey, 0);
     // padding: 1px 0;
     // transition: color $transition-time linear, border-color $transition-time-fast linear;
@@ -12,6 +16,9 @@
 .navigation-wrapper {
     padding: 0;
     padding-bottom: 60px;
+    @media screen and (max-width: $mobile-breakpoint) {
+        padding-bottom: 40px;
+    }
 };
 
 .navigation {
@@ -28,7 +35,7 @@
     letter-spacing: 2px;
     margin: 0 0 $l-size;
     text-align: center;
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: $mobile-breakpoint) {
         font-size: 60px;
     }
 }

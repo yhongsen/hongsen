@@ -14,5 +14,8 @@
 
 .main-content {
     flex: 1;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+    @media screen and (min-width: $desktop-breakpoint) {
+        padding-bottom: 80px;
+    }
 }

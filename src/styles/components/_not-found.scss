@@ -14,16 +14,20 @@
 }
 
 .not-found-header {
-    color: $dark-grey;
+    color: $medium-grey;
     font-size: 72px;
     margin: 0;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        font-size: 60px;
+    }
 }
 
 .not-found-text {
     font-size: 24px;
     margin: 0;
-}
 
-.not-found-link {
-    color: $blue;
+    @media screen and (max-width: $mobile-breakpoint) {
+        font-size: 18px;
+    }
 }

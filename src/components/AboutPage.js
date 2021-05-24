@@ -1,10 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import {
-    GITHUB_URL,
-    INSTAGRAM_URL,
-    LINKEDIN_URL
-} from "../utils/defs";
+import SEO from './SEO';
+import { GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL } from "../utils/defs";
 
 const GetAboutImage = () => {
     return (
@@ -25,7 +22,8 @@ const AboutMe = () => (
             <h2>Hongsen Yang</h2>
         </header>
         <p className="about-text">
-            Hi, my name is Hongsen and I'm a photographer, designer, and RF engineer.
+            Hi, my name is Hongsen and I'm a photographer, designer, and RF engineer 
+            based in San Diego, CA.
         </p>
         <p className="about-text">
             I graduated with a B.S. in Electrical Engineering from the University of
@@ -52,6 +50,7 @@ const Social = () => (
 
 const AboutPage = () => (
     <div className="about-wrapper">
+        <SEO title={'About'}/>
         <GetAboutImage />
         <AboutMe />
         <Social />

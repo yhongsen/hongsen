@@ -5,25 +5,29 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'Hongsen Yang',
+    description: 'Portfolio website of Hongsen Yang. Photographer, designer, and RF engineer based in San Deigo, CA.',
+    author: {
+      name: 'Hongsen Yang',
+    },
+    keywords: ['photography', 'travel', 'portrait', 'design', 'illustration', 'portfolio'],
+    siteUrl: 'https://www.hongsenyang.com',
+  },
+
   plugins: [
+    // CSS Plugins
     {
-      resolve: 'gatsby-plugin-sass',
+      resolve: `gatsby-plugin-sass`,
       options: {
         // Override the file regex for CSS modules (see https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/)
         // sassRuleModulesTest: /style\.s(a|c)ss$/,
       },
     },
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: /assets/ // See below to configure properly
-        }
-      }
-    },
     
-    'gatsby-plugin-image',
-    'gatsby-transformer-sharp',
+    // Image plugins
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
@@ -32,15 +36,23 @@ module.exports = {
         defaultQuality: 100,
       }
     },
-
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /assets/ // See below to configure properly
+        }
+      }
+    },
+    
     // File parsers
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
         typeName: `Yaml`,
       }
     },
-    `gatsby-transformer-remark`,
 
     // gatsby-source-filesystem 
     {
@@ -64,5 +76,8 @@ module.exports = {
         name: `galleries`,
       }
     },
+
+    // Other
+    `gatsby-plugin-react-helmet`,
   ],
 }

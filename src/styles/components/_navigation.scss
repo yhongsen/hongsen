@@ -1,3 +1,4 @@
+// sass placeholder selector
 %_link {
     color: $grey;
     font-size: 14px;
@@ -8,16 +9,14 @@
         font-size: 13px;
         padding: 1px 8px;
     }
-    // border-bottom: 2px solid rgba($light-grey, 0);
-    // padding: 1px 0;
-    // transition: color $transition-time linear, border-color $transition-time-fast linear;
 }
 
 .navigation-wrapper {
     padding: 0;
     padding-bottom: 60px;
     @media screen and (max-width: $mobile-breakpoint) {
-        padding-bottom: 40px;
+        // padding-bottom: 40px;
+        padding-bottom: 12px;
     }
 };
 
@@ -33,10 +32,12 @@
     font-size: 72px;
     line-height: 1em;
     letter-spacing: 2px;
-    margin: 0 0 $l-size;
+    margin: 0 0 48px;
     text-align: center;
     @media screen and (max-width: $mobile-breakpoint) {
         font-size: 60px;
+        // margin: 0 0 28px;
+        margin: 0;
     }
 }
 

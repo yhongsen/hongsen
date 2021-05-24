@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from "gatsby";
 import Gallery from '../components/Gallery';
+import SEO from '../components/SEO';
 import '../styles/styles.scss';
 
 // import HomePage from '../components/HomePage';
@@ -12,6 +13,7 @@ export default function Home({ data }) {
 
   return (
     <div className="content-container">
+      <SEO />
       <Gallery images={images} />
     </div>
   )

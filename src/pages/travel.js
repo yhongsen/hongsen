@@ -1,12 +1,20 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Collection from '../components/Collection';
+import Header from '../components/Header';
+import SEO from '../components/SEO';
 
 const travelPage = ({ data }) => {
     const albums = data.allMarkdownRemark.nodes;
+    const description = "Photos from my trips over the years.";
+    const displayHeader = false;
 
     return (
-        <Collection albums={albums} />
+        <div className="content-container">
+            <SEO title={'Travel'} description={description} />
+            {displayHeader && <Header title={'Travel'} subtitle={'Collection'} description={description} />}
+            <Collection albums={albums} />
+        </div>
     );
 };
 

@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+import PropTypes from 'prop-types';
+import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
 import useResizeObserver from 'use-resize-observer';
 import { getBreakPoint, getContentHeight, getContentWidth, getLayoutPosition } from '../utils/masonry';
 import { darkGrey, offWhite } from '../styles/export.module.scss';
@@ -66,6 +67,11 @@ const Gallery = ({ images, columns }) => {
             </SRLWrapper>
         </SimpleReactLightbox>
     );
+};
+
+Gallery.propTypes = {
+    images: PropTypes.array.isRequired,
+    columns: PropTypes.number,
 };
 
 // simple-react-lightbox settings

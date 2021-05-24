@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Header = ({ title, subtitle, description }) => (
     <div className="header-wrapper">
@@ -9,5 +10,11 @@ const Header = ({ title, subtitle, description }) => (
         <div className="header-description" dangerouslySetInnerHTML={{ __html: description }} />
     </div>
 );
+
+Header.propTypes = {
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired,
+    description: PropTypes.string,
+}
 
 export default Header;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import PropTypes from 'prop-types';
 
 const Collection = ({ albums }) => {
     return (
@@ -19,6 +20,19 @@ const Collection = ({ albums }) => {
             })}
         </div>
     );
+};
+
+Collection.propTypes = {
+    albums: PropTypes.arrayOf(
+        PropTypes.shape({
+            frontmatter: PropTypes.shape({
+                slug: PropTypes.string.isRequired,
+                title: PropTypes.string.isRequired,
+                subtitle: PropTypes.string.isRequired,
+                hero: PropTypes.object.isRequired,
+            }),
+        }).isRequired,
+    ).isRequired,
 };
 
 export default Collection;

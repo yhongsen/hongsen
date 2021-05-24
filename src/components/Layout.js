@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Navigation from './Navigation';
 import Footer from './Footer';
 
@@ -12,5 +13,12 @@ const Layout = ({ location, children }) => {
         </div>
     );
 };
+
+Layout.propTypes = {
+    location: PropTypes.shape({
+        pathname: PropTypes.string,
+    }),
+    children: PropTypes.node.isRequired,
+}
 
 export default Layout;

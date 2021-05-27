@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
 import Collection from '../components/Collection';
 import Header from '../components/Header';
 import SEO from '../components/SEO';
@@ -16,6 +17,15 @@ const travelPage = ({ data }) => {
             <Collection albums={albums} />
         </div>
     );
+};
+
+
+travelPage.propTypes = {
+    data: PropTypes.shape({
+        allMarkdownRemark: PropTypes.shape({
+            nodes: PropTypes.arrayOf(PropTypes.object),
+        }),
+    }),
 };
 
 export default travelPage;

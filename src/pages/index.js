@@ -5,7 +5,7 @@ import SEO from '../components/SEO';
 import '../styles/styles.scss';
 
 const home = ({ data }) => {
-    const images = data.file.childrenYaml; // New graphql search
+    const images = data.file.childrenYaml;
 
     return (
         <div className="content-container">

@@ -1,14 +1,16 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
 import Header from '../components/Header';
 import Gallery from '../components/Gallery';
 import Button from '../components/Button';
 import SEO from '../components/SEO';
+import { getMetaImage } from '../utils/utils';
 
 const GalleryTemplate = ({ data, pageContext }) => {
     const page = data.markdownRemark;
     const images = page.frontmatter.photos ? page.frontmatter.photos.childrenYaml : [];
-    const metaImage = page.frontmatter.hero.childImageSharp.original;
+    const metaImage = getMetaImage(images);
     const { title, subtitle, type } = { ...page.frontmatter };
     // const { previous, next } = pageContext;
 
@@ -21,6 +23,26 @@ const GalleryTemplate = ({ data, pageContext }) => {
         </div>
     );
 }
+
+GalleryTemplate.propTypes = {
+    data: PropTypes.shape({
+        markdownRemark: PropTypes.shape({
+            html: PropTypes.string,
+            excerpt: PropTypes.string,
+            frontmatter: PropTypes.shape({
+                slug: PropTypes.string,
+                type: PropTypes.string,
+                title: PropTypes.string,
+                subtitle: PropTypes.string,
+                date: PropTypes.string,
+                photos: PropTypes.shape({
+                    childrenYaml: PropTypes.array,
+                }),
+            }),
+        }),
+    }).isRequired,
+    pageContext: PropTypes.object
+};
 
 export default GalleryTemplate;
 
@@ -35,11 +57,6 @@ export const pageQuery = graphql`
                     title
                     subtitle
                     date(formatString: "MMMM YYYY")
-                    hero {
-                        childImageSharp {
-                            ...MetaImageFragment
-                        }
-                    }
                     photos {
                         childrenYaml {
                             ...GalleryImageFragment

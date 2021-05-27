@@ -70,7 +70,22 @@ const Gallery = ({ images, columns }) => {
 };
 
 Gallery.propTypes = {
-    images: PropTypes.array.isRequired,
+    images: PropTypes.arrayOf(
+        PropTypes.shape({
+            alt: PropTypes.string.isRequired,
+            image: PropTypes.shape({
+                id: PropTypes.string.isRequired,
+                childImageSharp: PropTypes.shape({
+                    gatsbyImageData: PropTypes.shape({
+                        height: PropTypes.number,
+                        images: PropTypes.object,
+                        layout: PropTypes.string,
+                        width: PropTypes.number,
+                    }).isRequired,
+                }).isRequired,
+            }).isRequired,
+        })
+    ).isRequired,
     columns: PropTypes.number,
 };
 

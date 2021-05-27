@@ -7,7 +7,7 @@ const GetAboutImage = () => {
     return (
         <div className="about-image">
             <StaticImage
-                src='../../content/assets/hongsen_crop.jpg'
+                src='../../content/assets/hongsen.jpg'
                 alt='Hongsen Yang'
                 placeholder='blurred'
                 width={400}

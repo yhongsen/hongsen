@@ -16,6 +16,20 @@ module.exports = {
   },
 
   plugins: [
+    // Generates favicon for browser tabs
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Hongsen Yang`,
+        short_name: `Hongsen`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#121212`,
+        display: `minimal-ui`,
+        icon: `content/assets/favicon.png`,
+      },
+    },
+
     // CSS Plugins
     {
       resolve: `gatsby-plugin-sass`,
@@ -24,7 +38,7 @@ module.exports = {
         // sassRuleModulesTest: /style\.s(a|c)ss$/,
       },
     },
-    
+
     // Image plugins
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
@@ -40,11 +54,11 @@ module.exports = {
       resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
-          include: /assets/ // See below to configure properly
+          include: /assets/
         }
       }
     },
-    
+
     // File parsers
     `gatsby-transformer-remark`,
     {

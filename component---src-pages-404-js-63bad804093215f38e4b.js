@@ -1,2 +1,0 @@
-(self.webpackChunkhongsen=self.webpackChunkhongsen||[]).push([[883],{6959:function(n,e,t){"use strict";t.r(e),t.d(e,{default:function(){return c}});var u=t(7294),r=function(){return u.createElement("div",null,"Not Found Page")},c=function(){return u.createElement(r,null)}}}]);
-//# sourceMappingURL=component---src-pages-404-js-63bad804093215f38e4b.js.map

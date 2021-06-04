@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import SEO from './SEO';
+import Seo from './SEO';
 import { GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL } from "../utils/defs";
 
 import '../styles/components/about.scss';
@@ -52,7 +52,7 @@ const Social = () => (
 
 const AboutPage = () => (
     <div className="about-wrapper">
-        <SEO title={'About'}/>
+        <Seo title={'About'}/>
         <GetAboutImage />
         <AboutMe />
         <Social />

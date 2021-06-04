@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Container from '../components/Container';
 import Gallery from '../components/Gallery';
 import Button from '../components/Button';
-import SEO from '../components/SEO';
+import Seo from '../components/SEO';
 import { getMetaImage } from '../utils/utils';
 
 const GalleryTemplate = ({ data, pageContext }) => {
@@ -17,7 +17,7 @@ const GalleryTemplate = ({ data, pageContext }) => {
 
     return (
         <Container>
-            <SEO title={title} description={page.excerpt} image={metaImage} />
+            <Seo title={title} description={page.excerpt} image={metaImage} />
             {!!title && <Header title={title} subtitle={subtitle} description={page.html} />}
             <Gallery images={images} />
             {!!title && <Button buttonText={"Back to Collection"} path={`/${type}`} />}

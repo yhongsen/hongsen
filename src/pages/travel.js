@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Collection from '../components/Collection';
 import Container from '../components/Container';
 import Header from '../components/Header';
-import SEO from '../components/SEO';
+import Seo from '../components/SEO';
 
 const travelPage = ({ data }) => {
     const albums = data.allMarkdownRemark.nodes;
@@ -13,13 +13,12 @@ const travelPage = ({ data }) => {
 
     return (
         <Container>
-            <SEO title={'Travel'} description={description} />
+            <Seo title={'Travel'} description={description} />
             {displayHeader && <Header title={'Travel'} subtitle={'Collection'} description={description} />}
             <Collection albums={albums} />
         </Container>
     );
 };
-
 
 travelPage.propTypes = {
     data: PropTypes.shape({

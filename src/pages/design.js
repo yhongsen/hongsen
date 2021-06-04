@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Collection from '../components/Collection';
 import Container from '../components/Container';
 import Header from '../components/Header';
-import SEO from '../components/SEO';
+import Seo from '../components/SEO';
 
 const designPage = ({ data }) => {
     const albums = data.allMarkdownRemark.nodes;
@@ -13,7 +13,7 @@ const designPage = ({ data }) => {
 
     return (
         <Container>
-            <SEO title={'Design'} description={description} />
+            <Seo title={'Design'} description={description} />
             {displayHeader && <Header title={'Design'} subtitle={'Collection'} description={description} />}
             <Collection albums={albums} />
         </Container>

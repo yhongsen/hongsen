@@ -2,15 +2,14 @@ import React from 'react'
 import { graphql } from 'gatsby';
 import Container from '../components/Container';
 import Gallery from '../components/Gallery';
-import SEO from '../components/SEO';
-// import '../styles/styles.scss';
+import Seo from '../components/SEO';
 
 const home = ({ data }) => {
     const images = data.file.childrenYaml;
 
     return (
         <Container>
-            <SEO />
+            <Seo />
             <Gallery images={images} />
         </Container>
     )

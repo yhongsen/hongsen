@@ -2,7 +2,7 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Button from './Button';
 import Container from '../components/Container';
-import SEO from './SEO';
+import Seo from './SEO';
 
 import '../styles/components/not-found.scss';
 
@@ -22,7 +22,7 @@ const Get404Image = () => {
 const NotFoundPage = () => (
     <Container>
         <div className={"not-found-wrapper"}>
-            <SEO />
+            <Seo />
             <Get404Image />
             <h1 className={"not-found-header"}>404</h1>
             <p className={"not-found-text"}>
@@ -32,11 +32,5 @@ const NotFoundPage = () => (
         </div>
     </Container>
 );
-
-// const NotFoundPage = () => (
-//     <div>
-//         Not Found Page T4
-//     </div>
-// );
 
 export default NotFoundPage;

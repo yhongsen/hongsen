@@ -16,18 +16,6 @@ const Layout = ({ location, children }) => {
     );
 };
 
-// import { mainWrapper, mainContent } from './layout.module.scss';
-
-// const Layout = ({ location, children }) => {
-//     return (
-//         <div className={mainWrapper}>
-//             <Navigation />
-//             <main className={mainContent}>{children}</main>
-//             <Footer />
-//         </div>
-//     );
-// };
-
 Layout.propTypes = {
     location: PropTypes.shape({
         pathname: PropTypes.string,

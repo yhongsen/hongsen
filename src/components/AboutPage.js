@@ -3,6 +3,8 @@ import { StaticImage } from 'gatsby-plugin-image';
 import SEO from './SEO';
 import { GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL } from "../utils/defs";
 
+import '../styles/components/about.scss';
+
 const GetAboutImage = () => {
     return (
         <div className="about-image">

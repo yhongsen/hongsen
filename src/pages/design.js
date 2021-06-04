@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Collection from '../components/Collection';
+import Container from '../components/Container';
 import Header from '../components/Header';
 import SEO from '../components/SEO';
 
@@ -11,11 +12,11 @@ const designPage = ({ data }) => {
     const displayHeader = false;
 
     return (
-        <div className="content-container">
+        <Container>
             <SEO title={'Design'} description={description} />
             {displayHeader && <Header title={'Design'} subtitle={'Collection'} description={description} />}
             <Collection albums={albums} />
-        </div>
+        </Container>
     );
 };
 

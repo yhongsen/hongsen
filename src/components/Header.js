@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import '../styles/components/header.scss';
+
 const Header = ({ title, subtitle, description }) => (
     <div className="header-wrapper">
         <header className="header-title">

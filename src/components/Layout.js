@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Navigation from './Navigation';
 import Footer from './Footer';
 
+import '../styles/components/layout.scss';
+
 // Destructure props - element passed in becomes props.children
 const Layout = ({ location, children }) => {
     return (
@@ -13,6 +15,18 @@ const Layout = ({ location, children }) => {
         </div>
     );
 };
+
+// import { mainWrapper, mainContent } from './layout.module.scss';
+
+// const Layout = ({ location, children }) => {
+//     return (
+//         <div className={mainWrapper}>
+//             <Navigation />
+//             <main className={mainContent}>{children}</main>
+//             <Footer />
+//         </div>
+//     );
+// };
 
 Layout.propTypes = {
     location: PropTypes.shape({

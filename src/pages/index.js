@@ -1,17 +1,18 @@
 import React from 'react'
-import { graphql } from "gatsby";
+import { graphql } from 'gatsby';
+import Container from '../components/Container';
 import Gallery from '../components/Gallery';
 import SEO from '../components/SEO';
-import '../styles/styles.scss';
+// import '../styles/styles.scss';
 
 const home = ({ data }) => {
     const images = data.file.childrenYaml;
 
     return (
-        <div className="content-container">
+        <Container>
             <SEO />
             <Gallery images={images} />
-        </div>
+        </Container>
     )
 };
 

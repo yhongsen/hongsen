@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Container from './Container';
+
+import '../styles/components/navigation.scss';
 
 const NavLink = ({ path, pathName }) => (
     <Link
@@ -23,7 +26,7 @@ const SubnavLink = ({ path, pathName }) => (
 );
 
 const Navigation = () => (
-    <div className="content-container">
+    <Container>
         <div className="navigation-wrapper">
 
             <Link to="/" className="navigation">
@@ -60,7 +63,7 @@ const Navigation = () => (
                 {/*<NavLink path={"/404"} pathName={"Error"} />*/}
             </nav>
         </div>
-    </div>
+    </Container>
 );
 
 export default Navigation;

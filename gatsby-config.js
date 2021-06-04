@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  flags: {
+    DEV_SSR: true
+  },
+
   siteMetadata: {
     title: 'Hongsen Yang',
     description: 'Portfolio website of Hongsen Yang. Photographer, designer, and RF engineer based in San Deigo, CA.',

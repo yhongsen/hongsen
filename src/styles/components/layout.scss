@@ -1,7 +1,9 @@
+@import '../base/settings';
+
 .main-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    // margin: 0 auto;
     min-height: 100%;
     padding: 20px;
     @media screen and (min-width: $mobile-breakpoint) {

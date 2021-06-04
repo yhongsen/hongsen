@@ -1,3 +1,5 @@
+@import '../base/settings';
+
 .about-wrapper {
     margin: 0 auto;
     max-width: 380px;
@@ -5,7 +7,6 @@
 }
 
 .about-header {
-    // display: none;
     margin-top: $m-size;
     text-transform: uppercase;
 }

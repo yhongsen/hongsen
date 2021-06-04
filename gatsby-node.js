@@ -59,20 +59,3 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 };
-
-// exports.onCreateNode = ({ node, actions, getNode }) => {
-//   const { createNodeField } = actions
-
-//   if (node.internal.type === `MarkdownRemark`) {
-//     const relativeFilePath = createFilePath({
-//       node,
-//       getNode,
-//       trailingSlash: false,
-//     })
-//     createNodeField({
-//       name: `slug`,
-//       node,
-//       value: `/tavel${relativeFilePath}`,
-//     })
-//   }
-// };

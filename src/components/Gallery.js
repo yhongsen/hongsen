@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
 import useResizeObserver from 'use-resize-observer';
 import { getBreakPoint, getContentHeight, getContentWidth, getLayoutPosition } from '../utils/masonry';
+
 import { darkGrey, offWhite } from '../styles/export.module.scss';
+import '../styles/components/gallery.scss';
 
 const Gallery = ({ images, columns }) => {
     const { ref: containerRef, width: containerWidth } = useResizeObserver();

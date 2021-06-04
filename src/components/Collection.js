@@ -3,6 +3,8 @@ import { Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
 
+import '../styles/components/collection.scss';
+
 const Collection = ({ albums }) => {
     return (
         <div className="collection-wrapper">

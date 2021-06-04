@@ -1,7 +1,10 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Button from './Button';
+import Container from '../components/Container';
 import SEO from './SEO';
+
+import '../styles/components/not-found.scss';
 
 const Get404Image = () => {
     return (
@@ -17,17 +20,23 @@ const Get404Image = () => {
 };
 
 const NotFoundPage = () => (
-    <div className="content-container">
-        <div className="not-found-wrapper">
+    <Container>
+        <div className={"not-found-wrapper"}>
             <SEO />
             <Get404Image />
-            <h1 className="not-found-header">404</h1>
-            <p className="not-found-text">
+            <h1 className={"not-found-header"}>404</h1>
+            <p className={"not-found-text"}>
                 Oh no, you're lost! BB-8 will help guide you home.
             </p>
-            <Button buttonText={"Back to Home"} path={"/"}/>
+            <Button buttonText={"Back to Home"} path={"/"} />
         </div>
-    </div>
+    </Container>
 );
+
+// const NotFoundPage = () => (
+//     <div>
+//         Not Found Page T4
+//     </div>
+// );
 
 export default NotFoundPage;

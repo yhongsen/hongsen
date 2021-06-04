@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  // Enables server side render (SSR) in develop - used to detect SSR bugs
   flags: {
     DEV_SSR: true
   },

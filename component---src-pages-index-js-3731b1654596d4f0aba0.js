@@ -1,2 +1,0 @@
-(self.webpackChunkhongsen=self.webpackChunkhongsen||[]).push([[678],{7704:function(e,n,l){"use strict";l.r(n);var t=l(7294),a=l(8580),r=l(4908),u=l(8409);n.default=function(e){var n=e.data.file.childrenYaml;return t.createElement(a.Z,null,t.createElement(u.Z,null),t.createElement(r.Z,{images:n}))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-3731b1654596d4f0aba0.js.map

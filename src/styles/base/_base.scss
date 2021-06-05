@@ -13,15 +13,16 @@ body,
 
 html {
     font-size: 62.5%; // 1rem = 16px by default. Convert 1rem to base 10.
+    overflow-y: scroll;
 }
 
-
+// See note in Gallery.js about 'margin: 0 !important' and 'overflow-y: scroll'
 body {
     color: $medium-grey;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.2;
-    margin: 0; // Set to 0, otherwise will cause vertical scrolling
+    margin: 0 !important; // Set to 0, otherwise will cause vertical scrolling
 }
 
 // Applies on-hover color transition for Navigation bar

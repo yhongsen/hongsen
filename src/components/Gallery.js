@@ -8,25 +8,19 @@ import { getBreakPoint, getContentHeight, getContentWidth, getLayoutPosition } f
 import { darkGrey, offWhite } from '../styles/export.module.scss';
 import '../styles/components/gallery.scss';
 
+/**
+ * NOTE: When the lightbox is activated, simple-react-lightbox (v3.6.6) hides the scroll bar and adds
+ * adds 17 px margin-right to the body. It is incorrectly implemented on browsers that have the scrollbar 
+ * shown by default as the "fix" only works on the first time the lightbox is opened. See issue:
+ * https://github.com/michelecocuccio/simple-react-lightbox/issues/113.
+ * 
+ * To fix this page shift issue, apply 'margin = 0 !important' and 'overflow-y: scroll' in _base.scss.
+*/
 const Gallery = ({ images, columns }) => {
     const { ref: containerRef, width: containerWidth } = useResizeObserver();
 
     const defaultColumns = !!columns ? columns : 3;
     const defaultGutter = 20;
-
-    // simple-light-box scroll bar workaround.
-    let wasOpened = false;
-    const LIGHTBOX_CALLBACKS = {
-        onLightboxOpened: () => {
-            if (wasOpened) {
-                document.body.style.paddingRight = '17px';
-            }
-            wasOpened = true;
-        },
-        onLightboxClosed: () => setTimeout(() => {
-            document.body.style.paddingRight = '0px';
-        }, 600)
-    };
 
     const { contentWidth, contentHeight, coordinates, maxHeight } = useMemo(() => {
         if (!containerWidth) {
@@ -44,7 +38,7 @@ const Gallery = ({ images, columns }) => {
     // Currently does not correctly render images with max-width < containerWidth.
     return (
         <SimpleReactLightbox>
-            <SRLWrapper options={LIGHTBOX_OPTIONS} callbacks={LIGHTBOX_CALLBACKS}>
+            <SRLWrapper options={LIGHTBOX_OPTIONS}>
                 <div ref={containerRef}>
                     <div className="gallery-wrapper" style={{ height: maxHeight }}>
                         {contentWidth && images.map(({ alt, image }, i) => {
@@ -70,6 +64,8 @@ const Gallery = ({ images, columns }) => {
         </SimpleReactLightbox>
     );
 };
+
+export default Gallery;
 
 Gallery.propTypes = {
     images: PropTypes.arrayOf(
@@ -118,5 +114,3 @@ const LIGHTBOX_OPTIONS = {
         showThumbnails: false,
     },
 };
-
-export default Gallery;

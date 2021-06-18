@@ -13,7 +13,14 @@ body,
 
 html {
     font-size: 62.5%; // 1rem = 16px by default. Convert 1rem to base 10.
-    overflow-y: scroll;
+    
+    // overflow-y: scroll;
+    @media screen and (min-width: $desktop-breakpoint) {
+        // Note: Setting overflow-y will cause the page to jump to the top if the lightbox is opened
+        // Workaround: Set the margin-left to match the scrollbar if active, but the page will not be 
+        // visually symmetric
+        margin-left: calc(100vw - 100%);
+    }
 }
 
 // See note in Gallery.js about 'margin: 0 !important' and 'overflow-y: scroll'

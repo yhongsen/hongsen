@@ -13,7 +13,10 @@ const getAspectRatio = (images) => {
 };
 
 const getBreakPoint = (containerWidth, defaultColumns) => {
-    if (containerWidth < 640) {
+    if (defaultColumns === 1) {
+        return defaultColumns;
+    }
+    else if (containerWidth < 640) {
         return 1;
     }
     else if (containerWidth < 960) {

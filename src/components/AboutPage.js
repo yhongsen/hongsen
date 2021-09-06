@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import Seo from './SEO';
 import { GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL } from "../utils/defs";
@@ -50,13 +51,26 @@ const Social = () => (
     </div>
 );
 
-const AboutPage = () => (
-    <div className="about-wrapper">
-        <Seo title={'About'}/>
-        <GetAboutImage />
-        <AboutMe />
-        <Social />
-    </div>
-);
+const AboutPage = () => {
+    // Alternate crop of profile picture for SEO.
+    const data = useStaticQuery(graphql`
+        query AboutQuery {
+            aboutSEO: file(absolutePath: { regex: "/hongsen-seo.jpg/" }) {
+                childImageSharp {
+                    ...MetaImageFragment
+                }
+            }
+        }
+    `)
+
+    return (
+        <div className="about-wrapper">
+            <Seo title={'About'} image={data.aboutSEO.childImageSharp.original}/>
+            <GetAboutImage />
+            <AboutMe />
+            <Social />
+        </div>
+    )
+};
 
 export default AboutPage;

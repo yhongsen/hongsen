@@ -3,13 +3,15 @@ import { graphql } from 'gatsby';
 import Container from '../components/Container';
 import Gallery from '../components/Gallery';
 import Seo from '../components/SEO';
+import { getMetaImage } from '../utils/utils';
 
 const home = ({ data }) => {
     const images = data.file.childrenYaml;
+    const metaImage = getMetaImage(images);
 
     return (
         <Container>
-            <Seo />
+            <Seo image={metaImage}/>
             <Gallery images={images} />
         </Container>
     )

@@ -10,7 +10,7 @@
 const getMetaImage = (images) => {
     const firstHorizontalImage = images.find(({ image }) => {
         const { height, width } = image.childImageSharp.original
-        return width > height;
+        return width >= height;
     });
     return (
         firstHorizontalImage && firstHorizontalImage.image.childImageSharp.original

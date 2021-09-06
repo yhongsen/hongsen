@@ -11,9 +11,12 @@ const designPage = ({ data }) => {
     const description = "A collection of freelance and personal design projects I've worked on.";
     const displayHeader = false;
 
+    // Set metaImage to most recent collection.
+    const metaImage = albums.length ? albums[0].frontmatter.hero.childImageSharp.original : undefined;
+
     return (
         <Container>
-            <Seo title={'Design'} description={description} />
+            <Seo title={'Design'} description={description} image={metaImage}/>
             {displayHeader && <Header title={'Design'} subtitle={'Collection'} description={description} />}
             <Collection albums={albums} />
         </Container>

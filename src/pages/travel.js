@@ -8,12 +8,15 @@ import Seo from '../components/SEO';
 
 const travelPage = ({ data }) => {
     const albums = data.allMarkdownRemark.nodes;
-    const description = "Photos from my trips over the years.";
+    const description = "A collection of travel photos from my trips from over the years.";
     const displayHeader = false;
+
+    // Set metaImage to most recent collection.
+    const metaImage = albums.length ? albums[0].frontmatter.hero.childImageSharp.original : undefined;
 
     return (
         <Container>
-            <Seo title={'Travel'} description={description} />
+            <Seo title={'Travel'} description={description} image={metaImage} />
             {displayHeader && <Header title={'Travel'} subtitle={'Collection'} description={description} />}
             <Collection albums={albums} />
         </Container>

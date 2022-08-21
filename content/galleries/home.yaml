@@ -6,9 +6,9 @@
   alt: Beijing
 - image: ../images/travel/japan-2019/japan_2019-04.jpg
   alt: Fukuoka
-- image: ../images/travel/yosemite/yosemite-02.jpg
+- image: ../images/travel/national-parks/yosemite-02.jpg
   alt: Half Dome
-- image: ../images/travel/colorado/colorado-01.jpg
+- image: ../images/travel/national-parks/colorado-01.jpg
   alt: Dream Lake, Rocky Mountain National Park
 - image: ../images/travel/uncategorized/ucsd-03.jpg
   alt: UCSD
@@ -28,15 +28,15 @@
   alt: Mt Fuji
 - image: ../images/travel/china/china-19.jpg
   alt: Zhangjiajie
-- image: ../images/travel/yosemite/yosemite-01.jpg
+- image: ../images/travel/national-parks/yosemite-01.jpg
   alt: Artist Point
-- image: ../images/travel/utah-arizona/utah-arizona-01.jpg
+- image: ../images/travel/national-parks/utah-arizona-01.jpg
   alt: Antelope Canyon, Arizona
-- image: ../images/travel/utah-arizona/utah-arizona-02.jpg
+- image: ../images/travel/national-parks/utah-arizona-02.jpg
   alt: Antelope Canyon, Arizona
-- image: ../images/travel/utah-arizona/utah-arizona-18.jpg
+- image: ../images/travel/national-parks/utah-arizona-18.jpg
   alt: Canyonlands, Utah
-- image: ../images/travel/utah-arizona/utah-arizona-11.jpg
+- image: ../images/travel/national-parks/utah-arizona-11.jpg
   alt: Bryce National Park, Utah
 - image: ../images/travel/japan-2017/japan_2017-41.jpg
   alt: Tokyo
@@ -56,7 +56,7 @@
   alt: Kyoto
 - image: ../images/travel/japan-2019/japan_2019-56.jpg
   alt: Tokyo
-- image: ../images/travel/colorado/colorado-21.jpg
+- image: ../images/travel/national-parks/colorado-21.jpg
   alt: Sand Dunes National Park
 - image: ../images/travel/uncategorized/ucsd-01.jpg
   alt: UCSD

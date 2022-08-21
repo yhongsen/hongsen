@@ -41,11 +41,8 @@ const Navigation = () => (
                         <SubnavLink path={"/travel/seattle"} pathName={"Seattle"} />
                         <SubnavLink path={"/travel/japan-2019"} pathName={"Japan II"} />
                         <SubnavLink path={"/travel/japan-2017"} pathName={"Japan I"} />
-                        <SubnavLink path={"/travel/yosemite"} pathName={"Yosemite"} />
-                        <SubnavLink path={"/travel/colorado"} pathName={"Colorado"} />
-                        <SubnavLink path={"/travel/acadia"} pathName={"Acadia"} />
+                        <SubnavLink path={"/travel/national-parks"} pathName={"National Parks"} />
                         <SubnavLink path={"/travel/china"} pathName={"China"} />
-                        <SubnavLink path={"/travel/utah-arizona"} pathName={"Utah & Arizona"} />
                     </div>
                 </span>
 

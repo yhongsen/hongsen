@@ -1,3 +1,4 @@
+# Set 1 (Yosemite)
 - image: ../../images/travel/national-parks/yosemite-01.jpg
   alt: Artist Point, Yosemite, California
 - image: ../../images/travel/national-parks/yosemite-02.jpg
@@ -17,6 +18,7 @@
 - image: ../../images/travel/national-parks/yosemite-12.jpg
   alt: Cathedral Lake Trail, Yosemite, California
 
+# Set 2 (Colorado)
 - image: ../../images/travel/national-parks/colorado-01.jpg
   alt: Dream Lake, Rocky Mountain National Park, Colorado
 - image: ../../images/travel/national-parks/colorado-04.jpg
@@ -24,6 +26,7 @@
 - image: ../../images/travel/national-parks/colorado-06.jpg
   alt: Bear Lake Trailhead, Rocky Mountain National Park, Colorado
 
+# Set 3 (Colorado)
 - image: ../../images/travel/national-parks/colorado-09.jpg
   alt: Alluvial Fan, Rocky Mountain National Park, Colorado
 - image: ../../images/travel/national-parks/colorado-07.jpg
@@ -37,6 +40,7 @@
 - image: ../../images/travel/national-parks/colorado-11.jpg
   alt: Colorado National Monument, Colorado
 
+# Set 4 (Colorado)
 - image: ../../images/travel/national-parks/colorado-20.jpg
   alt: Sand Dunes National Park, Colorado
 - image: ../../images/travel/national-parks/colorado-21.jpg
@@ -50,6 +54,7 @@
 - image: ../../images/travel/national-parks/colorado-24.jpg
   alt: Garden of the Gods, Colorado
 
+# Set 5 (Acadia)
 - image: ../../images/travel/national-parks/acadia-11.jpg
   alt: Acadia National Park, Maine
 - image: ../../images/travel/national-parks/acadia-13.jpg
@@ -63,6 +68,7 @@
 - image: ../../images/travel/national-parks/acadia-05.jpg
   alt: Acadia National Park, Maine
 
+# Set 6 (Arizona)
 - image: ../../images/travel/national-parks/utah-arizona-01.jpg
   alt: Antelope Canyon, Arizona
 - image: ../../images/travel/national-parks/utah-arizona-02.jpg
@@ -76,6 +82,7 @@
 - image: ../../images/travel/national-parks/utah-arizona-06.jpg
   alt: Grand Canyon National Park, Arizona
 
+# Set 7 (Arizona & Utah)
 - image: ../../images/travel/national-parks/utah-arizona-10.jpg
   alt: Petrified Forrest National Park, Arizona
 - image: ../../images/travel/national-parks/utah-arizona-11.jpg

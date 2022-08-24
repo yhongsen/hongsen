@@ -1,44 +1,48 @@
+# Set 1 (Fukuoka & Yakushima)
 - image: ../../images/travel/japan-2019/japan_2019-01.jpg
-  alt: Fukuoka
+  alt: Maiduru Park, Fukuoka
 - image: ../../images/travel/japan-2019/japan_2019-02.jpg
-  alt: Fukuoka
+  alt: Maiduru Park, Fukuoka
 - image: ../../images/travel/japan-2019/japan_2019-03.jpg
-  alt: Fukuoka
+  alt: Maiduru Park, Fukuoka
 - image: ../../images/travel/japan-2019/japan_2019-04.jpg
-  alt: Fukuoka
+  alt: Hakata Station, Fukuoka
 - image: ../../images/travel/japan-2019/japan_2019-05.jpg
-  alt: Fukuoka
+  alt: Hakata Station, Fukuoka
 - image: ../../images/travel/japan-2019/japan_2019-83.jpg
-  alt: Fukuoka
+  alt: Hakata Station, Fukuoka
 - image: ../../images/travel/japan-2019/japan_2019-07.jpg
-  alt: Yakushima
+  alt: Shiratani Unsuikyo Ravine, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-08.jpg
-  alt: Yakushima
+  alt: Shiratani Unsuikyo Ravine, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-09.jpg
-  alt: Yakushima
+  alt: Shiratani Unsuikyo Ravine, Yakushima
 
+# Set 2 (Yakushima)
 - image: ../../images/travel/japan-2019/japan_2019-10.jpg
-  alt: Yakushima
+  alt: Shiratani Unsuikyo Ravine, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-11.jpg
-  alt: Yakushima
+  alt: Shiratani Unsuikyo Ravine, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-12.jpg
-  alt: Yakushima
+  alt: Shiratani Unsuikyo Ravine, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-13.jpg
-  alt: Yakushima
+  alt: Shiratani Unsuikyo Ravine, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-14.jpg
-  alt: Yakushima
+  alt: Shiratani Unsuikyo Ravine, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-06.jpg
   alt: Yakushima
 
+# Set 3 (Yakushima)
 - image: ../../images/travel/japan-2019/japan_2019-15.jpg
-  alt: Yakushima
+  alt: Anbo, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-84.jpg
-  alt: Yakushima
+  alt: Anbo, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-85.jpg
   alt: Yakushima
 
+# Set 4 (Yakushima)
 - image: ../../images/travel/japan-2019/japan_2019-16.jpg
-  alt: Yakushima
+  alt: Senpirono Falls, Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-17.jpg
   alt: Yakushima
 - image: ../../images/travel/japan-2019/japan_2019-18.jpg
@@ -56,10 +60,11 @@
 - image: ../../images/travel/japan-2019/japan_2019-21.jpg
   alt: Yakushima
 
+# Set 5 (Kagoshima & Kyoto)
 - image: ../../images/travel/japan-2019/japan_2019-26.jpg
-  alt: Kagoshima
+  alt: Shiroyama Park, Kagoshima
 - image: ../../images/travel/japan-2019/japan_2019-27.jpg
-  alt: Kagoshima
+  alt: Terukuni Shrine, Kagoshima
 - image: ../../images/travel/japan-2019/japan_2019-25.jpg
   alt: Kagoshima
 - image: ../../images/travel/japan-2019/japan_2019-28.jpg
@@ -71,109 +76,116 @@
 - image: ../../images/travel/japan-2019/japan_2019-31.jpg
   alt: Kagoshima
 - image: ../../images/travel/japan-2019/japan_2019-32.jpg
-  alt: Kyoto
+  alt: Philosophers Path, Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-33.jpg
-  alt: Kyoto
+  alt: Philosopher`s Path, Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-34.jpg
-  alt: Kyoto
+  alt: Philosopher`s Path, Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-35.jpg
-  alt: Kyoto
+  alt: Philosopher`s Path, Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-36.jpg
-  alt: Kyoto
+  alt: Philosopher`s Path, Kyoto
 
+# Set 6 (Kyoto)
 - image: ../../images/travel/japan-2019/japan_2019-37.jpg
-  alt: Kyoto
+  alt: Philosopher`s Path, Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-38.jpg
   alt: Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-39.jpg
   alt: Kyoto
 
+# Set 7 (Kyoto & Tokyo)
 - image: ../../images/travel/japan-2019/japan_2019-40.jpg
   alt: Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-41.jpg
-  alt: Kyoto
+  alt: Nishiki Market, Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-42.jpg
   alt: Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-43.jpg
-  alt: Kyoto
+  alt: Yasaka Pagoda, Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-44.jpg
-  alt: Kyoto
+  alt: Arashiyama, Kyoto
 - image: ../../images/travel/japan-2019/japan_2019-45.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-46.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-47.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-48.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 
+# Set 8 (Tokyo)
 - image: ../../images/travel/japan-2019/japan_2019-49.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-50.jpg
-  alt: Tokyo
+  alt: Sumida Park, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-51.jpg
-  alt: Tokyo
+  alt: Sumida Park, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-52.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-53.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-54.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-56.jpg
-  alt: Tokyo
+  alt: Akihabara, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-55.jpg
-  alt: Tokyo
+  alt: Akihabara, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-57.jpg
-  alt: Tokyo
+  alt: Ikebukuro, Tokyo
 
+# Set 9 (Tokyo)
 - image: ../../images/travel/japan-2019/japan_2019-58.jpg
-  alt: Tokyo
+  alt: Akihabara, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-59.jpg
-  alt: Tokyo
+  alt: Roppongi Hills Mori Tower, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-60.jpg
-  alt: Tokyo
+  alt: Roppongi Hills Mori Tower, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-61.jpg
-  alt: Tokyo
+  alt: Nihonbashi, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-62.jpg
-  alt: Tokyo
+  alt: Nihonbashi, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-63.jpg
-  alt: Tokyo
+  alt: Nihonbashi, Tokyo
 
+# Set 10 (Tokyo & Mt. Fuji)
 - image: ../../images/travel/japan-2019/japan_2019-64.jpg
-  alt: Tokyo
+  alt: Ueno Park, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-65.jpg
-  alt: Tokyo
+  alt: Nihonbashi, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-66.jpg
-  alt: Tokyo
+  alt: Nihonbashi, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-67.jpg
-  alt: Tokyo
+  alt: Nihonbashi, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-68.jpg
-  alt: Tokyo
+  alt: Nihonbashi, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-92.jpg
-  alt: Mt Fuji
+  alt: Lake Kawaguchi
 - image: ../../images/travel/japan-2019/japan_2019-70.jpg
   alt: Mt Fuji
 - image: ../../images/travel/japan-2019/japan_2019-71.jpg
   alt: Mt Fuji
 - image: ../../images/travel/japan-2019/japan_2019-72.jpg
-  alt: Mt Fuji
+  alt: Chureito Pagoda
 
+# Set 11 (Tokyo)
 - image: ../../images/travel/japan-2019/japan_2019-73.jpg
-  alt: Tokyo
+  alt: Meguro River, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-74.jpg
-  alt: Tokyo
+  alt: Meguro River, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-75.jpg
-  alt: Tokyo
+  alt: Meguro River, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-76.jpg
-  alt: Tokyo
+  alt: Meguro River, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-77.jpg
-  alt: Tokyo
+  alt: Meguro River, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-78.jpg
-  alt: Tokyo
+  alt: Meguro River, Tokyo
 
+# Set 12 (Tokyo)
 - image: ../../images/travel/japan-2019/japan_2019-79.jpg
-  alt: Tokyo
+  alt: Meguro River, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-80.jpg
-  alt: Tokyo
+  alt: Meguro River, Tokyo
 - image: ../../images/travel/japan-2019/japan_2019-69.jpg
-  alt: Tokyo
+  alt: Aoyama Cemetery, Tokyo

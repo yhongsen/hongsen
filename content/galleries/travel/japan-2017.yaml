@@ -1,21 +1,22 @@
+# Set 1 (Tokyo & Osaka & Kyoto)
 - image: ../../images/travel/japan-2017/japan_2017-01.jpg
-  alt: Tokyo
+  alt: Tsukiji Fish Market, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-02.jpg
-  alt: Tokyo
+  alt: Tsukiji Fish Market, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-03.jpg
-  alt: Tokyo
+  alt: Tsukiji Fish Market, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-04.jpg
-  alt: Tokyo
+  alt: Akihabara, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-05.jpg
   alt: Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-06.jpg
-  alt: Tokyo
+  alt: Keio University, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-07.jpg
-  alt: Tokyo
+  alt: Keio University, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-08.jpg
-  alt: Tokyo
+  alt: Keio University, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-09.jpg
-  alt: Osaka
+  alt: Umeda Sky Building, Osaka
 - image: ../../images/travel/japan-2017/japan_2017-10.jpg
   alt: Osaka
 - image: ../../images/travel/japan-2017/japan_2017-11.jpg
@@ -25,7 +26,7 @@
 - image: ../../images/travel/japan-2017/japan_2017-13.jpg
   alt: Osaka
 - image: ../../images/travel/japan-2017/japan_2017-14.jpg
-  alt: Kyoto
+  alt: Arashiyama Bamboo Forest, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-15.jpg
   alt: Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-16.jpg
@@ -35,6 +36,7 @@
 - image: ../../images/travel/japan-2017/japan_2017-18.jpg
   alt: Kyoto
 
+# Set 2 (Kyoto)
 - image: ../../images/travel/japan-2017/japan_2017-19.jpg
   alt: Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-20.jpg
@@ -48,71 +50,74 @@
 - image: ../../images/travel/japan-2017/japan_2017-24.jpg
   alt: Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-49.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-50.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-51.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-25.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-26.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-27.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 
+# Set 3 (Kyoto & Tokyo)
 - image: ../../images/travel/japan-2017/japan_2017-28.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-29.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-30.jpg
-  alt: Kyoto
+  alt: Fushimi Inari Taisha, Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-31.jpg
   alt: Kyoto
 - image: ../../images/travel/japan-2017/japan_2017-32.jpg
-  alt: Tokyo
+  alt: KITTE Mall, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-33.jpg
-  alt: Tokyo
+  alt: Asakusa, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-34.jpg
-  alt: Tokyo
+  alt: Asakusa, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-35.jpg
-  alt: Tokyo
+  alt: Asakusa, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-36.jpg
-  alt: Tokyo
+  alt: Asakusa, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-37.jpg
-  alt: Tokyo
+  alt: Asakusa, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-38.jpg
-  alt: Tokyo
+  alt: Miraikan, Odaiba, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-39.jpg
-  alt: Tokyo
+  alt: Miraikan, Odaiba, Tokyo
 
+# Set 4 (Tokyo)
 - image: ../../images/travel/japan-2017/japan_2017-52.jpg
-  alt: Tokyo
+  alt: Miraikan, Odaiba, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-53.jpg
-  alt: Tokyo
+  alt: Miraikan, Odaiba, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-42.jpg
-  alt: Tokyo
+  alt: Odaiba, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-55.jpg
-  alt: Tokyo
+  alt: Odaiba, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-41.jpg
-  alt: Tokyo
+  alt: Odaiba, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-54.jpg
-  alt: Tokyo
+  alt: Odaiba, Tokyo
 
+# Set 5 (Tokyo)
 - image: ../../images/travel/japan-2017/japan_2017-56.jpg
-  alt: Tokyo
+  alt: Shinjuku Gyoen, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-46.jpg
-  alt: Tokyo
+  alt: World Trade Center Observation Deck, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-57.jpg
-  alt: Tokyo
+  alt: World Trade Center Observation Deck, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-58.jpg
-  alt: Tokyo
+  alt: World Trade Center Observation Deck, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-45.jpg
-  alt: Tokyo
+  alt: Shinjuku, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-48.jpg
-  alt: Tokyo
+  alt: Shinjuku, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-47.jpg
-  alt: Tokyo
+  alt: Shinjuku, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-43.jpg
-  alt: Tokyo
+  alt: Shinjuku, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-44.jpg
-  alt: Tokyo
+  alt: Shibuya Crossing, Tokyo

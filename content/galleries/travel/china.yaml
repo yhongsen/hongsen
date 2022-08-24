@@ -1,22 +1,24 @@
+# Set 1 (Beijing)
 - image: ../../images/travel/china/china-01.jpg
-  alt: Beijing
+  alt: Beijing Opera House, Beijing
 - image: ../../images/travel/china/china-02.jpg
-  alt: Beijing
+  alt: CCTV Headquarters, Beijing
 - image: ../../images/travel/china/china-03.jpg
   alt: Jinshanling
 - image: ../../images/travel/china/china-04.jpg
   alt: Jinshanling
 - image: ../../images/travel/china/china-05.jpg
-  alt: Beijing
+  alt: The Temple of Heaven, Beijing
 - image: ../../images/travel/china/china-06.jpg
-  alt: Beijing
+  alt: Galaxy Soho, Beijing
 - image: ../../images/travel/china/china-07.jpg
-  alt: Beijing
+  alt: Galaxy Soho, Beijing
 - image: ../../images/travel/china/china-08.jpg
-  alt: Beijing
+  alt: Galaxy Soho, Beijing
 - image: ../../images/travel/china/china-09.jpg
-  alt: Beijing
+  alt: Bird's Nest, Beijing
 
+# Set 2 (Mixed)
 - image: ../../images/travel/china/china-10.jpg
   alt: Yangtze River
 - image: ../../images/travel/china/china-11.jpg
@@ -44,10 +46,11 @@
 - image: ../../images/travel/china/china-22.jpg
   alt: Hunan
 - image: ../../images/travel/china/china-23.jpg
-  alt: Tibet
+  alt: Potala Palace, Tibet
 - image: ../../images/travel/china/china-24.jpg
   alt: Tibet
 
+# Set 3 (Tibet)
 - image: ../../images/travel/china/china-25.jpg
   alt: Tibet
 - image: ../../images/travel/china/china-26.jpg
@@ -55,6 +58,7 @@
 - image: ../../images/travel/china/china-27.jpg
   alt: Tibet
 
+# Set 4 (Tibet)
 - image: ../../images/travel/china/china-28.jpg
   alt: Tibet
 - image: ../../images/travel/china/china-29.jpg

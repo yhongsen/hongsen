@@ -1,3 +1,4 @@
+# Set 1
 - image: ../../images/travel/seattle/seattle_2019-17.jpg
   alt: Seattle
 - image: ../../images/travel/seattle/seattle_2019-01.jpg
@@ -17,6 +18,7 @@
 - image: ../../images/travel/seattle/seattle_2019-10.jpg
   alt: Seattle
 
+# Set 2
 - image: ../../images/travel/seattle/seattle_2019-11.jpg
   alt: Seattle
 - image: ../../images/travel/seattle/seattle_2019-12.jpg
@@ -30,6 +32,7 @@
 - image: ../../images/travel/seattle/seattle_2019-35.jpg
   alt: Seattle
 
+# Set 3
 - image: ../../images/travel/seattle/seattle_2022-02.jpg
   alt: Seattle
 - image: ../../images/travel/seattle/seattle_2022-03.jpg
@@ -43,7 +46,7 @@
 - image: ../../images/travel/seattle/seattle_2022-04.jpg
   alt: Seattle
 
-
+# Set 4
 - image: ../../images/travel/seattle/seattle_2019-18.jpg
   alt: Olympic National Park
 - image: ../../images/travel/seattle/seattle_2019-24.jpg
@@ -69,6 +72,7 @@
 - image: ../../images/travel/seattle/seattle_2019-34.jpg
   alt: Hoh Rain Forest
 
+# Set 5
 - image: ../../images/travel/seattle/seattle_2022-08.jpg
   alt: Steptoe Butte State Park
 - image: ../../images/travel/seattle/seattle_2022-12.jpg
@@ -88,6 +92,7 @@
 - image: ../../images/travel/seattle/seattle_2022-18.jpg
   alt: Steptoe Butte State Park
 
+# Set 6
 - image: ../../images/travel/seattle/seattle_2022-21.jpg
   alt: Palouse Falls State Park
 - image: ../../images/travel/seattle/seattle_2022-19.jpg

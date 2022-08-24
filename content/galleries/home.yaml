@@ -1,66 +1,81 @@
+# NYC & Seattle
+- image: ../images/travel/nyc/nyc_2017-01.jpg
+  alt: SoHo, Manhattan, New York
+- image: ../images/travel/nyc/nyc_2019-02.jpg
+  alt: West Village, Manhattan, New York
+- image: ../images/travel/nyc/nyc_2019-25.jpg
+  alt: The High Line, Manhattan, New York
+- image: ../images/travel/nyc/nyc_2019-45.jpg
+  alt: The Vessel, Manhattan, New York
+- image: ../images/travel/nyc/nyc_2019-41.jpg
+  alt: The Vessel, Manhattan, New York
+- image: ../images/travel/seattle/seattle_2019-17.jpg
+  alt: Seattle, Washington
+
+# San Diego
+- image: ../images/travel/socal/ucsd-03.jpg
+  alt: UCSD, San Diego, California
+- image: ../images/travel/socal/ucsd-01.jpg
+  alt: La Jolla Cove, San Diego, California
+- image: ../images/travel/socal/ucsd-02.jpg
+  alt: La Jolla Cove, San Diego, California
+
+# Japan
 - image: ../images/travel/japan-2019/japan_2019-26.jpg
-  alt: Kagoshima
-- image: ../images/travel/japan-2019/japan_2019-27.jpg
-  alt: Kagoshima
-- image: ../images/travel/china/china-02.jpg
-  alt: Beijing
+  alt: Shiroyama Park, Kagoshima, Japan
+- image: ../images/travel/japan-2019/japan_2019-76.jpg
+  alt: Meguro River, Tokyo, Japan
+- image: ../images/travel/japan-2019/japan_2019-71.jpg
+  alt: Mt Fuji, Japan
+- image: ../images/travel/japan-2017/japan_2017-41.jpg
+  alt: Odaiba, Tokyo, Japan
+- image: ../images/travel/japan-2017/japan_2017-25.jpg
+  alt: Fushimi Inari Taisha, Kyoto, Japan
+- image: ../images/travel/japan-2019/japan_2019-31.jpg
+  alt: Kagoshima, Japan
+- image: ../images/travel/japan-2017/japan_2017-46.jpg
+  alt: World Trade Center Observation Deck, Tokyo, Japan
 - image: ../images/travel/japan-2019/japan_2019-04.jpg
-  alt: Fukuoka
-- image: ../images/travel/national-parks/yosemite-02.jpg
-  alt: Half Dome
+  alt: Hakata Station, Fukuoka, Japan
+- image: ../images/travel/japan-2019/japan_2019-75.jpg
+  alt: Meguro River, Tokyo, Japan
+
+# National Parks
 - image: ../images/travel/national-parks/colorado-01.jpg
   alt: Dream Lake, Rocky Mountain National Park
-- image: ../images/travel/uncategorized/ucsd-03.jpg
-  alt: UCSD
-- image: ../images/portrait/portrait-01.jpg
-  alt: Portrait
-- image: ../images/portrait/portrait-05.jpg
-  alt: Portrait
-- image: ../images/travel/japan-2019/japan_2019-76.jpg
-  alt: Tokyo
-- image: ../images/travel/china/china-01.jpg
-  alt: Beijing
-- image: ../images/travel/japan-2019/japan_2019-38.jpg
-  alt: Kyoto
-- image: ../images/travel/japan-2019/japan_2019-74.jpg
-  alt: Tokyo
-- image: ../images/travel/japan-2019/japan_2019-71.jpg
-  alt: Mt Fuji
-- image: ../images/travel/china/china-19.jpg
-  alt: Zhangjiajie
-- image: ../images/travel/national-parks/yosemite-01.jpg
-  alt: Artist Point
-- image: ../images/travel/national-parks/utah-arizona-01.jpg
-  alt: Antelope Canyon, Arizona
-- image: ../images/travel/national-parks/utah-arizona-02.jpg
-  alt: Antelope Canyon, Arizona
-- image: ../images/travel/national-parks/utah-arizona-18.jpg
-  alt: Canyonlands, Utah
 - image: ../images/travel/national-parks/utah-arizona-11.jpg
   alt: Bryce National Park, Utah
-- image: ../images/travel/japan-2017/japan_2017-41.jpg
-  alt: Tokyo
-- image: ../images/travel/japan-2017/japan_2017-25.jpg
-  alt: Kyoto
-- image: ../images/travel/japan-2017/japan_2017-46.jpg
-  alt: Tokyo
-- image: ../images/travel/china/china-30.jpg
-  alt: Tibet
-- image: ../images/travel/china/china-06.jpg
-  alt: Beijing
-- image: ../images/travel/china/china-18.jpg
-  alt: Yangtze River
-- image: ../images/travel/uncategorized/seattle-01.jpg
-  alt: Seattle
-- image: ../images/travel/japan-2017/japan_2017-31.jpg
-  alt: Kyoto
-- image: ../images/travel/japan-2019/japan_2019-56.jpg
-  alt: Tokyo
+- image: ../images/travel/national-parks/utah-arizona-02.jpg
+  alt: Antelope Canyon, Arizona
+- image: ../images/travel/national-parks/utah-arizona-01.jpg
+  alt: Antelope Canyon, Arizona
+- image: ../images/travel/national-parks/yosemite-02.jpg
+  alt: Half Dome, Yosemite, California
+- image: ../images/travel/national-parks/acadia-11.jpg
+  alt: Acadia National Park, Maine
 - image: ../images/travel/national-parks/colorado-21.jpg
   alt: Sand Dunes National Park
-- image: ../images/travel/uncategorized/ucsd-01.jpg
-  alt: UCSD
-- image: ../images/travel/uncategorized/ucsd-02.jpg
-  alt: UCSD
-- image: ../images/travel/uncategorized/ucsd-04.jpg
-  alt: UCSD
+- image: ../images/travel/national-parks/acadia-13.jpg
+  alt: Acadia National Park, Maine
+- image: ../images/travel/national-parks/utah-arizona-18.jpg
+  alt: Canyonlands, Utah
+
+# China
+- image: ../images/travel/china/china-05.jpg
+  alt: The Temple of Heaven, Beijing, China
+- image: ../images/travel/china/china-01.jpg
+  alt: Beijing Opera House, Beijing, China
+- image: ../images/travel/china/china-02.jpg
+  alt: CCTV Headquarters, Beijing, China
+- image: ../images/travel/china/china-03.jpg
+  alt: Jinshanling, China
+- image: ../images/travel/china/china-08.jpg
+  alt: Galaxy Soho, Beijing, China
+- image: ../images/travel/china/china-19.jpg
+  alt: Zhangjiajie, China
+- image: ../images/travel/china/china-23.jpg
+  alt: Potala Palace, Tibet, China
+- image: ../images/travel/china/china-18.jpg
+  alt: Yangtze River, China
+- image: ../images/travel/china/china-22.jpg
+  alt: Hunan, China

@@ -1,0 +1,63 @@
+# Set 1
+- image: ../../images/travel/socal/sd_2018-08.jpg
+  alt: UCSD, San Diego
+- image: ../../images/travel/socal/sd_2018-09.jpg
+  alt: UCSD, San Diego
+- image: ../../images/travel/socal/sd_2018-02.jpg
+  alt: La Jolla Cove, San Diego
+- image: ../../images/travel/socal/sd_2018-04.jpg
+  alt: La Jolla Cove, San Diego
+- image: ../../images/travel/socal/sd_2018-03.jpg
+  alt: La Jolla Cove, San Diego
+- image: ../../images/travel/socal/sd_2018-01.jpg
+  alt: La Jolla Cove, San Diego
+
+# Set 2
+- image: ../../images/travel/socal/sd_2018-05.jpg
+  alt: La Jolla Cove, San Diego
+- image: ../../images/travel/socal/sd_2021-06.jpg
+  alt: La Jolla Shores, San Diego
+- image: ../../images/travel/socal/sd_2021-08.jpg
+  alt: La Jolla Shores, San Diego
+
+# Set 3
+- image: ../../images/travel/socal/sd_2021-01.jpg
+  alt: La Jolla Shores, San Diego
+- image: ../../images/travel/socal/sd_2021-02.jpg
+  alt: La Jolla Shores, San Diego
+- image: ../../images/travel/socal/sd_2021-04.jpg
+  alt: La Jolla Shores, San Diego
+- image: ../../images/travel/socal/sd_2021-07.jpg
+  alt: Glider Port, San Diego
+- image: ../../images/travel/socal/sd_2022-03.jpg
+  alt: Torrey Pines State Reserve, San Diego
+- image: ../../images/travel/socal/sd_2022-02.jpg
+  alt: Torrey Pines State Reserve, San Diego
+
+# Set 4
+- image: ../../images/travel/socal/sd_2021-12.jpg
+  alt: Sunset Cliffs, San Diego
+- image: ../../images/travel/socal/sd_2021-13.jpg
+  alt: Sunset Cliffs, San Diego
+- image: ../../images/travel/socal/sd_2021-14.jpg
+  alt: Sunset Cliffs, San Diego
+- image: ../../images/travel/socal/sd_2021-15.jpg
+  alt: Sunset Cliffs, San Diego
+- image: ../../images/travel/national-parks/socal_2021-01.jpg
+  alt: Joshua Tree National Park
+- image: ../../images/travel/socal/la_2022-01.jpg
+  alt: The Broad, Los Angeles
+
+# Set 5
+- image: ../../images/travel/socal/la_2021-01.jpg
+  alt: The Getty, Los Angeles
+- image: ../../images/travel/socal/la_2021-02.jpg
+  alt: The Getty, Los Angeles
+- image: ../../images/travel/national-parks/socal_2022-08.jpg
+  alt: Santa Cruz Island, Channel Islands National Park
+- image: ../../images/travel/national-parks/socal_2022-01.jpg
+  alt: Santa Cruz Island, Channel Islands National Park
+- image: ../../images/travel/national-parks/socal_2022-05.jpg
+  alt: Santa Cruz Island, Channel Islands National Park
+- image: ../../images/travel/national-parks/socal_2022-07.jpg
+  alt: Santa Cruz Island, Channel Islands National Park

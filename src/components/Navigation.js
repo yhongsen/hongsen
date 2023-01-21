@@ -39,7 +39,7 @@ const Navigation = () => (
                     <div className="navigation-subnav-content">
                         <SubnavLink path={"/travel/socal"} pathName={"SoCal"} />
                         <SubnavLink path={"/travel/nyc"} pathName={"NYC"} />
-                        <SubnavLink path={"/travel/seattle"} pathName={"Seattle"} />
+                        <SubnavLink path={"/travel/washington"} pathName={"Washington"} />
                         <SubnavLink path={"/travel/japan-2019"} pathName={"Japan II"} />
                         <SubnavLink path={"/travel/japan-2017"} pathName={"Japan I"} />
                         <SubnavLink path={"/travel/national-parks"} pathName={"National Parks"} />

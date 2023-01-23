@@ -3,6 +3,6 @@
 :export {
     darkGrey: $dark-grey;
     offWhite: rgba($white, .95);
-    mobileBreakpoint: $mobile-breakpoint;
-    desktopBreakpoint: $desktop-breakpoint;
+    mobileBreakpoint: $break-mobile;
+    desktopBreakpoint: $break-desktop;
 }

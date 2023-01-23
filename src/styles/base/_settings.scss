@@ -20,9 +20,11 @@ $xl-size: 40px;
 $xxl-size: 80px;
 
 // Content Size
+$break-mobile: 640;
+$break-desktop: 960;
 $content-size: 1100px;
-$mobile-breakpoint: 640px;
-$desktop-breakpoint: 960px;
+$mobile-breakpoint: $break-mobile + 0px;
+$desktop-breakpoint: $break-desktop + 0px;
 
 // Transition Time
 $transition-time: .17s;

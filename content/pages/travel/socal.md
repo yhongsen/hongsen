@@ -8,4 +8,4 @@ hero: ../../images/travel/socal/socal-cover.jpg
 photos: ../../galleries/travel/socal.yaml
 ---
 
-Photos from my travels in Southern California since moving to San Diego in 2017 for graduate school.
+Photos from my travels in Southern California since moving to San Diego.

@@ -60,7 +60,14 @@ export const pageQuery = graphql`
                     date(formatString: "MMMM YYYY")
                     photos {
                         childrenYaml {
-                            ...GalleryImageFragment
+                            alt
+                            image {
+                                id
+                                childImageSharp {
+                                    ...ImageFragment_3
+                                    ...MetaImageFragment
+                                }
+                            }
                         }
                     }
                 }

@@ -28,7 +28,14 @@ export const pageQuery = graphql`
         query {
             file(absolutePath: {regex: "/home.yaml/"}) {
                 childrenYaml {
-                    ...GalleryImageFragment
+                    alt
+                    image {
+                        id
+                        childImageSharp {
+                            ...ImageFragment_3
+                            ...MetaImageFragment
+                        }
+                    }
                 }
             }
         }

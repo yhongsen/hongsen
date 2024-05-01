@@ -21,18 +21,18 @@
   alt: La Jolla Shores, San Diego
 
 # Set 3
-- image: ../../images/travel/socal/sd_2021-01.jpg
-  alt: La Jolla Shores, San Diego
-- image: ../../images/travel/socal/sd_2021-02.jpg
-  alt: La Jolla Shores, San Diego
-- image: ../../images/travel/socal/sd_2021-04.jpg
-  alt: La Jolla Shores, San Diego
 - image: ../../images/travel/socal/sd_2021-07.jpg
   alt: Glider Port, San Diego
 - image: ../../images/travel/socal/sd_2022-03.jpg
   alt: Torrey Pines State Reserve, San Diego
 - image: ../../images/travel/socal/sd_2022-02.jpg
   alt: Torrey Pines State Reserve, San Diego
+- image: ../../images/travel/socal/sd_2021-04.jpg
+  alt: La Jolla Shores, San Diego
+- image: ../../images/travel/socal/sd_2021-02.jpg
+  alt: La Jolla Shores, San Diego
+- image: ../../images/travel/socal/sd_2021-01.jpg
+  alt: La Jolla Shores, San Diego
 
 # Set 4
 - image: ../../images/travel/socal/sd_2021-12.jpg

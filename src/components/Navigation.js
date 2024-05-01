@@ -37,6 +37,7 @@ const Navigation = () => (
                 <span className="navigation-subnav">
                     <NavLink path={"/travel"} pathName={"Travel"} />
                     <div className="navigation-subnav-content">
+                        <SubnavLink path={"/travel/norcal"} pathName={"NorCal"} />
                         <SubnavLink path={"/travel/socal"} pathName={"SoCal"} />
                         <SubnavLink path={"/travel/nyc"} pathName={"NYC"} />
                         <SubnavLink path={"/travel/washington"} pathName={"Washington"} />

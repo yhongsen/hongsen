@@ -8,4 +8,4 @@ hero: ../../images/travel/socal/socal-cover.jpg
 photos: ../../galleries/travel/socal.yaml
 ---
 
-Photos from my travels in Southern California since moving to San Diego.
+Local sights from around San Diego and the Southern California area.

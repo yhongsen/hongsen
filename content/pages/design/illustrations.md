@@ -4,6 +4,7 @@ type: design
 title: "Design & Illustrations"
 subtitle: "Mixed"
 date: "2021-04-10"
+order: 1
 hero: ../../images/design/illustrations/illustrations-cover.png
 photos: ../../galleries/design/illustrations.yaml
 ---

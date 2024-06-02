@@ -4,7 +4,8 @@ type: travel
 title: "Washington"
 subtitle: "2022"
 date: "2019-08-23"
-hero: ../../images/travel/washington/washington-cover.jpg
+order: 8
+hero: ../../images/travel/washington/washington_2019-16.jpg
 photos: ../../galleries/travel/washington.yaml
 ---
 

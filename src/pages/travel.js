@@ -37,7 +37,7 @@ export const pageQuery = graphql`
         query {
             allMarkdownRemark(
                 filter: {frontmatter: {type: {eq: "travel"}}}
-                sort: {fields: frontmatter___date, order: DESC}
+                sort: {fields: frontmatter___order, order: ASC}
             ) {
                 nodes {
                     frontmatter {
@@ -45,6 +45,7 @@ export const pageQuery = graphql`
                         title
                         subtitle
                         date(formatString: "YYYY-MM")
+                        order
                         hero {
                             id
                             childImageSharp {

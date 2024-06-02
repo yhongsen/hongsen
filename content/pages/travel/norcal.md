@@ -4,7 +4,8 @@ type: travel
 title: "Northern California"
 subtitle: "2022"
 date: "2022-07-16"
-hero: ../../images/travel/norcal/norcal-cover.jpg
+order: 5
+hero: ../../images/travel/norcal/pch_2022-16.jpg
 photos: ../../galleries/travel/norcal.yaml
 ---
 

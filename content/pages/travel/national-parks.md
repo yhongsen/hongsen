@@ -4,7 +4,8 @@ type: travel
 title: "National Parks"
 subtitle: "2017"
 date: "2017-06-05"
-hero: ../../images/travel/national-parks/yosemite-cover.jpg
+order: 9
+hero: ../../images/travel/national-parks/yosemite-02.jpg
 photos: ../../galleries/travel/national-parks.yaml
 ---
 

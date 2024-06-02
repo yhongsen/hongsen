@@ -4,6 +4,7 @@ type: design
 title: "Personal Logo"
 subtitle: "Branding"
 date: "2013-09-14"
+order: 4
 hero: ../../images/design/personal/personal-cover.png
 photos: ../../galleries/design/personal.yaml
 ---

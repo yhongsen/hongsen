@@ -4,7 +4,8 @@ type: travel
 title: "Japan III"
 subtitle: "2023"
 date: "2023-04-07"
-hero: ../../images/travel/japan-2023/japan_2023-cover.jpg
+order: 1
+hero: ../../images/travel/japan-2023/japan_2023-079.jpg
 photos: ../../galleries/travel/japan-2023.yaml
 ---
 

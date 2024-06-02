@@ -9,13 +9,12 @@ const Collection = ({ albums }) => {
     return (
         <div className="collection-wrapper">
             {albums.map(({ frontmatter }) => {
-                const { slug, title, subtitle, hero } = { ...frontmatter };
+                const { slug, title, hero } = { ...frontmatter };
                 return (
                     <Link to={slug} key={slug} className="collection-link">
                         <GatsbyImage image={getImage(hero)} alt={title} className="collection-image" />
                         <div className="collection-description">
                             <h2 className="collection-header">{title}</h2>
-                            <div className="collection-subheader">{subtitle}</div>
                         </div>
                     </Link>
                 );
@@ -30,7 +29,6 @@ Collection.propTypes = {
             frontmatter: PropTypes.shape({
                 slug: PropTypes.string.isRequired,
                 title: PropTypes.string.isRequired,
-                subtitle: PropTypes.string.isRequired,
                 hero: PropTypes.object.isRequired,
             }),
         }).isRequired,

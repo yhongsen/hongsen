@@ -13,13 +13,13 @@ const GalleryTemplate = ({ data, pageContext }) => {
     const page = data.markdownRemark;
     const images = page.frontmatter.photos ? page.frontmatter.photos.childrenYaml : [];
     const metaImage = getMetaImage(images);
-    const { title, subtitle, type } = { ...page.frontmatter };
+    const { title, subtitle, type, subslug } = { ...page.frontmatter };
     // const { previous, next } = pageContext;
 
     return (
         <Container>
             <Seo title={title} description={page.excerpt} image={metaImage} />
-            {!!title && <Header title={title} subtitle={subtitle} description={page.html} />}
+            {!!title && <Header title={title} subtitle={subtitle} description={page.html} subalbums={subslug} />}
             <Gallery images={images} />
             {!!title && <Button buttonText={"Back to Collection"} path={`/${type}`} />}
         </Container>
@@ -59,6 +59,7 @@ export const pageQuery = graphql`
                 title
                 subtitle
                 date(formatString: "MMMM YYYY")
+                subslug
                 photos {
                     childrenYaml {
                         alt

@@ -5,6 +5,7 @@ title: "Japan III"
 subtitle: "2023"
 date: "2023-04-07"
 order: 1
+subslug: ["/travel/japan-2023", "/travel/japan-2019", "/travel/japan-2017"]
 hero: ../../images/travel/japan-2023/japan_2023-079.jpg
 photos: ../../galleries/travel/japan-2023.yaml
 ---

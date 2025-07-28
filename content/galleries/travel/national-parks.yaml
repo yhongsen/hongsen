@@ -74,7 +74,21 @@
 - image: ../../images/travel/national-parks/colorado-24.jpg
   alt: Garden of the Gods, Colorado
 
-# Set 6 (Acadia)
+# Set 6 (Washington)
+- image: ../../images/travel/washington/washington_2019-18.jpg
+  alt: Olympic National Park
+- image: ../../images/travel/washington/washington_2019-20.jpg
+  alt: Olympic National Park
+- image: ../../images/travel/washington/washington_2019-19.jpg
+  alt: Olympic National Park
+- image: ../../images/travel/washington/washington_2019-24.jpg
+  alt: Olympic National Park
+- image: ../../images/travel/washington/washington_2019-30.jpg
+  alt: Olympic National Park
+- image: ../../images/travel/washington/washington_2019-27.jpg
+  alt: Olympic National Park
+
+# Set 7 (Acadia)
 - image: ../../images/travel/national-parks/acadia-11.jpg
   alt: Acadia National Park, Maine
 - image: ../../images/travel/national-parks/acadia-13.jpg
@@ -88,7 +102,7 @@
 - image: ../../images/travel/national-parks/acadia-05.jpg
   alt: Acadia National Park, Maine
 
-# Set 7 (Arizona)
+# Set 8 (Arizona)
 - image: ../../images/travel/national-parks/utah-arizona-01.jpg
   alt: Antelope Canyon, Arizona
 - image: ../../images/travel/national-parks/utah-arizona-02.jpg
@@ -102,7 +116,7 @@
 - image: ../../images/travel/national-parks/utah-arizona-06.jpg
   alt: Grand Canyon National Park, Arizona
 
-# Set 8 (Arizona & Utah)
+# Set 9 (Arizona & Utah)
 - image: ../../images/travel/national-parks/utah-arizona-10.jpg
   alt: Petrified Forrest National Park, Arizona
 - image: ../../images/travel/national-parks/utah-arizona-11.jpg

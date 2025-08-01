@@ -1,75 +1,299 @@
 # Set 1 (Beijing)
-- image: ../../images/travel/china/china-01.jpg
+- image: ../../images/travel/china/china_2014-01.jpg
   alt: Beijing Opera House, Beijing
-- image: ../../images/travel/china/china-02.jpg
+- image: ../../images/travel/china/china_2014-02.jpg
   alt: CCTV Headquarters, Beijing
-- image: ../../images/travel/china/china-03.jpg
+- image: ../../images/travel/china/china_2014-03.jpg
   alt: Jinshanling
-- image: ../../images/travel/china/china-04.jpg
+- image: ../../images/travel/china/china_2014-04.jpg
   alt: Jinshanling
-- image: ../../images/travel/china/china-05.jpg
+- image: ../../images/travel/china/china_2016-01.jpg
   alt: The Temple of Heaven, Beijing
-- image: ../../images/travel/china/china-06.jpg
+- image: ../../images/travel/china/china_2024-119.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-072.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2014-07.jpg
   alt: Galaxy Soho, Beijing
-- image: ../../images/travel/china/china-07.jpg
-  alt: Galaxy Soho, Beijing
-- image: ../../images/travel/china/china-08.jpg
-  alt: Galaxy Soho, Beijing
-- image: ../../images/travel/china/china-09.jpg
+- image: ../../images/travel/china/china_2014-08.jpg
   alt: Bird's Nest, Beijing
 
 # Set 2 (Mixed)
-- image: ../../images/travel/china/china-10.jpg
-  alt: Yangtze River
-- image: ../../images/travel/china/china-11.jpg
+- image: ../../images/travel/china/china_2024-111.jpg
   alt: Shanghai
-- image: ../../images/travel/china/china-12.jpg
+- image: ../../images/travel/china/china_2016-02.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2014-09.jpg
+  alt: Chongqing
+- image: ../../images/travel/china/china_2014-16.jpg
   alt: Yangtze River
-- image: ../../images/travel/china/china-13.jpg
+- image: ../../images/travel/china/china_2024-075.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2014-10.jpg
   alt: Yangtze River
-- image: ../../images/travel/china/china-14.jpg
+- image: ../../images/travel/china/china_2014-11.jpg
   alt: Yangtze River
-- image: ../../images/travel/china/china-15.jpg
+- image: ../../images/travel/china/china_2014-12.jpg
   alt: Yangtze River
-- image: ../../images/travel/china/china-16.jpg
+- image: ../../images/travel/china/china_2014-13.jpg
   alt: Yangtze River
-- image: ../../images/travel/china/china-17.jpg
-  alt: Yangtze River
-- image: ../../images/travel/china/china-18.jpg
-  alt: Yangtze River
-- image: ../../images/travel/china/china-19.jpg
-  alt: Zhangjiajie
-- image: ../../images/travel/china/china-20.jpg
-  alt: Zhangjiajie
-- image: ../../images/travel/china/china-21.jpg
-  alt: Hunan
-- image: ../../images/travel/china/china-22.jpg
-  alt: Hunan
-- image: ../../images/travel/china/china-23.jpg
-  alt: Potala Palace, Tibet
-- image: ../../images/travel/china/china-24.jpg
-  alt: Tibet
 
-# Set 3 (Tibet)
-- image: ../../images/travel/china/china-25.jpg
-  alt: Tibet
-- image: ../../images/travel/china/china-26.jpg
-  alt: Tibet
-- image: ../../images/travel/china/china-27.jpg
+# Set 3 (Mixed)
+- image: ../../images/travel/china/china_2014-14.jpg
+  alt: Yangtze River
+- image: ../../images/travel/china/china_2014-15.jpg
+  alt: Yangtze River
+- image: ../../images/travel/china/china_2016-03.jpg
+  alt: Hunan
+- image: ../../images/travel/china/china_2016-04.jpg
+  alt: Hunan
+- image: ../../images/travel/china/china_2014-19.jpg
+  alt: Zhangjiajie
+- image: ../../images/travel/china/china_2014-17.jpg
+  alt: Zhangjiajie
+- image: ../../images/travel/china/china_2014-18.jpg
+  alt: Zhangjiajie
+- image: ../../images/travel/china/china_2014-20.jpg
+  alt: Potala Palace, Tibet
+- image: ../../images/travel/china/china_2014-21.jpg
   alt: Tibet
 
 # Set 4 (Tibet)
-- image: ../../images/travel/china/china-28.jpg
+- image: ../../images/travel/china/china_2014-22.jpg
   alt: Tibet
-- image: ../../images/travel/china/china-29.jpg
+- image: ../../images/travel/china/china_2014-23.jpg
   alt: Tibet
-- image: ../../images/travel/china/china-30.jpg
+- image: ../../images/travel/china/china_2014-24.jpg
   alt: Tibet
-- image: ../../images/travel/china/china-31.jpg
+
+# Set 5 (Tibet)
+- image: ../../images/travel/china/china_2014-25.jpg
   alt: Tibet
-- image: ../../images/travel/china/china-32.jpg
+- image: ../../images/travel/china/china_2014-26.jpg
   alt: Tibet
-- image: ../../images/travel/china/china-33.jpg
+- image: ../../images/travel/china/china_2014-27.jpg
   alt: Tibet
-- image: ../../images/travel/china/china-34.jpg
+- image: ../../images/travel/china/china_2014-28.jpg
   alt: Tibet
+- image: ../../images/travel/china/china_2014-29.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china_2014-30.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china_2014-32.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china_2014-31.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china_2014-33.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china_2014-34.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china_2014-35.jpg
+  alt: Tibet
+- image: ../../images/travel/china/china_2014-36.jpg
+  alt: Tibet
+
+# Set 6 (Mount Emei)
+- image: ../../images/travel/china/china_2024-021.jpg
+  alt: Mount Emei
+- image: ../../images/travel/china/china_2024-019.jpg
+  alt: Mount Emei
+- image: ../../images/travel/china/china_2024-022.jpg
+  alt: Mount Emei
+- image: ../../images/travel/china/china_2024-024.jpg
+  alt: Mount Emei
+- image: ../../images/travel/china/china_2024-025.jpg
+  alt: Mount Emei
+- image: ../../images/travel/china/china_2024-027.jpg
+  alt: Mount Emei
+- image: ../../images/travel/china/china_2024-028.jpg
+  alt: Mount Emei
+- image: ../../images/travel/china/china_2024-026.jpg
+  alt: Mount Emei
+- image: ../../images/travel/china/china_2024-023.jpg
+  alt: Mount Emei
+
+# Set 7 (Leshan City)
+- image: ../../images/travel/china/china_2024-029.jpg
+  alt: Leshan City
+- image: ../../images/travel/china/china_2024-030.jpg
+  alt: Leshan City
+- image: ../../images/travel/china/china_2024-031.jpg
+  alt: Leshan City
+
+# Set 8 (Leshan City & Chengdu)
+- image: ../../images/travel/china/china_2024-032.jpg
+  alt: Leshan City
+- image: ../../images/travel/china/china_2024-033.jpg
+  alt: Leshan City
+- image: ../../images/travel/china/china_2024-036.jpg
+  alt: Leshan City
+- image: ../../images/travel/china/china_2024-003.jpg
+  alt: Qingyang Palace, Chengdu
+- image: ../../images/travel/china/china_2024-004.jpg
+  alt: Qingyang Palace, Chengdu
+- image: ../../images/travel/china/china_2024-006.jpg
+  alt: Qingyang Palace, Chengdu
+- image: ../../images/travel/china/china_2024-007.jpg
+  alt: Qintai Road, Chengdu
+- image: ../../images/travel/china/china_2024-008.jpg
+  alt: Qintai Road, Chengdu
+- image: ../../images/travel/china/china_2024-005.jpg
+  alt: Qingyang Palace, Chengdu
+
+# Set 9 (Chengdu)
+- image: ../../images/travel/china/china_2024-011.jpg
+  alt: People's Park, Chengdu
+- image: ../../images/travel/china/china_2024-009.jpg
+  alt: People's Park, Chengdu
+- image: ../../images/travel/china/china_2024-002.jpg
+  alt: People's Park, Chengdu
+
+# Set 10 (Chengdu)
+- image: ../../images/travel/china/china_2024-001.jpg
+  alt: People's Park, Chengdu
+- image: ../../images/travel/china/china_2024-013.jpg
+  alt: Wuhou Shrine, Chengdu
+- image: ../../images/travel/china/china_2024-014.jpg
+  alt: Wuhou Shrine, Chengdu
+- image: ../../images/travel/china/china_2024-012.jpg
+  alt: Wuhou Shrine, Chengdu
+- image: ../../images/travel/china/china_2024-016.jpg
+  alt: Wuhou Shrine, Chengdu
+- image: ../../images/travel/china/china_2024-015.jpg
+  alt: Wuhou Shrine, Chengdu
+- image: ../../images/travel/china/china_2024-040.jpg
+  alt: Chengdu Tianfu Art Museum, Chengdu
+- image: ../../images/travel/china/china_2024-038.jpg
+  alt: Chengdu Tianfu Art Museum, Chengdu
+- image: ../../images/travel/china/china_2024-017.jpg
+  alt: SKP Mall, Chengdu
+
+# Set 11 (Zhouzhuang)
+- image: ../../images/travel/china/china_2024-076.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-077.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-078.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-080.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-083.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-084.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-088.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-085.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-094.jpg
+  alt: Zhouzhuang
+
+# Set 12 (Zhouzhuang)
+- image: ../../images/travel/china/china_2024-092.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-093.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-091.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-087.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-089.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-095.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-090.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-098.jpg
+  alt: Zhouzhuang
+- image: ../../images/travel/china/china_2024-096.jpg
+  alt: Zhouzhuang
+
+# Set 13 (Shanghai)
+- image: ../../images/travel/china/china_2024-113.jpg
+  alt: Yuyuan, Shanghai
+- image: ../../images/travel/china/china_2024-115.jpg
+  alt: Yuyuan, Shanghai
+- image: ../../images/travel/china/china_2024-114.jpg
+  alt: Yuyuan, Shanghai
+
+# Set 14 (Shanghai)
+- image: ../../images/travel/china/china_2024-112.jpg
+  alt: Yuyuan, Shanghai
+- image: ../../images/travel/china/china_2024-099.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-100.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-102.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-105.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-104.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-107.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-108.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-116.jpg
+  alt: Shanghai
+
+# Set 15 (Shanghai)
+- image: ../../images/travel/china/china_2024-110.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-117.jpg
+  alt: Shanghai
+- image: ../../images/travel/china/china_2024-120.jpg
+  alt: Shanghai
+
+# Set 16 (Shaoyang)
+- image: ../../images/travel/china/china_2024-071.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-048.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-059.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-050.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-065.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-069.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-066.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-068.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-052.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-062.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-061.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-070.jpg
+  alt: Shaoyang
+
+# Set 17 (Shaoyang)
+- image: ../../images/travel/china/china_2024-042.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-043.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-046.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-044.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-045.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-122.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-051.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-053.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-060.jpg
+  alt: Shaoyang
+
+# Set 18 (Shaoyang)
+- image: ../../images/travel/china/china_2024-055.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-056.jpg
+  alt: Shaoyang
+- image: ../../images/travel/china/china_2024-047.jpg
+  alt: Shaoyang

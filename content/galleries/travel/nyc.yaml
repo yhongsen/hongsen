@@ -23,8 +23,8 @@
   alt: NYU
 - image: ../../images/travel/nyc/nyc_2019-08.jpg
   alt: NYU
-- image: ../../images/travel/nyc/nyc_2019-12.jpg
-  alt: Greenwich Village
+- image: ../../images/travel/nyc/nyc_2023-20.jpg
+  alt: West Village
 - image: ../../images/travel/nyc/nyc_2019-11.jpg
   alt: Greenwich Village
 - image: ../../images/travel/nyc/nyc_2019-04.jpg
@@ -45,13 +45,19 @@
   alt: The Little Islands
 - image: ../../images/travel/nyc/nyc_2019-22.jpg
   alt: The Little Islands
-- image: ../../images/travel/nyc/nyc_2019-20.jpg
-  alt: The Little Islands
-- image: ../../images/travel/nyc/nyc_2019-21.jpg
+- image: ../../images/travel/nyc/nyc_2023-04.jpg
   alt: The Little Islands
 - image: ../../images/travel/nyc/nyc_2019-26.jpg
+  alt: The Little Islands
+- image: ../../images/travel/nyc/nyc_2023-05.jpg
+  alt: Pier 57
+- image: ../../images/travel/nyc/nyc_2023-15.jpg
+  alt: Pier 57
+- image: ../../images/travel/nyc/nyc_2023-12.jpg
   alt: The High Line
-- image: ../../images/travel/nyc/nyc_2019-24.jpg
+- image: ../../images/travel/nyc/nyc_2023-11.jpg
+  alt: The High Line
+- image: ../../images/travel/nyc/nyc_2023-18.jpg
   alt: The High Line
 
 # Set 5
@@ -61,11 +67,11 @@
   alt: The High Line
 - image: ../../images/travel/nyc/nyc_2019-28.jpg
   alt: The High Line
-- image: ../../images/travel/nyc/nyc_2019-29.jpg
+- image: ../../images/travel/nyc/nyc_2023-14.jpg
   alt: The High Line
-- image: ../../images/travel/nyc/nyc_2019-30.jpg
+- image: ../../images/travel/nyc/nyc_2023-13.jpg
   alt: The High Line
-- image: ../../images/travel/nyc/nyc_2019-37.jpg
+- image: ../../images/travel/nyc/nyc_2023-17.jpg
   alt: The High Line
 - image: ../../images/travel/nyc/nyc_2019-32.jpg
   alt: The High Line
@@ -87,22 +93,24 @@
   alt: The Vessel
 - image: ../../images/travel/nyc/nyc_2019-39.jpg
   alt: The Vessel
-- image: ../../images/travel/nyc/nyc_2019-42.jpg
+- image: ../../images/travel/nyc/nyc_2019-45.jpg
   alt: The Vessel
 - image: ../../images/travel/nyc/nyc_2019-43.jpg
   alt: The Vessel
 - image: ../../images/travel/nyc/nyc_2019-41.jpg
   alt: The Vessel
-- image: ../../images/travel/nyc/nyc_2019-44.jpg
-  alt: The Vessel
-- image: ../../images/travel/nyc/nyc_2019-46.jpg
-  alt: The Vessel
-- image: ../../images/travel/nyc/nyc_2019-45.jpg
-  alt: The Vessel
 - image: ../../images/travel/nyc/nyc_2019-40.jpg
   alt: The Vessel
 
 # Set 8
+- image: ../../images/travel/nyc/nyc_2019-46.jpg
+  alt: The Vessel
+- image: ../../images/travel/nyc/nyc_2023-08.jpg
+  alt: West Village
+- image: ../../images/travel/nyc/nyc_2023-07.jpg
+  alt: West Village
+
+# Set 9
 - image: ../../images/travel/nyc/nyc_2019-47.jpg
   alt: Bryant Park
 - image: ../../images/travel/nyc/nyc_2019-48.jpg
@@ -113,15 +121,15 @@
   alt: Bryant Park
 - image: ../../images/travel/nyc/nyc_2019-54.jpg
   alt: Dumbo
-- image: ../../images/travel/nyc/nyc_2019-62.jpg
-  alt: Green-Wood Cemetery
+- image: ../../images/travel/nyc/nyc_2023-19.jpg
+  alt: NYC
 - image: ../../images/travel/nyc/nyc_2019-55.jpg
   alt: Green-Wood Cemetery
-- image: ../../images/travel/nyc/nyc_2019-56.jpg
-  alt: Green-Wood Cemetery
+- image: ../../images/travel/nyc/nyc_2023-01.jpg
+  alt: NYC
+- image: ../../images/travel/nyc/nyc_2023-02.jpg
+  alt: 9th Ave
 - image: ../../images/travel/nyc/nyc_2019-57.jpg
-  alt: Long Island City
-- image: ../../images/travel/nyc/nyc_2019-59.jpg
   alt: Long Island City
 - image: ../../images/travel/nyc/nyc_2019-60.jpg
   alt: Long Island City

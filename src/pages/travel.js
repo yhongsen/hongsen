@@ -37,12 +37,14 @@ export default travelPage;
 export const pageQuery = graphql`
         query {
             allMarkdownRemark(
-                filter: {frontmatter: {type: {eq: "travel"}}}
+                filter: {fields: {type: {eq: "travel"}, isSubAlbum: {eq: "false"}}}
                 sort: {fields: frontmatter___order, order: ASC}
             ) {
                 nodes {
-                    frontmatter {
+                    fields {
                         slug
+                    }
+                    frontmatter {
                         title
                         subtitle
                         date(formatString: "YYYY-MM")

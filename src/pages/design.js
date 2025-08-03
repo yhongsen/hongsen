@@ -37,12 +37,14 @@ export default designPage;
 export const pageQuery = graphql`
         query {
             allMarkdownRemark(
-                filter: {frontmatter: {type: {eq: "design"}}}
+                filter: {fields: {type: {eq: "design"}}}
                 sort: {fields: frontmatter___date, order: DESC}
             ) {
                 nodes {
-                    frontmatter {
+                    fields {
                         slug
+                    }
+                    frontmatter {
                         title
                         subtitle
                         date(formatString: "YYYY-MM")

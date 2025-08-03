@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import '../styles/components/header.scss';
 import { Link } from 'gatsby';
 
-const Header = ({ title, subtitle, description, subalbums }) => (
+const Header = ({ title, subtitle, description, subAlbumSlugs, subAlbumNames}) => (
         <div className="header-wrapper">
             <header className="header-title">
                 <h1>{title}</h1>
@@ -12,9 +12,16 @@ const Header = ({ title, subtitle, description, subalbums }) => (
             </header>
             <div className="header-description" dangerouslySetInnerHTML={{ __html: description }} />           
             <div>
-                {subalbums && subalbums.map((link, idx) => {
+                {subAlbumSlugs && subAlbumSlugs.map((link, idx) => {
                     return (
-                        <Link to={link}>Album {idx+1}</Link>
+                        <Link
+                            to={link}
+                            className="navigation-subalbum-link"
+                            activeClassName="navigation__active"
+                            key={idx}
+                        >
+                            {subAlbumNames[idx]}
+                        </Link>
                     )
                 })}
             </div>

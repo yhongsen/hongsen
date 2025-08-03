@@ -1,6 +1,4 @@
 ---
-slug: "/travel/china"
-type: travel
 title: "China"
 subtitle: "2014"
 date: "2014-08-01"

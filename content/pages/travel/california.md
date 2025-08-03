@@ -1,6 +1,4 @@
 ---
-slug: "/travel/california"
-type: travel
 title: "California"
 subtitle: "2025"
 date: "2022-07-16"

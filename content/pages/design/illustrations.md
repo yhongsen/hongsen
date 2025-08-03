@@ -1,6 +1,4 @@
 ---
-slug: "/design/illustrations"
-type: design
 title: "Design & Illustrations"
 subtitle: "Mixed"
 date: "2021-04-10"

@@ -1,6 +1,4 @@
 ---
-slug: "/design/chesscademy"
-type: design
 title: "Chesscademy"
 subtitle: "Branding"
 date: "2014-12-01"

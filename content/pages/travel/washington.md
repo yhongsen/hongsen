@@ -1,6 +1,4 @@
 ---
-slug: "/travel/washington"
-type: travel
 title: "Washington"
 subtitle: "2022"
 date: "2019-08-23"

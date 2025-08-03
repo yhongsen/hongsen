@@ -8,8 +8,9 @@ import '../styles/components/collection.scss';
 const Collection = ({ albums }) => {
     return (
         <div className="collection-wrapper">
-            {albums.map(({ frontmatter }) => {
-                const { slug, title, hero } = { ...frontmatter };
+            {albums.map(({ frontmatter, fields }) => {
+                const { title, hero } = { ...frontmatter };
+                const { slug } = { ...fields }
                 return (
                     <Link to={slug} key={slug} className="collection-link">
                         <GatsbyImage image={getImage(hero)} alt={title} className="collection-image" />
@@ -27,7 +28,6 @@ Collection.propTypes = {
     albums: PropTypes.arrayOf(
         PropTypes.shape({
             frontmatter: PropTypes.shape({
-                slug: PropTypes.string.isRequired,
                 title: PropTypes.string.isRequired,
                 hero: PropTypes.object.isRequired,
             }),

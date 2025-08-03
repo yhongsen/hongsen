@@ -32,8 +32,6 @@ DesignTemplate.propTypes = {
             html: PropTypes.string,
             excerpt: PropTypes.string,
             frontmatter: PropTypes.shape({
-                slug: PropTypes.string,
-                type: PropTypes.string,
                 title: PropTypes.string,
                 subtitle: PropTypes.string,
                 date: PropTypes.string,
@@ -50,12 +48,10 @@ export default DesignTemplate;
 
 export const pageQuery = graphql`
         query DesignPageBySlug($slug: String!) {
-            markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+            markdownRemark(fields: { slug: { eq: $slug } }) {
                 html
                 excerpt(pruneLength: 160)
                 frontmatter {
-                    slug
-                    type
                     title
                     subtitle
                     date(formatString: "MMMM YYYY")

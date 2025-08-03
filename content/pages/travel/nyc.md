@@ -1,6 +1,4 @@
 ---
-slug: "/travel/nyc"
-type: travel
 title: "New York City"
 subtitle: "2021"
 date: "2021-07-08"

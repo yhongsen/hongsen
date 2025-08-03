@@ -1,6 +1,4 @@
 ---
-slug: "/travel/national-parks"
-type: travel
 title: "National Parks"
 subtitle: "2017"
 date: "2017-06-05"

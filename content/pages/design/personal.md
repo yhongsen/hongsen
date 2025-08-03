@@ -1,6 +1,4 @@
 ---
-slug: "/design/personal-logo"
-type: design
 title: "Personal Logo"
 subtitle: "Branding"
 date: "2013-09-14"

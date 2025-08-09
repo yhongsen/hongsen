@@ -145,7 +145,7 @@ const Navigation = () => {
                         <NavItem path={"/portrait"} pathName={"Portrait"} />
 
                         <NavItem path={"/design"} pathName={"Design"}>
-                            {renderDropdownItems(pagesByType.get("travel"))}
+                            {renderDropdownItems(pagesByType.get("design"))}
                         </NavItem>
 
                         <NavItem path={"/about"} pathName={"About"} />

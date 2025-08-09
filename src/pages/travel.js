@@ -37,7 +37,7 @@ export default travelPage;
 export const pageQuery = graphql`
         query {
             allMarkdownRemark(
-                filter: {fields: {type: {eq: "travel"}, isSubAlbum: {eq: "false"}}}
+                filter: {fields: {type: {eq: "travel"}, isSubAlbum: {eq: false}}}
                 sort: {fields: frontmatter___order, order: ASC}
             ) {
                 nodes {

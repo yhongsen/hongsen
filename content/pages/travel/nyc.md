@@ -1,6 +1,7 @@
 ---
 title: "New York City"
 subtitle: "2021"
+subAlbumTitle: "NYC"
 date: "2021-07-08"
 order: 7
 hero: ../../images/travel/nyc/nyc_2017-01.jpg

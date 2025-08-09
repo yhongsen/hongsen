@@ -17,24 +17,10 @@ const GalleryTemplate = ({ data, pageContext }) => {
     const { subAlbum } = pageContext;
     // const { previous, next } = pageContext;
 
-    /**
-     * Extract subAlbum information if it exists and pass it to the Header component to render.
-     * Use the alternate subAlbumTitle if it's provided in the markdown file.
-     * 
-     * Note: Sub-albums are sorted by date in ascending order (see gatesby-node.js). The parent
-     * album should have earliest date.
-     */
-    const subAlbumSlugs = [];
-    const subAlbumNames = [];
-    subAlbum.forEach((album) => {
-        subAlbumSlugs.push(album.node.fields.slug);
-        subAlbumNames.push(album.node.frontmatter.subAlbumTitle ? album.node.frontmatter.subAlbumTitle : album.node.frontmatter.title);
-    });
-
     return (
         <Container>
             <Seo title={title} description={page.excerpt} image={metaImage} />
-            {!!title && <Header title={title} subtitle={subtitle} description={page.html} subAlbumSlugs={subAlbumSlugs} subAlbumNames={subAlbumNames} />}
+            {!!title && <Header title={title} subtitle={subtitle} description={page.html} subAlbum={subAlbum} />}
             <Gallery images={images} />
             {!!title && <Button buttonText={"Back to Collection"} path={`/${type}`} />}
         </Container>

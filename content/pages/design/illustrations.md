@@ -1,6 +1,6 @@
 ---
-title: "Design & Illustrations"
-subtitle: "Mixed"
+title: "Illustrations"
+subtitle: "Mixed Media"
 date: "2021-04-10"
 order: 1
 hero: ../../images/design/illustrations/illustrations-cover.png

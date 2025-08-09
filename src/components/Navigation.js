@@ -19,7 +19,9 @@ const NavItem = ({ path, pathName, children }) => {
                 partiallyActive={true}
             >
                 {pathName}
+                {children && (<span className="arrow arrow__down arrow__mainnav"/>)}
             </Link>
+            
             {
                 // Render dropdown & dropdown items if children exist
                 children && (
@@ -33,7 +35,8 @@ const NavItem = ({ path, pathName, children }) => {
 };
 
 const DropdownItem = ({ path, pathName, children }) => {
-    const listClassName = children ? "navigation-submenu" : "";
+    const hasChildren = children.length > 0;
+    const listClassName = hasChildren ? "navigation-submenu" : "";
 
     return (
         <li className={listClassName}>
@@ -44,11 +47,12 @@ const DropdownItem = ({ path, pathName, children }) => {
                 partiallyActive={true}
             >
                 {pathName}
+                {hasChildren && (<span className="arrow arrow__right arrow__dropdown"/>)}
             </Link>
 
             {
                 // Render submenu & submenu items if children exist
-                children && (
+                hasChildren && (
                     <ul className="navigation-submenu__list">
                         {children}
                     </ul>

@@ -62,7 +62,8 @@
 
 .navigation-main__link {
     @extend %_link;
-    display: block;     // can optionally delete; adds ~1px to height to keep consistent with old implementation
+    display: flex;
+    align-items: center;
 }
 
 .navigation-dropdown {
@@ -75,6 +76,10 @@
     &:hover .navigation-dropdown__list {
         display: block;
         pointer-events: auto;
+    }
+
+    &:hover .arrow__mainnav {
+        border-color: $light-grey;
     }
 }
 
@@ -94,7 +99,8 @@
 
 .navigation-dropdown__link {
     @extend %_link;
-    display: block;         // required for text-align to work
+    display: flex;
+    align-items: center;
     padding-top: 0px;
     text-align: left;
 }
@@ -105,6 +111,10 @@
     &:hover .navigation-submenu__list {
         display: block;
         pointer-events: auto;
+    }
+
+    &:hover .arrow__dropdown {
+        border-color: $light-grey;
     }
 }
 
@@ -140,4 +150,40 @@
 
 .navigation-subalbum-link {
     margin-right: 8px
+}
+
+.arrow {
+    --border-size: 2px;
+
+    border-right: var(--border-size) solid $grey;
+    border-bottom: var(--border-size) solid $grey;
+    width: var(--size);
+    height: var(--size);
+    transform: rotate(var(--direction, 0));
+    transition: border-color $transition-time linear;
+    position: relative;   
+}
+
+.arrow__up {
+    --direction: -135deg;
+    top: 1.5px;
+}
+.arrow__down {
+    --direction: 45deg;
+    top: -2px;
+}
+.arrow__left {
+    --direction: 135deg;
+}
+.arrow__right {
+    --direction: -45deg;
+}
+
+.arrow__mainnav {
+    --size: calc(var(--border-size) * 4);
+    margin-left: 4px;
+}
+.arrow__dropdown {
+    --size: calc(var(--border-size) * 3);
+    margin-left: 2px;
 }

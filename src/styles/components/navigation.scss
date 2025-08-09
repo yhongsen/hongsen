@@ -29,6 +29,10 @@
     text-transform: uppercase;
 }
 
+.navigation__active {
+    color: $light-grey;
+}
+
 .navigation-header {
     color: $dark-grey;
     font-size: 72px;
@@ -43,36 +47,41 @@
     }
 }
 
-.navigation-link {
-    @extend %_link;
-    display: inline-block;
-}
-
 .navigation-main {
-    display: block;
     text-align: center;
     text-transform: uppercase;
     padding: $m-size 0;
 }
 
-.navigation-subnav {
-    position: relative;
-    display: inline-block;
+.navigation-main__list {
+    @extend %_link;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
 
-    &:hover .navigation-link {
+.navigation-main__link {
+    @extend %_link;
+    display: block;     // can optionally delete; adds ~1px to height to keep consistent with old implementation
+}
+
+.navigation-dropdown {
+    position: relative;
+
+    &:hover .navigation-main__link {
         color: $light-grey;
     }
 
-    &:hover .navigation-subnav-content {
+    &:hover .navigation-dropdown__list {
         display: block;
         pointer-events: auto;
     }
 }
 
-.navigation-subnav-content {
+.navigation-dropdown__list {
     display: none;
     line-height: 1.6;
-    padding: 4px 0 0;
+    padding: 4px 0 4px;
     pointer-events: none;
     position: absolute;
     background-color: $white;
@@ -83,18 +92,52 @@
     z-index: 1;
 }
 
-.navigation-subnav-link {
+.navigation-dropdown__link {
     @extend %_link;
-    display: block;
+    display: block;         // required for text-align to work
+    padding-top: 0px;
+    text-align: left;
+}
+
+.navigation-submenu {
+    position: relative;
+
+    &:hover .navigation-submenu__list {
+        display: block;
+        pointer-events: auto;
+    }
+}
+
+.navigation-submenu:hover > a {
+    color: $light-grey;     // highlights the parent album if any sub-album is active
+}
+
+.navigation-submenu__list {
+    display: none;
+    line-height: 1.6;
+    padding: 4px 0 4px;
+    pointer-events: none;
+    position: absolute;
+    background-color: $white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 20px 0px rgba($black, .1);
+    width: max-content;
+    transition: opacity $transition-time linear;
+    z-index: 1;
+
+    // Desktop view: align submenu with dropdown and open to the left
+    top: -4px;          // offset equal to parent (dropdown__list) padding
+    left: 100%;
+    // TODO: Create mobile view
+}
+
+.navigation-submenu__link {
+    @extend %_link;
+    display: block;     // required for text-align to work
     padding-top: 0px;
     text-align: left;
 }
 
 .navigation-subalbum-link {
     margin-right: 8px
-}
-
-.navigation__active {
-    color: $light-grey;
-    // border-color: $blue;
 }

@@ -1,9 +1,7 @@
 ---
 title: "Japan II"
 subtitle: "2019"
-subAlbumTitle: Japan 2019
 date: "2019-04-08"
-order: 2
 hero: ../../../images/travel/japan-2019/japan_2019-26.jpg
 photos: ../../../galleries/travel/japan-2019.yaml
 ---

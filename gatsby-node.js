@@ -1,5 +1,13 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
+const {     
+    pathSplit, 
+    isSubAlbum,
+    getPageType,
+    getParentAlbum,
+    sortPagesByType,
+    getSubAlbums 
+} = require(`./src/utils/albums`);
 
 exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions;
@@ -11,17 +19,15 @@ exports.createPages = async ({ graphql, actions }) => {
                     sort: { fields: [frontmatter___date], order: ASC }
                     limit: 1000
                 ) {
-                    edges {
-                        node {
-                            fields {
-                                slug
-                                type
-                                isSubAlbum
-                            }
-                            frontmatter {
-                                title
-                                subAlbumTitle
-                            }
+                    nodes {
+                        fields {
+                            slug
+                            type
+                            isSubAlbum
+                        }
+                        frontmatter {
+                            title
+                            subAlbumTitle
                         }
                     }
                 }
@@ -34,44 +40,9 @@ exports.createPages = async ({ graphql, actions }) => {
     }
 
     // Create blog post pages.
-    const pages = result.data.allMarkdownRemark.edges;
-
-    /** 
-     * Create a subAlbums map to track pages that are potentially apart of a sub-album. This will
-     * be used to navigate between sub-album pages. The map will also include the parent album 
-     * page for backtracking.
-     * 
-     * A sub-album exists if there's more than one page in the list.
-     */ 
-    const subAlbums = new Map();
-    const slugToParentAlbum = new Map();
-    pages.forEach((page, index) => {
-        /**
-         * Example pathElements results:
-         * [travel, japan, japan-2017]  -> sub-album to the Japan album
-         * [travel, japan]              -> parent Japan album
-         * [travel, national-parks]     -> parent National Parks album
-         * [portrait]                   -> top-level Portraits gallery; skip this
-         * 
-         * Example subAblums results: (each entry here is a page)
-         * japan: [japan, japan-2017, japan-2019, japan-2023]   -> is a sub-album
-         * national-parks: [national-parks]                     -> not a sub-album
-         */
-
-        // Add all potential sub-album candidates (pathElements.length > 1) into the subAlbums map.
-        const slug = page.node.fields.slug
-        const pathElements = pathSplit(slug);
-        if (pathElements.length > 1) {
-            const parentAlbum = pathElements[1];
-            if (!subAlbums.has(parentAlbum)) {
-                subAlbums.set(parentAlbum, []);
-            }
-            subAlbums.get(parentAlbum).push(page);
-
-            // Build reverse mapping to simplify finding which subAlbum a page belongs to.
-            slugToParentAlbum.set(slug, parentAlbum);
-        }
-    });
+    const pages = result.data.allMarkdownRemark.nodes;
+    // Sort page data.
+    const pagesByType = sortPagesByType(pages);
 
     const galleryPage = path.resolve(`./src/templates/gallery-template.js`);
     const designPage = path.resolve(`./src/templates/design-template.js`);
@@ -79,13 +50,12 @@ exports.createPages = async ({ graphql, actions }) => {
         // const previous = index === pages.length - 1 ? null : pages[index + 1].node;
         // const next = index === 0 ? null : pages[index - 1].node;
 
-        // A subAlbum exists if there's more than one page in the list.
-        const slug = page.node.fields.slug;
-        const parentAlbum = slugToParentAlbum.get(slug)
-        const subAlbum = parentAlbum && (subAlbums.get(parentAlbum).length > 1) ? subAlbums.get(parentAlbum) : [];
+        const { slug, type } = { ...page.fields };
+        const parentAlbum = getParentAlbum(slug);
+        const subAlbum = getSubAlbums(pagesByType.get(type).get(parentAlbum));
 
         const componentPage = () => {
-            switch (page.node.fields.type) {
+            switch (type) {
                 case 'design':
                     return designPage;
                 default:
@@ -146,47 +116,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         createNodeField({
             name: `isSubAlbum`,
             node,
-            value: `${isSubAlbum(relativeFilePath)}`,
+            value: isSubAlbum(relativeFilePath),
         })
     }
-};
-
-/**
- * Helper function to split the relative filepath into a list. The substring(1) is
- * needed to avoid getting an empty string as the first element due to the first "/".
- * 
- * @param {string} path - The relative filepath of a markdown file
- * @returns list of the filepath components
- */
-const pathSplit = (path) => {
-    return path.substring(1).split("/");
-};
-
-/**
- * Helper function to determine whether or not a page is a sub-album.
- * 
- * Example path 1: /travel/japan/japan-2017
- * After pathSplit: [travel, japan, japan-2017] -> is a sub-album
- * Example path 2: /travel/japan
- * After pathSplit: [travel, japan]             -> is not a sub-album
- * 
- * @param {String} path - The relative filepath of a markdown file
- * @returns bool if the page is a sub-album
- */
-const isSubAlbum = (path) => {
-    return pathSplit(path).length > 2;
-};
-
-/**
- * Helper function to determine the page type.
- *  
- * Example 1: /travel/japan/japan-2017  -> returns 'travel'
- * Example 2: /design/illustrations     -> returns 'design'
- * Example 3: /portrait                 -> returns 'portrait'
- * 
- * @param {string} path - The relative filepath of a markdown file
- * @returns string of the page type
- */
-const getPageType = (path) => {
-    return pathSplit(path)[0];
 };

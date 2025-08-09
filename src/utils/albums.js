@@ -2,6 +2,12 @@
  * Helper function to split the relative filepath into a list. The substring(1) is
  * needed to avoid getting an empty string as the first element due to the first "/".
  * 
+ * Examples:
+ * /travel/japan/japan-2017     -> [travel, japan, japan-2017]
+ * /travel/japan                -> [travel, japan]
+ * /travel/national-parks       -> [travel, national-parks]
+ * /portrait                    -> [portrait]
+ * 
  * @param {string} path - The relative filepath of a markdown file
  * @returns list of the filepath components
  */

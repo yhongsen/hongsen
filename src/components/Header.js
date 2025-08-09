@@ -15,6 +15,7 @@ const Header = ({ title, subtitle, description, subAlbum}) => (
                 // Render sub-albums
                 subAlbum.length > 0 && (
                     <div>
+                        <h4 className="header-subalbum">Related Albums</h4>
                         {subAlbum.map((album, idx) => {
                             return (
                                 <Link

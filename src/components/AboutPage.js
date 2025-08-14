@@ -1,9 +1,9 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
-import Seo from './SEO';
-import { GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL } from "../utils/defs";
 
+import { GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL } from "../utils/defs";
+import Seo from './SEO';
 import '../styles/components/about.scss';
 
 const GetAboutImage = () => {

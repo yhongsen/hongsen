@@ -11,7 +11,7 @@ const Button = ({ buttonText, path }) => {
                 {buttonText}
             </div>
         </Link>
-    )
+    );
 };
 
 Button.propTypes = {

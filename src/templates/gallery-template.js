@@ -1,12 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import Header from '../components/Header';
+
+import { getMetaImage } from '../utils/utils';
+import Button from '../components/Button';
 import Container from '../components/Container';
 import Gallery from '../components/Gallery';
-import Button from '../components/Button';
+import Header from '../components/Header';
 import Seo from '../components/SEO';
-import { getMetaImage } from '../utils/utils';
 
 const GalleryTemplate = ({ data, pageContext }) => {
     const page = data.markdownRemark;
@@ -23,7 +24,7 @@ const GalleryTemplate = ({ data, pageContext }) => {
             {!!title && <Button buttonText={"Back to Collection"} path={`/${type}`} />}
         </Container>
     );
-}
+};
 
 GalleryTemplate.propTypes = {
     data: PropTypes.shape({
@@ -48,29 +49,29 @@ GalleryTemplate.propTypes = {
 export default GalleryTemplate;
 
 export const pageQuery = graphql`
-        query GalleryPageBySlug($slug: String!) {
-            markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-                html
-                excerpt(pruneLength: 160)
-                frontmatter {
-                    slug
-                    type
-                    title
-                    subtitle
-                    date(formatString: "MMMM YYYY")
-                    photos {
-                        childrenYaml {
-                            alt
-                            image {
-                                id
-                                childImageSharp {
-                                    ...ImageFragment_3
-                                    ...MetaImageFragment
-                                }
+    query GalleryPageBySlug($slug: String!) {
+        markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+            html
+            excerpt(pruneLength: 160)
+            frontmatter {
+                slug
+                type
+                title
+                subtitle
+                date(formatString: "MMMM YYYY")
+                photos {
+                    childrenYaml {
+                        alt
+                        image {
+                            id
+                            childImageSharp {
+                                ...ImageFragment_3
+                                ...MetaImageFragment
                             }
                         }
                     }
                 }
             }
         }
-    `
+    }
+`;

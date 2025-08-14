@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Container from './Container';
 
+import Container from './Container';
 import '../styles/components/navigation.scss';
 
 const NavLink = ({ path, pathName }) => (

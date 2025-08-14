@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from './src/components/Layout';
 
+import Layout from './src/components/Layout';
 import './src/styles/styles.scss';
 
 // All props avaiable to a page will be available to Layout (incl. location prop)

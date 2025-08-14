@@ -1,7 +1,7 @@
 import React from 'react';
+
 import Container from './Container';
 import { Instagram } from './SocialLinks';
-
 import '../styles/components/footer.scss';
 
 const Footer = () => (

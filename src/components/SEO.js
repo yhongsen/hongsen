@@ -113,7 +113,7 @@ function Seo({ description, lang, meta, image: metaImage, title }) {
                 )
                 .concat(meta)}
         />
-    )
+    );
 };
 
 Seo.defaultProps = {

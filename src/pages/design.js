@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+
 import Collection from '../components/Collection';
 import Container from '../components/Container';
 import Header from '../components/Header';

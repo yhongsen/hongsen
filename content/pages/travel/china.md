@@ -5,7 +5,7 @@ title: "China"
 subtitle: "2014"
 date: "2014-08-01"
 order: 4
-hero: ../../images/travel/china/china-05.jpg
+hero: ../../images/travel/china/china_2016-01.jpg
 photos: ../../galleries/travel/china.yaml
 ---
 

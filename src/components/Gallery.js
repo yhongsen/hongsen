@@ -3,8 +3,8 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
 import useResizeObserver from 'use-resize-observer';
-import { getBreakPoint, getContentHeight, getContentWidth, getLayoutPosition, getImageLoadBehavior } from '../utils/masonry';
 
+import { getBreakPoint, getContentHeight, getContentWidth, getLayoutPosition, getImageLoadBehavior } from '../utils/masonry';
 import { darkGrey, offWhite } from '../styles/export.module.scss';
 import '../styles/components/gallery.scss';
 

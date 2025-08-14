@@ -1,9 +1,9 @@
 import React from 'react';
+
 import { GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL} from '../utils/defs';
 import GithubIcon from '../../content/assets/social/github.svg';
 import InstagramIcon from '../../content/assets/social/instagram.svg';
 import LinkedinIcon from '../../content/assets/social/linkedin.svg';
-
 import '../styles/components/social-icons.scss';
 
 // Need gatsby-plugin-react-svg to load svg files

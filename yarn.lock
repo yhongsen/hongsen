@@ -1388,6 +1388,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@juggle/resize-observer@^3.3.1":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
+  integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
+
 "@lezer/common@^1.0.0":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@lezer/common/-/common-1.2.3.tgz#138fcddab157d83da557554851017c6c1e5667fd"
@@ -12234,12 +12239,12 @@ use-debounce@^5.1.0:
   resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-5.2.1.tgz#7366543c769f1de3e92104dee64de5c4dfddfd33"
   integrity sha512-BQG5uEypYHd/ASF6imzYR8tJHh5qGn28oZG/5iVAbljV6MUrfyT4jzxA8co+L+WLCT1U8VBwzzvlb3CHmUDpEA==
 
-use-resize-observer@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/use-resize-observer/-/use-resize-observer-7.0.0.tgz#15f0efbd5a4e08a8cc51901f21a89ba836f2116e"
-  integrity sha512-+RjrQsk/mL8aKy4TGBDiPkUv6whyeoGDMIZYk0gOGHOlnrsjImC+jG6lfAFcBCKAG9epGRL419adhDNdkDCQkA==
+use-resize-observer@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/use-resize-observer/-/use-resize-observer-9.1.0.tgz#14735235cf3268569c1ea468f8a90c5789fc5c6c"
+  integrity sha512-R25VqO9Wb3asSD4eqtcxk8sJalvIOYBqS8MNZlpDSQ4l4xMQxC/J7Id9HoTqPq8FwULIn0PVW+OAqF2dyYbjow==
   dependencies:
-    resize-observer-polyfill "^1.5.1"
+    "@juggle/resize-observer" "^3.3.1"
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"

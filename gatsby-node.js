@@ -1,12 +1,12 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
-const {     
-    pathSplit, 
+const {
     isSubAlbum,
     getPageType,
     getParentAlbum,
     sortPagesByType,
-    getSubAlbums 
+    getSubAlbums,
+    resolvePath
 } = require(`./src/utils/albums`);
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -54,6 +54,8 @@ exports.createPages = async ({ graphql, actions }) => {
         const parentAlbum = getParentAlbum(slug);
         const subAlbum = getSubAlbums(pagesByType.get(type).get(parentAlbum));
 
+        const resolvedSlug = resolvePath(slug);
+
         const componentPage = () => {
             switch (type) {
                 case 'design':
@@ -66,11 +68,12 @@ exports.createPages = async ({ graphql, actions }) => {
         // The slug is used as a Graphql variable in the template's graphql query.
         // See https://www.gatsbyjs.com/docs/creating-and-modifying-pages/#creating-pages-in-gatsby-nodejs.
         createPage({
-            path: slug,
+            path: resolvedSlug,
             component: componentPage(),
             context: {
-                slug: slug,
+                slug: resolvedSlug,
                 subAlbum: subAlbum,
+                type: type,
                 // previous,
                 // next,
             },
@@ -101,7 +104,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         createNodeField({
             name: `slug`,
             node,
-            value: `${relativeFilePath}`,
+            value: `${resolvePath(relativeFilePath)}`,
         })
 
         // Infer the page type (design, travel, etc.) based on the relative filepath.

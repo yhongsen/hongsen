@@ -8,6 +8,10 @@
     margin-top: $l-size;
     padding: 4px 12px;
     transition: border-color $transition-time linear;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        margin-top: 10px;
+    }
 }
 
 .button-link {
@@ -18,10 +22,7 @@
 }
 
 .button-link:hover {
-    // color: $white;
-
     &:hover .button {
-        // background-color: $medium-grey;
         border-color: $light-grey;
     }
 }

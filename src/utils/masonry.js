@@ -105,15 +105,18 @@ const getLayoutPosition = (contentHeight, columnWidth, gutter, numColumns) => {
  */
 const getImageLoadBehavior = (containerWidth, i) => {
     let shouldEagerLoad = false;
-    if (containerWidth < mobileBreakpoint) {
-        shouldEagerLoad = (i < 3);
-    }
-    else if (containerWidth < desktopBreakpoint) {
-        shouldEagerLoad = (i < 5);
-    }
-    else {
-        shouldEagerLoad = (i < 9);
-    }
+    // if (containerWidth < mobileBreakpoint) {
+    //     shouldEagerLoad = (i < 3);
+    // }
+    // else if (containerWidth < desktopBreakpoint) {
+    //     shouldEagerLoad = (i < 5);
+    // }
+    // else {
+    //     shouldEagerLoad = (i < 9);
+    // }
+
+    // Eager load the first 6 images to reduce use of useResizeObserver
+    shouldEagerLoad = i < 6 ? true : false;
 
     return shouldEagerLoad ? "eager" : "lazy";
 }

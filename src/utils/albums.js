@@ -133,7 +133,7 @@ const sortPagesByType = (pages) => {
     });
 
     return pagesByType;
-}
+};
 
 /**
  * A helper function to get a list of sub-albums associated with a parentAlbum. The parent album
@@ -149,7 +149,22 @@ const sortPagesByType = (pages) => {
 const getSubAlbums = (parentAlbum) => {
     const { slug, subAlbums } = { ...parentAlbum };
     return subAlbums.length > 0 ? [{ title:"Highlights", slug: slug, }, ...subAlbums ] : [];
-}
+};
+
+/**
+ * Use gatsby-node to generate the home page from home.md by replacing its path "/home" with
+ * the root path "/".
+ * 
+ * Reason: mini-css-extract-plugin was throwing "Conflicting order" warnings after updating
+ * depencies. Root caused it to the src/pages/index.js using the Gallery component. As a WAR,
+ * let gatsby-node generate the home page gallery instead.
+ * 
+ * @param {string} slug - a Page slug
+ * @returns a string of the modified slug if it has the path "/home"
+ */
+const resolvePath = (slug) => {
+    return slug === "/home" ? "/" : slug;
+};
 
 /**
  * Note: Must use CommonJS export syntax in order to import functions to gatsby-node.js. This
@@ -175,4 +190,5 @@ module.exports = {
     getParentAlbum: getParentAlbum,
     sortPagesByType: sortPagesByType,
     getSubAlbums: getSubAlbums,
+    resolvePath: resolvePath,
 };

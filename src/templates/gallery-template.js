@@ -13,8 +13,8 @@ const GalleryTemplate = ({ data, pageContext }) => {
     const page = data.markdownRemark;
     const images = page.frontmatter.photos ? page.frontmatter.photos.childrenYaml : [];
     const metaImage = getMetaImage(images);
-    const { title, subtitle, type } = { ...page.frontmatter };
-    const { subAlbum } = pageContext;
+    const { title, subtitle } = { ...page.frontmatter };
+    const { subAlbum, type } = pageContext;
     // const { previous, next } = pageContext;
 
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 
-import Button from './Button';
+import { Button } from './Button';
 import Container from '../components/Container';
 import Seo from './SEO';
 import '../styles/components/not-found.scss';

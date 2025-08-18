@@ -28,7 +28,7 @@ const isActive = (navPath, currentPath) => {
 
 const NavItem = ({ path, pathName, isMobile = false, callbackFn, children }) => {
     const listClassName = children ? "navigation-dropdown" : "";
-    const arrowClassName = isMobile ? "arrow__right arrow__dropdown" : "arrow__down arrow__mainnav";
+    const arrowClassName = isMobile ? "navigation-arrow-dropdown" : "navigation-arrow-mainnav";
 
     const currentPath = useContext(PathContext);
     const arrowIsActive = isActive(path, currentPath) ? "arrow__active" : "";
@@ -44,7 +44,7 @@ const NavItem = ({ path, pathName, isMobile = false, callbackFn, children }) => 
             >
                 {pathName}
                 {children && (
-                    <span className={`arrow ${arrowClassName} ${arrowIsActive}`} />
+                    <span className={`${arrowClassName} ${arrowIsActive}`} />
                 )}
             </Link>
             
@@ -77,7 +77,7 @@ const DropdownItem = ({ path, pathName, isMobile = false, children }) => {
             >
                 {pathName}
                 {!isMobile && hasChildren && (
-                    <span className={`arrow arrow__right arrow__dropdown ${arrowIsActive}`}/>
+                    <span className={`navigation-arrow-dropdown ${arrowIsActive}`}/>
                 )}
             </Link>
 

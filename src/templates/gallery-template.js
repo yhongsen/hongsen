@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
 import { getMetaImage } from '../utils/utils';
-import Button from '../components/Button';
+import { GalleryButtons } from '../components/Button';
 import Container from '../components/Container';
 import Gallery from '../components/Gallery';
 import Header from '../components/Header';
@@ -22,7 +22,7 @@ const GalleryTemplate = ({ data, pageContext }) => {
             <Seo title={title} description={page.excerpt} image={metaImage} />
             {!!title && <Header title={title} subtitle={subtitle} description={page.html} subAlbum={subAlbum} />}
             <Gallery images={images} />
-            {!!title && <Button buttonText={"Back to Collection"} path={`/${type}`} />}
+            <GalleryButtons renderButton={!!title} type={type} />
         </Container>
     );
 };

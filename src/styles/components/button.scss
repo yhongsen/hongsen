@@ -1,17 +1,13 @@
 @import '../base/settings';
+@import './arrow.scss';
 
 .button {
     border-color: $medium-grey;
     border-style: solid;
     border-width: 3px;
     display: inline-block;
-    margin-top: $l-size;
     padding: 4px 12px;
     transition: border-color $transition-time linear;
-
-    @media screen and (max-width: $mobile-breakpoint) {
-        margin-top: 10px;
-    }
 }
 
 .button-link {
@@ -25,4 +21,41 @@
     &:hover .button {
         border-color: $light-grey;
     }
+}
+
+// BackToTopButton
+.bttb {
+    background-color: $white;
+    border: none;
+    display: block;
+    padding: 0;
+}
+
+.bttb-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+
+    &:hover .bttb-arrow {
+        @extend .arrow__active;
+    }
+}
+
+.bttb-arrow {
+    @extend .arrow;
+    @extend .arrow__up;
+    @extend .arrow__large;
+}
+
+// Wrapper for "Back to Collection" button and BackToTopButton
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-wrapper__single {
+    display: flex;
+    justify-content: flex-end;
 }

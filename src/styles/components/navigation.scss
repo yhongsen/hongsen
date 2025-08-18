@@ -1,4 +1,5 @@
 @import '../base/settings';
+@import './arrow.scss';
 
 // sass placeholder selector
 %_link {
@@ -17,7 +18,7 @@
     padding-bottom: 60px;
     @media screen and (max-width: $mobile-breakpoint) {
         // padding-bottom: 40px;
-        padding-bottom: 12px;
+        padding-bottom: 20px;
     }
 };
 
@@ -175,44 +176,17 @@
     margin-right: 8px
 }
 
-.arrow {
-    --border-size: 2px;
-
-    border-right: var(--border-size) solid $grey;
-    border-bottom: var(--border-size) solid $grey;
-    width: var(--size);
-    height: var(--size);
-    transform: rotate(var(--direction, 0));
-    transition: border-color $transition-time linear;
-    position: relative;   
-}
-
-.arrow__up {
-    --direction: -135deg;
-    top: 1.5px;
-}
-.arrow__down {
-    --direction: 45deg;
-    top: -2px;
-}
-.arrow__left {
-    --direction: 135deg;
-}
-.arrow__right {
-    --direction: -45deg;
-}
-
-.arrow__active {
-    border-color: $light-grey;
-}
-
-.arrow__mainnav {
-    --size: calc(var(--border-size) * 4);
+.navigation-arrow-mainnav {
+    @extend .arrow;
+    @extend .arrow__down;
+    @extend .arrow__large;
     margin-left: 4px;
 }
 
-.arrow__dropdown {
-    --size: calc(var(--border-size) * 3);
+.navigation-arrow-dropdown {
+    @extend .arrow;
+    @extend .arrow__right;
+    @extend .arrow__small;
     margin-left: 2px;
 }
 

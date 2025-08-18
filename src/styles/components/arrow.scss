@@ -1,0 +1,41 @@
+@import '../base/settings';
+
+// CSS arrow
+// Example usage: <span className={`arrow arrow__right} />
+.arrow {
+    --border-size: 2px;
+
+    border-right: var(--border-size) solid $grey;
+    border-bottom: var(--border-size) solid $grey;
+    width: var(--size);
+    height: var(--size);
+    transform: rotate(var(--direction, 0));
+    transition: border-color $transition-time linear;
+    position: relative;   
+}
+
+.arrow__up {
+    --direction: -135deg;
+}
+.arrow__down {
+    --direction: 45deg;
+    top: -2px;
+}
+.arrow__left {
+    --direction: 135deg;
+}
+.arrow__right {
+    --direction: -45deg;
+}
+
+.arrow__active {
+    border-color: $light-grey;
+}
+
+.arrow__large {
+    --size: calc(var(--border-size) * 4);
+}
+
+.arrow__small {
+    --size: calc(var(--border-size) * 3);
+}

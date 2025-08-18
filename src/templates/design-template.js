@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
 import { getMetaImage } from '../utils/utils';
-import Button from '../components/Button';
+import { GalleryButtons } from '../components/Button';
 import Container from '../components/Container';
 import Gallery from '../components/Gallery';
 import Header from '../components/Header';
@@ -14,15 +14,16 @@ const DesignTemplate = ({ data, pageContext }) => {
     const images = page.frontmatter.photos ? page.frontmatter.photos.childrenYaml : [];
     const metaImage = getMetaImage(images);
     const { title, subtitle } = { ...page.frontmatter };
+    const { subAlbum, type } = pageContext;
     const numColumns = 1;
     // const { previous, next } = pageContext;
 
     return (
         <Container>
             <Seo title={title} description={page.excerpt} image={metaImage} />
-            <Header title={title} subtitle={subtitle} description={page.html} />
+            <Header title={title} subtitle={subtitle} description={page.html} subAlbum={subAlbum} />
             <Gallery images={images} columns={numColumns} />
-            <Button buttonText={"Back to Collection"} path={"/design"} />
+            <GalleryButtons renderButton={!!title} type={type} />
         </Container>
     );
 };

@@ -1,18 +1,159 @@
+# Set 1 (Kagoshima, Osaka)
 - image: ../../images/travel/japan-2019/japan_2019-26.jpg
-  alt: Shiroyama Park, Kagoshima, Japan
-- image: ../../images/travel/japan-2019/japan_2019-76.jpg
-  alt: Meguro River, Tokyo, Japan
+  alt: Shiroyama Park, Kagoshima
+- image: ../../images/travel/japan-2019/japan_2019-27.jpg
+  alt: Terukuni Shrine, Kagoshima
 - image: ../../images/travel/japan-2019/japan_2019-71.jpg
-  alt: Mt Fuji, Japan
+  alt: Mt Fuji
+- image: ../../images/travel/japan-2019/japan_2019-46.jpg
+  alt: Ikebukuro, Tokyo
+- image: ../../images/travel/japan-2023/japan_2023-139.jpg
+  alt: Shin-Osaka Station, Osaka
+- image: ../../images/travel/japan-2023/japan_2023-141.jpg
+  alt: Tenma, Osaka
+- image: ../../images/travel/japan-2023/japan_2023-128.jpg
+  alt: HEP FIVE Ferris Wheel, Osaka
+- image: ../../images/travel/japan-2023/japan_2023-125.jpg
+  alt: Sakuranomiya Station, Osaka
+- image: ../../images/travel/japan-2023/japan_2023-136.jpg
+  alt: Yodogawa River Park, Osaka
+
+# Set 2 (Shimanami Kaido)
+- image: ../../images/travel/japan-2023/japan_2023-079.jpg
+  alt: Ikuchi Bridge, Shimanami Kaido
+- image: ../../images/travel/japan-2023/japan_2023-082.jpg
+  alt: Yahoo Hill, Shimanami Kaido
+- image: ../../images/travel/japan-2023/japan_2023-083.jpg
+  alt: Omishima Island, Shimanami Kaido
+
+# Set 3 (Cherry Blossoms)
+- image: ../../images/travel/japan-2019/japan_2019-77.jpg
+  alt: Meguro River, Tokyo
+- image: ../../images/travel/japan-2019/japan_2019-76.jpg
+  alt: Meguro River, Tokyo
+- image: ../../images/travel/japan-2023/japan_2023-028.jpg
+  alt: Mt. Fuji
+- image: ../../images/travel/japan-2023/japan_2023-037.jpg
+  alt: Takashima Castle, Lake Suwa
+- image: ../../images/travel/japan-2019/japan_2019-75.jpg
+  alt: Meguro River, Tokyo
+- image: ../../images/travel/japan-2023/japan_2023-067.jpg
+  alt: Onomichi
+
+# Set 4 (Nakasendo)
+- image: ../../images/travel/japan-2023/japan_2023-052.jpg
+  alt: Tsumago Post Office, Nakasendo
+- image: ../../images/travel/japan-2023/japan_2023-059.jpg
+  alt: Nakasendo
+- image: ../../images/travel/japan-2023/japan_2023-054.jpg
+  alt: Nakasendo
+- image: ../../images/travel/japan-2023/japan_2023-055.jpg
+  alt: Nakasendo
+- image: ../../images/travel/japan-2023/japan_2023-058.jpg
+  alt: Nakasendo
+- image: ../../images/travel/japan-2023/japan_2023-066.jpg
+  alt: Onomichi Station, Onomichi
+
+# Set 5 (Tokyo)
+- image: ../../images/travel/japan-2023/japan_2023-019.jpg
+  alt: Tama River, Tokyo
+- image: ../../images/travel/japan-2023/japan_2023-020.jpg
+  alt: Todoroki Ravine, Tokyo
+- image: ../../images/travel/japan-2019/japan_2019-47.jpg
+  alt: Ikebukuro, Tokyo
+
+# Set 6 (Kyoto)
+- image: ../../images/travel/japan-2017/japan_2017-14.jpg
+  alt: Arashiyama Bamboo Forest, Kyoto
+- image: ../../images/travel/japan-2017/japan_2017-51.jpg
+  alt: Fushimi Inari Taisha, Kyoto
+- image: ../../images/travel/japan-2017/japan_2017-27.jpg
+  alt: Fushimi Inari Taisha, Kyoto
+- image: ../../images/travel/japan-2017/japan_2017-28.jpg
+  alt: Fushimi Inari Taisha, Kyoto
+- image: ../../images/travel/japan-2017/japan_2017-29.jpg
+  alt: Fushimi Inari Taisha, Kyoto
+- image: ../../images/travel/japan-2019/japan_2019-43.jpg
+  alt: Yasaka Pagoda, Kyoto
+- image: ../../images/travel/japan-2017/japan_2017-31.jpg
+  alt: Kyoto
+- image: ../../images/travel/japan-2019/japan_2019-41.jpg
+  alt: Nishiki Market, Kyoto
+- image: ../../images/travel/japan-2019/japan_2019-35.jpg
+  alt: Ginkaku-ji, Philosopher's Path, Kyoto
+
+# Set 7 (Yakushima, Shikoku)
+- image: ../../images/travel/japan-2019/japan_2019-85.jpg
+  alt: Yakushima
+- image: ../../images/travel/japan-2019/japan_2019-11.jpg
+  alt: Shiratani Unsuikyo Ravine, Yakushima
+- image: ../../images/travel/japan-2019/japan_2019-13.jpg
+  alt: Shiratani Unsuikyo Ravine, Yakushima
+- image: ../../images/travel/japan-2019/japan_2019-24.jpg
+  alt: Yakushima
+- image: ../../images/travel/japan-2019/japan_2019-15.jpg
+  alt: Anbo, Yakushima
+- image: ../../images/travel/japan-2023/japan_2023-097.jpg
+  alt: Aso Chinkabashi Submersible Bridge, Shikoku
+- image: ../../images/travel/japan-2023/japan_2023-100.jpg
+  alt: Kochi Castle, Kochi, Shikoku
+- image: ../../images/travel/japan-2023/japan_2023-103.jpg
+  alt: Kagami River, Kochi, Shikoku
+- image: ../../images/travel/japan-2023/japan_2023-105.jpg
+  alt: Chikurin Temple, Kochi, Shikoku
+
+# Set 8 (Iya Valley)
+- image: ../../images/travel/japan-2023/japan_2023-116.jpg
+  alt: Vine Bridge, Iya Valley, Shikoku
+- image: ../../images/travel/japan-2023/japan_2023-112.jpg
+  alt: Oboke Gorge, Iya Valley, Shikoku
+- image: ../../images/travel/japan-2023/japan_2023-113.jpg
+  alt: RiverStation West-West, Iya Valley, Shikoku
+
+# Set 9 (Mixed)
+- image: ../../images/travel/japan-2023/japan_2023-031.jpg
+  alt: Kawaguchi Asama Shrine, Mt. Fuji
+- image: ../../images/travel/japan-2023/japan_2023-049.jpg
+  alt: Kamisuwa Station, Lake Suwa
+- image: ../../images/travel/japan-2023/japan_2023-034.jpg
+  alt: Matsumoto Station, Matsumoto
+- image: ../../images/travel/japan-2023/japan_2023-039.jpg
+  alt: Lake Suwa Castle
+- image: ../../images/travel/japan-2023/japan_2023-051.jpg
+  alt: Kamisuwa Station, Lake Suwa
+- image: ../../images/travel/japan-2023/japan_2023-077.jpg
+  alt: Onomichi
+- image: ../../images/travel/japan-2023/japan_2023-071.jpg
+  alt: Senkou Temple, Onomichi
+- image: ../../images/travel/japan-2019/japan_2019-32.jpg
+  alt: Philosophers Path, Kyoto
+- image: ../../images/travel/japan-2023/japan_2023-090.jpg
+  alt: Omishima Island, Shimanami Kaido
+
+# Set 10 (Tokyo)
+- image: ../../images/travel/japan-2023/japan_2023-064.jpg
+  alt: Nakatsugawa Station, Nagano
+- image: ../../images/travel/japan-2023/japan_2023-016.jpg
+  alt: Roppongi Hills Mori Tower, Tokyo
+- image: ../../images/travel/japan-2023/japan_2023-004.jpg
+  alt: Tokyo
+- image: ../../images/travel/japan-2023/japan_2023-008.jpg
+  alt: Miyashita Park, Tokyo
+- image: ../../images/travel/japan-2017/japan_2017-44.jpg
+  alt: Shibuya Crossing, Tokyo
+- image: ../../images/travel/japan-2017/japan_2017-32.jpg
+  alt: KITTE Mall, Tokyo
 - image: ../../images/travel/japan-2017/japan_2017-41.jpg
   alt: Odaiba, Tokyo, Japan
-- image: ../../images/travel/japan-2017/japan_2017-25.jpg
-  alt: Fushimi Inari Taisha, Kyoto, Japan
-- image: ../../images/travel/japan-2019/japan_2019-31.jpg
-  alt: Kagoshima, Japan
 - image: ../../images/travel/japan-2017/japan_2017-46.jpg
   alt: World Trade Center Observation Deck, Tokyo, Japan
-- image: ../../images/travel/japan-2019/japan_2019-04.jpg
-  alt: Hakata Station, Fukuoka, Japan
-- image: ../../images/travel/japan-2019/japan_2019-75.jpg
-  alt: Meguro River, Tokyo, Japan
+- image: ../../images/travel/japan-2023/japan_2023-006.jpg
+  alt: Shimbashi, Tokyo
+
+# Set 11 (Mixed)
+- image: ../../images/travel/japan-2023/japan_2023-104.jpg
+  alt: Chikurin Temple, Kochi, Shikoku
+- image: ../../images/travel/japan-2023/japan_2023-061.jpg
+  alt: Nakasendo
+- image: ../../images/travel/japan-2023/japan_2023-084.jpg
+  alt: Hakata Island, Shimanami Kaido

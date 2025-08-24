@@ -87,7 +87,7 @@
         pointer-events: auto;
     }
 
-    &:hover .arrow__mainnav {
+    &:hover .navigation-arrow-mainnav {
         border-color: $light-grey;
     }
 }
@@ -139,7 +139,7 @@
         pointer-events: auto;
     }
 
-    &:hover .arrow__dropdown {
+    &:hover .navigation-arrow-dropdown {
         border-color: $light-grey;
     }
 }

@@ -26,7 +26,7 @@ const isActive = (navPath, currentPath) => {
     return currentPath.includes(navPath);
 }
 
-const NavItem = ({ path, pathName, isMobile = false, callbackFn, children }) => {
+const NavItem = ({ path, pathName, isMobile = false, callbackFn = undefined, children }) => {
     const listClassName = children ? "navigation-dropdown" : "";
     const arrowClassName = isMobile ? "navigation-arrow-dropdown" : "navigation-arrow-mainnav";
 
@@ -60,7 +60,7 @@ const NavItem = ({ path, pathName, isMobile = false, callbackFn, children }) => 
     );
 };
 
-const DropdownItem = ({ path, pathName, isMobile = false, children }) => {
+const DropdownItem = ({ path, pathName, isMobile = false, callbackFn = undefined, children }) => {
     const hasChildren = children.length > 0;
     const listClassName = hasChildren ? "navigation-submenu" : "";
 
@@ -74,6 +74,7 @@ const DropdownItem = ({ path, pathName, isMobile = false, children }) => {
                 className="navigation-dropdown__link"
                 activeClassName="navigation__active"
                 partiallyActive={true}
+                onClick={callbackFn}
             >
                 {pathName}
                 {!isMobile && hasChildren && (
@@ -111,9 +112,13 @@ const SubmenuItem = ({ path, pathName }) => (
  * 
  * @param {Map[parentAlbum][object]} albumPages - a map where the key is the parentAlbum and the
  * value is an object containing title, slug, and subAlbum attributes of the parentAlbum.
+ * @param {bool} isMobile - a boolean to determine if calling from NavMobile or NavDesktop. For
+ * NavMobile, do not render the SubMenuItem for simplicity and avoid cluttering the mobile UI.
+ * @param {*} callbackFn - a pass-through function used for NavMobile to close the menu when a
+ * link is clicked.
  * @returns a DropdownItem and any associated sub-albums.
  */
-const renderDropdownItems = (albumPages, isMobile = false) => (
+const renderDropdownItems = (albumPages, isMobile = false, callbackFn = undefined) => (
     /**
      * Convert map to an array to use the .map() iteration method.
      * Note: A map doesn't have the .map() method. The .foreach() method can't be used since it
@@ -125,7 +130,7 @@ const renderDropdownItems = (albumPages, isMobile = false) => (
 
         // Render DropdownItem and sub-albums if they exist.
         return (
-            <DropdownItem path={slug} pathName={title} isMobile={isMobile} key={idx}>
+            <DropdownItem path={slug} pathName={title} isMobile={isMobile} key={idx} callbackFn={callbackFn}>
             {
                 !isMobile && subAblums.map((subAlbum, idx) => (
                     <SubmenuItem path={subAlbum.slug} pathName={subAlbum.title} key={idx} />
@@ -198,13 +203,13 @@ const NavMobile = (pagesByType) => {
                 <div className={`navigation-mobile-menu ${isOpen ? "navigation-mobile-menu__open" : ""}`}>
                     <ul className="navigation-mobile-menu__list">
                         <NavItem path={"/travel"} pathName={"Travel"} isMobile={true} callbackFn={toggleMenu}>
-                            {renderDropdownItems(pagesByType.get("travel"), true)}
+                            {renderDropdownItems(pagesByType.get("travel"), true, toggleMenu)}
                         </NavItem>
 
                         <NavItem path={"/portrait"} pathName={"Portrait"} isMobile={true} callbackFn={toggleMenu} />
 
                         <NavItem path={"/design"} pathName={"Design"} isMobile={true} callbackFn={toggleMenu}>
-                            {renderDropdownItems(pagesByType.get("design"), true)}
+                            {renderDropdownItems(pagesByType.get("design"), true, toggleMenu)}
                         </NavItem>
 
                         <NavItem path={"/about"} pathName={"About"} isMobile={true} callbackFn={toggleMenu} />

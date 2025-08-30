@@ -105,7 +105,19 @@ const getParentAlbum = (path) => {
  */
 const sortPagesByType = (pages) => {
     const pagesByType = new Map();
+    const tmpSubAlbums = new Map();
 
+    /**
+     * Note: Due to developer mode bug when editing md files, must insert sub-albums
+     * after all parent albums have been instantiated. Temporarily store them in a
+     * separate map sorted by type:
+     * 
+     * tmpSubAlbums = {
+     *      'travel' = [ {japan-2017} {japan-2019} {japan-2023} {china-2014} ... ]
+     *      'design' = [ ... ]
+     *      ...
+     * }
+     */
     pages.forEach((page, index) => {
         const { slug, type, isSubAlbum } = { ...page.fields };
         const { title, subAlbumTitle } = { ...page.frontmatter };
@@ -121,15 +133,26 @@ const sortPagesByType = (pages) => {
         // Add a new Map for each page type (e.g., travel, design)
         if (!pagesByType.has(type)) {
             pagesByType.set(type, new Map());
+            tmpSubAlbums.set(type, []);
         }
         // Insert pages into the appropriate map (order is determined by query)
         if (!isSubAlbum) {
             // is a parent album
             pagesByType.get(type).set(parentAlbum, pageData);
-        } else {
+        } 
+        else {
             // is a sub-album
-            pagesByType.get(type).get(parentAlbum).subAlbums.push(pageData);
+            tmpSubAlbums.get(type).push(pageData)
         }
+    });
+
+    // Associate sub-albums to their parent albums 
+    tmpSubAlbums.forEach((subAlbumsByType, type) => {
+        // subAlbumsByType is a list of sub-albums of the same type
+        subAlbumsByType.forEach((subAlbum, index) => {
+            const parentAlbum = getParentAlbum(subAlbum.slug);
+            pagesByType.get(type).get(parentAlbum).subAlbums.push(subAlbum);
+        });
     });
 
     return pagesByType;

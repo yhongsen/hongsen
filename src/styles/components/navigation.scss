@@ -90,6 +90,13 @@
     &:hover .navigation-arrow-mainnav {
         border-color: $light-grey;
     }
+
+    // MOBILE SETTINGS
+    @media screen and (max-width: $mobile-breakpoint) {
+        &:hover .navigation-arrow-dropdown {
+            border-color: $light-grey;
+        }
+    }
 }
 
 .navigation-dropdown__list {

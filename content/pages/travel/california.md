@@ -1,7 +1,7 @@
 ---
 title: "California"
-subtitle: "2025"
-date: "2022-07-16"
+subtitle: "2018-2025"
+date: "2018-02-01"
 order: 5
 hero: ../../images/travel/california/california_2022-16.jpg
 photos: ../../galleries/travel/california.yaml

@@ -40,6 +40,14 @@
 - image: ../images/travel/japan-2019/japan_2019-75.jpg
   alt: Meguro River, Tokyo, Japan
 
+# San Francisco
+- image: ../images/travel/california/california_2025-02.jpg
+  alt: Mission Dolores Park, San Francisco
+- image: ../images/travel/california/california_2022-20.jpg
+  alt: Union Square, San Francisco
+- image: ../images/travel/california/california_2024-05.jpg
+  alt: Alta Plaza Park, San Francisco, California
+
 # National Parks
 - image: ../images/travel/national-parks/colorado-01.jpg
   alt: Dream Lake, Rocky Mountain National Park
@@ -61,21 +69,21 @@
   alt: Canyonlands, Utah
 
 # China
-- image: ../images/travel/china-2014/china_2016-01.jpg
-  alt: The Temple of Heaven, Beijing, China
-- image: ../images/travel/china-2014/china_2014-01.jpg
-  alt: Beijing Opera House, Beijing, China
-- image: ../images/travel/china-2014/china_2014-02.jpg
-  alt: CCTV Headquarters, Beijing, China
-- image: ../images/travel/china-2014/china_2014-03.jpg
-  alt: Jinshanling, China
+- image: ../images/travel/china-2024/china_2024-111.jpg
+  alt: Oriental Pearl TV Tower from the Huangpu River, Shanghai
 - image: ../images/travel/china-2014/china_2014-07.jpg
   alt: Galaxy Soho, Beijing, China
-- image: ../images/travel/china-2014/china_2014-17.jpg
-  alt: Zhangjiajie, China
+- image: ../images/travel/china-2014/china_2014-01.jpg
+  alt: Beijing Opera House, Beijing, China
+- image: ../images/travel/china-2014/china_2014-03.jpg
+  alt: Jinshanling, China
+- image: ../images/travel/china-2014/china_2014-02.jpg
+  alt: CCTV Headquarters, Beijing, China
+- image: ../images/travel/china-2024/china_2024-089.jpg
+  alt: Zhouzhuang
 - image: ../images/travel/china-2014/china_2014-20.jpg
   alt: Potala Palace, Tibet, China
+- image: ../images/travel/china-2014/china_2014-18.jpg
+  alt: Zhangjiajie
 - image: ../images/travel/china-2014/china_2014-16.jpg
   alt: Yangtze River, China
-- image: ../images/travel/china-2014/china_2016-04.jpg
-  alt: Hunan, China

@@ -26,7 +26,7 @@ const AboutMe = () => (
         </header>
         <p className="about-text">
             Hi, my name is Hongsen and I'm a photographer, designer, and RF engineer 
-            based in San Diego, CA.
+            based in the Bay Area.
         </p>
         <p className="about-text">
             I graduated with a B.S. in Electrical Engineering from the University of

@@ -1,6 +1,6 @@
 # Set 1
 - image: ../../images/travel/california/california_2025-02.jpg
-  alt: San Francisco
+  alt: Mission Dolores Park, San Francisco
 - image: ../../images/travel/california/california_2025-22.jpg
   alt: San Francisco
 - image: ../../images/travel/california/california_2025-23.jpg
@@ -34,7 +34,7 @@
 - image: ../../images/travel/california/california_2022-12.jpg
   alt: San Francisco
 - image: ../../images/travel/california/california_2025-01.jpg
-  alt: San Francisco
+  alt: Mission Dolores Park, San Francisco
 - image: ../../images/travel/california/california_2022-14.jpg
   alt: Marshall's Beach, San Francisco
 - image: ../../images/travel/california/california_2022-15.jpg
@@ -82,7 +82,7 @@
 - image: ../../images/travel/california/california_2024-02.jpg
   alt: Alta Plaza Park, San Francisco
 - image: ../../images/travel/california/california_2024-05.jpg
-  alt: San Francisco
+  alt: Alta Plaza Park, San Francisco
 
 # Set 8
 - image: ../../images/travel/california/california_2022-31.jpg
@@ -183,11 +183,11 @@
   alt: Stateline Fire Lookout, Lake Tahoe, CA
 - image: ../../images/travel/california/california_2025-26.jpg
   alt: Emerald Bay State Park, Lake Tahoe, CA
-- image: ../../images/travel/national-parks/socal_2022-03.jpg
+- image: ../../images/travel/national-parks/channel_islands_2022-03.jpg
   alt: Santa Cruz Island, Channel Islands National Park
-- image: ../../images/travel/national-parks/socal_2022-08.jpg
+- image: ../../images/travel/national-parks/channel_islands_2022-08.jpg
   alt: Santa Cruz Island, Channel Islands National Park
-- image: ../../images/travel/national-parks/socal_2022-07.jpg
+- image: ../../images/travel/national-parks/channel_islands_2022-07.jpg
   alt: Santa Cruz Island, Channel Islands National Park
 
 ##########################
@@ -212,7 +212,7 @@
 - image: ../../images/travel/california/california_2021-06.jpg
   alt: La Jolla Shores, San Diego
 - image: ../../images/travel/california/california_2021-08.jpg
-  alt: La Jolla Shores, San Diego
+  alt: Glider Port, San Diego
 
 # Set 18
 - image: ../../images/travel/california/california_2021-07.jpg
@@ -243,7 +243,7 @@
   alt: Sunset Cliffs, San Diego
 - image: ../../images/travel/california/california_2021-15.jpg
   alt: Sunset Cliffs, San Diego
-- image: ../../images/travel/national-parks/socal_2021-01.jpg
+- image: ../../images/travel/national-parks/joshua_tree_2021-01.jpg
   alt: Joshua Tree National Park
 - image: ../../images/travel/california/california_2022-61.jpg
   alt: The Broad, Los Angeles

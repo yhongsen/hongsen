@@ -6,4 +6,4 @@ hero: ../../../images/travel/china-2014/china_2016-01.jpg
 photos: ../../../galleries/travel/china-2014.yaml
 ---
 
-The wonderful city and landscape views of Beijing, Tibet, Yangtze River, Hunan Province, and Shanghai. Some of my favorite memories were from exploring the Beijing skyline after a huge rainstorm that left the skies clear for several days.
+The wonderful city and landscape views of Beijing, Tibet, the Yangtze River, Hunan Province, and Shanghai. Some of my favorite memories were from exploring the Beijing skyline after a huge rainstorm that left the skies clear for several days.

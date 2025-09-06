@@ -15,10 +15,12 @@
 
 .navigation-wrapper {
     padding: 0;
-    padding-bottom: 60px;
-    @media screen and (max-width: $mobile-breakpoint) {
-        // padding-bottom: 40px;
-        padding-bottom: 20px;
+    padding-bottom: 20px;
+    @media screen and (min-width: $mobile-breakpoint) {
+        padding-bottom: 30px;
+    }
+    @media screen and (min-width: $desktop-breakpoint) {
+        padding-bottom: 60px;
     }
 };
 
@@ -52,8 +54,11 @@
     font-size: 72px;
     line-height: 1em;
     letter-spacing: 2px;
-    margin: 0 0 48px;
+    margin: 0 0 20px;
     text-align: center;
+    @media screen and (min-width: $desktop-breakpoint) {
+        margin: 0 0 48px;
+    }
 }
 
 .navigation-main {

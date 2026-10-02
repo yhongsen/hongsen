@@ -18,7 +18,7 @@
 - image: ../../images/travel/national-parks/yosemite-12.jpg
   alt: Cathedral Lake Trail, Yosemite, California
 
-# Set 2 (SoCal)
+# Set 2 (Joshua Tree & Channel Islands)
 - image: ../../images/travel/national-parks/joshua_tree_2021-01.jpg
   alt: Joshua Tree National Park, California
 - image: ../../images/travel/national-parks/channel_islands_2022-01.jpg
@@ -38,7 +38,49 @@
 - image: ../../images/travel/national-parks/channel_islands_2022-07.jpg
   alt: Santa Cruz Island, Channel Islands National Park, California
 
-# Set 3 (Colorado)
+# Set 3 (Death Valley)
+- image: ../../images/travel/national-parks/death_valley-01.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-03.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-04.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-02.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-05.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-07.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-21.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-08.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-10.jpg
+  alt: Death Valley National Park, California
+
+# Set 4 (Death Valley)
+- image: ../../images/travel/national-parks/death_valley-11.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-12.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-15.jpg
+  alt: Death Valley National Park, California
+
+# Set 5 (Death Valley)
+- image: ../../images/travel/national-parks/death_valley-14.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-16.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-18.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-13.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-20.jpg
+  alt: Death Valley National Park, California
+- image: ../../images/travel/national-parks/death_valley-19.jpg
+  alt: Death Valley National Park, California
+
+# Set 6 (Colorado)
 - image: ../../images/travel/national-parks/colorado-01.jpg
   alt: Dream Lake, Rocky Mountain National Park, Colorado
 - image: ../../images/travel/national-parks/colorado-04.jpg
@@ -46,7 +88,7 @@
 - image: ../../images/travel/national-parks/colorado-06.jpg
   alt: Bear Lake Trailhead, Rocky Mountain National Park, Colorado
 
-# Set 4 (Colorado)
+# Set 7 (Colorado)
 - image: ../../images/travel/national-parks/colorado-09.jpg
   alt: Alluvial Fan, Rocky Mountain National Park, Colorado
 - image: ../../images/travel/national-parks/colorado-07.jpg
@@ -60,7 +102,7 @@
 - image: ../../images/travel/national-parks/colorado-11.jpg
   alt: Colorado National Monument, Colorado
 
-# Set 5 (Colorado)
+# Set 8 (Colorado)
 - image: ../../images/travel/national-parks/colorado-20.jpg
   alt: Sand Dunes National Park, Colorado
 - image: ../../images/travel/national-parks/colorado-21.jpg
@@ -74,7 +116,7 @@
 - image: ../../images/travel/national-parks/colorado-24.jpg
   alt: Garden of the Gods, Colorado
 
-# Set 6 (Washington)
+# Set 9 (Washington)
 - image: ../../images/travel/washington/washington_2019-18.jpg
   alt: Olympic National Park
 - image: ../../images/travel/washington/washington_2019-20.jpg
@@ -88,7 +130,7 @@
 - image: ../../images/travel/washington/washington_2019-27.jpg
   alt: Olympic National Park
 
-# Set 7 (Acadia)
+# Set 10 (Acadia)
 - image: ../../images/travel/national-parks/acadia-11.jpg
   alt: Acadia National Park, Maine
 - image: ../../images/travel/national-parks/acadia-13.jpg
@@ -102,7 +144,7 @@
 - image: ../../images/travel/national-parks/acadia-05.jpg
   alt: Acadia National Park, Maine
 
-# Set 8 (Arizona)
+# Set 11 (Arizona)
 - image: ../../images/travel/national-parks/utah-arizona-01.jpg
   alt: Antelope Canyon, Arizona
 - image: ../../images/travel/national-parks/utah-arizona-02.jpg
@@ -116,7 +158,7 @@
 - image: ../../images/travel/national-parks/utah-arizona-06.jpg
   alt: Grand Canyon National Park, Arizona
 
-# Set 9 (Arizona & Utah)
+# Set 12 (Arizona & Utah)
 - image: ../../images/travel/national-parks/utah-arizona-10.jpg
   alt: Petrified Forrest National Park, Arizona
 - image: ../../images/travel/national-parks/utah-arizona-11.jpg

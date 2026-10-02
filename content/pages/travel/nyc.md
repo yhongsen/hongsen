@@ -3,7 +3,7 @@ title: "New York City"
 subtitle: "2021"
 subAlbumTitle: "NYC"
 date: "2021-07-08"
-order: 7
+order: 5
 hero: ../../images/travel/nyc/nyc_2017-01.jpg
 photos: ../../galleries/travel/nyc.yaml
 ---

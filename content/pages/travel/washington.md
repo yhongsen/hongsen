@@ -2,7 +2,7 @@
 title: "Washington"
 subtitle: "2022"
 date: "2019-08-23"
-order: 8
+order: 6
 hero: ../../images/travel/washington/washington_2019-16.jpg
 photos: ../../galleries/travel/washington.yaml
 ---

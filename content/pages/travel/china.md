@@ -2,7 +2,7 @@
 title: "China"
 subtitle: "2014-2024"
 date: "2014-08-01"
-order: 4
+order: 2
 hero: ../../images/travel/china-2014/china_2016-01.jpg
 photos: ../../galleries/travel/china.yaml
 ---

@@ -204,8 +204,6 @@ const NavMobile = (pagesByType) => {
                             {renderDropdownItems(pagesByType.get("travel"), true, toggleMenu)}
                         </NavItem>
 
-                        <NavItem path={"/portrait"} pathName={"Portrait"} isMobile={true} callbackFn={toggleMenu} />
-
                         <NavItem path={"/design"} pathName={"Design"} isMobile={true} callbackFn={toggleMenu}>
                             {renderDropdownItems(pagesByType.get("design"), true, toggleMenu)}
                         </NavItem>

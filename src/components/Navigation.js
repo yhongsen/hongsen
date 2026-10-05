@@ -154,8 +154,6 @@ const NavDesktop = (pagesByType) => (
                     {renderDropdownItems(pagesByType.get("travel"))}
                 </NavItem>
 
-                <NavItem path={"/portrait"} pathName={"Portrait"} />
-
                 <NavItem path={"/design"} pathName={"Design"}>
                     {renderDropdownItems(pagesByType.get("design"))}
                 </NavItem>
@@ -205,8 +203,6 @@ const NavMobile = (pagesByType) => {
                         <NavItem path={"/travel"} pathName={"Travel"} isMobile={true} callbackFn={toggleMenu}>
                             {renderDropdownItems(pagesByType.get("travel"), true, toggleMenu)}
                         </NavItem>
-
-                        <NavItem path={"/portrait"} pathName={"Portrait"} isMobile={true} callbackFn={toggleMenu} />
 
                         <NavItem path={"/design"} pathName={"Design"} isMobile={true} callbackFn={toggleMenu}>
                             {renderDropdownItems(pagesByType.get("design"), true, toggleMenu)}

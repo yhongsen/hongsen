@@ -2,10 +2,10 @@
 title: "Japan IV"
 subtitle: "2025"
 date: "2025-11-06"
-hero: ../../../images/travel/japan-2023/japan_2023-079.jpg
+hero: ../../../images/travel/japan-2023/japan_2025-021.jpg
 photos: ../../../galleries/travel/japan-2025.yaml
 ---
 
-My third trip to Japan was in the spring of 2023. We visited Tokyo, Mount Fuji, Matsumoto, Lake Suwa, Onomichi, and Osaka, as well as hiked a section of the Nakasendo, biked across the Shimanami Kaido, and road tripped across Shikoku.
+My fall 2025 trip to Japan centered on a road trip across Kyushu and catching glimpses of the autumn foliage. I briefly visited Kagoshima and Fukuoka on my 2019 trip and have been meaning to return ever since. 
 
-Despite the rain and hail, biking across the Shimanami Kaido was by far my favorite experience traveling across Japan. I highly recommend it to anyone who has the chance to make the journey.
+We visited Kagoshima, Aso-Kuju National Park, Takachiho Gorge, Amakusa, Kumamoto, the ceramic villages of Saga Prefecture, Fukuoka, and many, many shrines.

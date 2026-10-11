@@ -1,33 +1,303 @@
-# Set X (Tokyo)
+# Set 1 (Tokyo)
 - image: ../../images/travel/japan-2025/japan_2025-001.jpg
-  alt: Tokyo
+  alt: JR East Gotonda, Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-004.jpg
-  alt: Tokyo
+  alt: Meiji Jingu Shrine, Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-006.jpg
-  alt: Tokyo
+  alt: Meiji Jingu Shrine, Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-007.jpg
-  alt: Tokyo
+  alt: Meiji Jingu Shrine, Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-003.jpg
-  alt: Tokyo
+  alt: Meiji Jingu Shrine, Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-010.jpg
-  alt: Tokyo
+  alt: Starbucks Reserve, Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-011.jpg
   alt: Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-020.jpg
-  alt: Tokyo
-- image: ../../images/travel/japan-2025/japan_2025-009.jpg
-  alt: Tokyo
+  alt: Japan
+- image: ../../images/travel/japan-2025/japan_2025-138.jpg
+  alt: Hakata Station, Hakata Ward, Fukuoka
 
-# Set X (Tokyo)
+# Set 2 (Tokyo)
 - image: ../../images/travel/japan-2025/japan_2025-013.jpg
-  alt: Tokyo
+  alt: Meiji Jingu Galen Gingko Avenue, Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-012.jpg
-  alt: Tokyo
+  alt: Meiji Jingu Galen Gingko Avenue, Tokyo
 - image: ../../images/travel/japan-2025/japan_2025-014.jpg
-  alt: Tokyo
+  alt: Meiji Jingu Galen Gingko Avenue, Tokyo
 
-# Set X (Kagoshima)
+# Set 3 (Kagoshima)
 - image: ../../images/travel/japan-2025/japan_2025-021.jpg
-  alt: Tokyo
+  alt: Fav Lux, Kagoshima
 - image: ../../images/travel/japan-2025/japan_2025-022.jpg
-  alt: Tokyo
+  alt: Tenmonkan Park, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-026.jpg
+  alt: Shiroyama Park Observation Point, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-023.jpg
+  alt: Terukuni Shrine, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-024.jpg
+  alt: Terukuni Shrine, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-025.jpg
+  alt: Shiroyama Park Observation Point, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-030.jpg
+  alt: Sengan-en, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-029.jpg
+  alt: Sengan-en, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-028.jpg
+  alt: Sengan-en, Kagoshima
+
+# Set 4 (Kagoshima)
+- image: ../../images/travel/japan-2025/japan_2025-027.jpg
+  alt: Sengan-en, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-031.jpg
+  alt: Sengan-en, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-032.jpg
+  alt: Sengan-en, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-034.jpg
+  alt: Kirishima-jingu Shrine, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-037.jpg
+  alt: Kirishima-jingu Shrine, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-039.jpg
+  alt: Mount Sakurajima, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-042.jpg
+  alt: Mount Sakurajima, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-040.jpg
+  alt: Mount Sakurajima, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-038.jpg
+  alt: Mount Sakurajima, Kagoshima
+
+# Set 5 (Kagoshima)
+- image: ../../images/travel/japan-2025/japan_2025-043.jpg
+  alt: Mount Sakurajima, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-044.jpg
+  alt: Mount Sakurajima, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-046.jpg
+  alt: Ogawa Falls, Kagoshima
+
+# Set 6 (Kagoshima & Miyazaki)
+- image: ../../images/travel/japan-2025/japan_2025-049.jpg
+  alt: Ogawa Falls, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-048.jpg
+  alt: Ogawa Falls, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-047.jpg
+  alt: Ogawa Falls, Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-050.jpg
+  alt: Kagoshima
+- image: ../../images/travel/japan-2025/japan_2025-053.jpg
+  alt: Sugawara Shrine, Ebino, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-052.jpg
+  alt: Sugawara Shrine, Ebino, Miyazaki
+
+# Set 7 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-051.jpg
+  alt: Sugawara Shrine, Ebino, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-055.jpg
+  alt: Aso Jinja shrine, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-054.jpg
+  alt: Aso Jinja shrine, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-056.jpg
+  alt: Aso Jinja shrine, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-057.jpg
+  alt: Daikonbo Lookout, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-061.jpg
+  alt: Daikonbo Lookout, Aso, Kumamoto
+
+# Set 8 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-060.jpg
+  alt: Daikonbo Lookout, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-062.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-063.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-067.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-065.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-070.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-066.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-068.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-069.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+
+# Set 9 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-073.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-072.jpg
+  alt: Mt. Takadake, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-074.jpg
+  alt: Aso Nakedake Observation Deck, Aso, Kumamoto
+
+# Set 10 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-075.jpg
+  alt: Aso-Kuju National Park, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-076.jpg
+  alt: Aso-Kuju National Park, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-077.jpg
+  alt: Kusasenrigahama, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-078.jpg
+  alt: Kusasenri Observatory, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-079.jpg
+  alt: Kusasenri Observatory, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-080.jpg
+  alt: Kusasenri Observatory, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-082.jpg
+  alt: Komezuka, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-083.jpg
+  alt: Komezuka, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-081.jpg
+  alt: Komezuka, Aso, Kumamoto
+
+# Set 11 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-084.jpg
+  alt: Kamishikimi Kumanoza Shrine, Aso District, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-085.jpg
+  alt: Kamishikimi Kumanoza Shrine, Aso District, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-086.jpg
+  alt: Kamishikimi Kumanoza Shrine, Aso District, Kumamoto
+
+# Set 12 (Miyazaki)
+- image: ../../images/travel/japan-2025/japan_2025-059.jpg
+  alt: Daikonbo Lookout, Aso, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-087.jpg
+  alt: Takachiho, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-088.jpg
+  alt: Takachiho, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-089.jpg
+  alt: Takachiho Gorge, Takachiho, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-090.jpg
+  alt: Takachiho Gorge, Takachiho, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-091.jpg
+  alt: Takachiho Gorge, Takachiho, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-092.jpg
+  alt: Takachiho Gorge, Takachiho, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-094.jpg
+  alt: Amaterasu Railway, Takachiho, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-009.jpg
+  alt: Yoyogi Park, Tokyo
+
+
+# Set 13 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-093.jpg
+  alt: Amaterasu Railway, Takachiho, Miyazaki
+- image: ../../images/travel/japan-2025/japan_2025-095.jpg
+  alt: Nagabeta Seabed Road, Uto, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-105.jpg
+  alt: Kamiamakusa, Kumamoto
+
+# Set 14 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-096.jpg
+  alt: Hokabira Seaside Nature Park, Kamiamakusa, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-098.jpg
+  alt: Jumanyama Observation Point, Amakusa, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-099.jpg
+  alt: Jumanyama Observation Point, Amakusa, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-100.jpg
+  alt: Jumanyama Observation Point, Amakusa, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-102.jpg
+  alt: Jumanyama Observation Point, Amakusa, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-101.jpg
+  alt: Jumanyama Observation Point, Amakusa, Kumamoto
+
+# Set 15 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-106.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-107.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-108.jpg
+  alt: Chuo Ward, Kumamoto
+
+# Set 16 (Kumamoto)
+- image: ../../images/travel/japan-2025/japan_2025-109.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-111.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-112.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-113.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-114.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-115.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-117.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-118.jpg
+  alt: Chuo Ward, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-104.jpg
+  alt: Kuratake Shrine, Amakusa, Kumamoto
+
+# Set 17 (Kumamoto & Saga)
+- image: ../../images/travel/japan-2025/japan_2025-103.jpg
+  alt: Kuratake Shrine, Amakusa, Kumamoto
+- image: ../../images/travel/japan-2025/japan_2025-152.jpg
+  alt: Okawachiyama Village, Imari, Saga
+- image: ../../images/travel/japan-2025/japan_2025-123.jpg
+  alt: Tozen Shrine, Arita, Saga
+
+
+# Set 18 (Saga)
+- image: ../../images/travel/japan-2025/japan_2025-119.jpg
+  alt: Tozen Shrine, Arita, Saga
+- image: ../../images/travel/japan-2025/japan_2025-120.jpg
+  alt: Tozen Shrine, Arita, Saga
+- image: ../../images/travel/japan-2025/japan_2025-122.jpg
+  alt: Tozen Shrine, Arita, Saga
+- image: ../../images/travel/japan-2025/japan_2025-121.jpg
+  alt: Tozen Shrine, Arita, Saga
+- image: ../../images/travel/japan-2025/japan_2025-124.jpg
+  alt: Tozen Shrine, Arita, Saga
+- image: ../../images/travel/japan-2025/japan_2025-126.jpg
+  alt: Arita, Saga
+- image: ../../images/travel/japan-2025/japan_2025-127.jpg
+  alt: Arita, Saga
+- image: ../../images/travel/japan-2025/japan_2025-129.jpg
+  alt:  Okawachiyama Village, Imari, Saga
+- image: ../../images/travel/japan-2025/japan_2025-128.jpg
+  alt:  Okawachiyama Village, Imari, Saga
+
+# Set 19 (Fukuoka)
+- image: ../../images/travel/japan-2025/japan_2025-130.jpg
+  alt:  Sakurai Futamigaura's Couple Stones, Itoshima, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-131.jpg
+  alt:  Miyajidake Shrine, Fukutsu, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-132.jpg
+  alt:  Miyajidake Shrine, Fukutsu, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-136.jpg
+  alt:  Miyajidake Shrine, Fukutsu, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-134.jpg
+  alt:  Miyajidake Shrine, Fukutsu, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-137.jpg
+  alt:  Dazaifu Tenmangu Shrine, Dazaifu, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-141.jpg
+  alt: Nanzo-in Temple, Kasuya District, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-143.jpg
+  alt: Nanzo-in Temple, Kasuya District, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-142.jpg
+  alt: Nanzo-in Temple, Kasuya District, Fukuoka
+
+# Set 20 (Fukuoka)
+- image: ../../images/travel/japan-2025/japan_2025-145.jpg
+  alt: Kidonanzoin-Mae Station, Kasuya District, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-146.jpg
+  alt: Kidonanzoin-Mae Station, Kasuya District, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-147.jpg
+  alt: Kidonanzoin-Mae Station, Kasuya District, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-148.jpg
+  alt: Hakata River, Hakata Ward, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-150.jpg
+  alt: Hakata Station, Hakata Ward, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-151.jpg
+  alt: Hakata Station, Hakata Ward, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-149.jpg
+  alt: Hakata River, Hakata Ward, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-139.jpg
+  alt: Hakata Station, Hakata Ward, Fukuoka
+- image: ../../images/travel/japan-2025/japan_2025-140.jpg
+  alt: Hakata Station, Hakata Ward, Fukuoka
+
+# Tokyo (12) + Kagoshima (25) + Miyazaki (11) + Kumamoto (51)
+# Saga (11) + Fukuoka (19)
+# TOTAL: 129

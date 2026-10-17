@@ -8,11 +8,11 @@
 - image: ../../images/travel/china-2014/china_2016-01.jpg
   alt: The Temple of Heaven, Beijing
 - image: ../../images/travel/china-2014/china_2014-04.jpg
-  alt: Jinshanling
+  alt: Jinshanling, Chengde, Hebei
 - image: ../../images/travel/china-2014/china_2014-03.jpg
-  alt: Jinshanling
+  alt: Jinshanling, Chengde, Hebei
 - image: ../../images/travel/china-2024/china_2024-072.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2014/china_2014-01.jpg
   alt: Beijing Opera House, Beijing
 - image: ../../images/travel/china-2014/china_2014-08.jpg
@@ -20,41 +20,41 @@
 
 # Set 2 (Chengdu)
 - image: ../../images/travel/china-2024/china_2024-009.jpg
-  alt: People's Park, Chengdu
+  alt: People's Park, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-013.jpg
-  alt: Wuhou Shrine, Chengdu
+  alt: Wuhou Shrine, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-015.jpg
-  alt: Wuhou Shrine, Chengdu
+  alt: Wuhou Shrine, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-012.jpg
-  alt: Wuhou Shrine, Chengdu
+  alt: Wuhou Shrine, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-007.jpg
-  alt: Qintai Road, Chengdu
+  alt: Qintai Road, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-005.jpg
-  alt: Qingyang Palace, Chengdu
+  alt: Qingyang Palace, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-006.jpg
-  alt: Qingyang Palace, Chengdu
+  alt: Qingyang Palace, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-008.jpg
-  alt: Qintai Road, Chengdu
+  alt: Qintai Road, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-032.jpg
   alt: Leshan Giant Buddha Archway, Leshan City
 
 # Set 3 (Leshan City & Chengdu)
 - image: ../../images/travel/china-2024/china_2024-029.jpg
-  alt: Leshan City
+  alt: Leshan City, Sichuan
 - image: ../../images/travel/china-2024/china_2024-030.jpg
-  alt: Leshan City
+  alt: Leshan City, Sichuan
 - image: ../../images/travel/china-2024/china_2024-031.jpg
-  alt: Leshan City
+  alt: Leshan City, Sichuan
 
 # Set 4 (Mount Emei & Tibet)
 - image: ../../images/travel/china-2024/china_2024-024.jpg
-  alt: Mount Emei
+  alt: Mount Emei, Sichuan
 - image: ../../images/travel/china-2024/china_2024-027.jpg
-  alt: Mount Emei
+  alt: Mount Emei, Sichuan
 - image: ../../images/travel/china-2024/china_2024-023.jpg
-  alt: Mount Emei
+  alt: Mount Emei, Sichuan
 - image: ../../images/travel/china-2024/china_2024-025.jpg
-  alt: Mount Emei
+  alt: Mount Emei, Sichuan
 - image: ../../images/travel/china-2014/china_2014-29.jpg
   alt: Tibet
 - image: ../../images/travel/china-2014/china_2014-22.jpg
@@ -76,9 +76,9 @@
 
 # Set 6 (Mixed)
 - image: ../../images/travel/china-2014/china_2014-17.jpg
-  alt: Zhangjiajie
+  alt: Zhangjiajie, Hunan
 - image: ../../images/travel/china-2014/china_2014-18.jpg
-  alt: Zhangjiajie
+  alt: Zhangjiajie, Hunan
 - image: ../../images/travel/china-2014/china_2014-16.jpg
   alt: Yangtze River
 - image: ../../images/travel/china-2024/china_2024-033.jpg
@@ -92,55 +92,55 @@
 - image: ../../images/travel/china-2014/china_2014-13.jpg
   alt: Yangtze River
 - image: ../../images/travel/china-2024/china_2024-004.jpg
-  alt: Qingyang Palace, Chengdu
+  alt: Qingyang Palace, Chengdu, Sichuan
 
 # Set 7 (Zhouzhuang)
 - image: ../../images/travel/china-2024/china_2024-077.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-083.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-091.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-084.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-089.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-095.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-087.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-098.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-096.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 
 # Set 8 (Shaoyang)
 - image: ../../images/travel/china-2024/china_2024-061.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-052.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-053.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 
 # Set 9 (Shaoyang)
 - image: ../../images/travel/china-2024/china_2024-055.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-048.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-059.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-050.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-062.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-069.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-065.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-066.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 - image: ../../images/travel/china-2024/china_2024-070.jpg
-  alt: Shaoyang
+  alt: Shaoyang, Hunan
 
 # Set 10 (Shanghai)
 - image: ../../images/travel/china-2024/china_2024-113.jpg
@@ -160,14 +160,14 @@
 - image: ../../images/travel/china-2024/china_2024-099.jpg
   alt: Huangpu District, Shanghai
 - image: ../../images/travel/china-2024/china_2024-075.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-081.jpg
-  alt: Zhouzhuang
+  alt: Zhouzhuang, Kunshan, Jiangsu
 - image: ../../images/travel/china-2024/china_2024-040.jpg
-  alt: Chengdu Tianfu Art Museum, Chengdu
+  alt: Chengdu Tianfu Art Museum, Chengdu, Sichuan
 - image: ../../images/travel/china-2024/china_2024-119.jpg
   alt: Shanghai
 - image: ../../images/travel/china-2024/china_2024-116.jpg
   alt: Suzhouhe Mengqing Garden, Shanghai
 
-  # Total photos: 75
+  # Total Photos: 75

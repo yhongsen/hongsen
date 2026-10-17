@@ -7,6 +7,6 @@ hero: ../../images/travel/california/california_2022-16.jpg
 photos: ../../galleries/travel/california.yaml
 ---
 
-Since moving to California for graduate school and work, I’ve been starting to experiment more with urban landscape and street photography. California makes it easy to find what you’re looking for with its wide variety of scenic destinations, national parks, and large metropolitan cities. 
+From the iconic facades of San Francisco to the sun-soaked shores of San Diego, it’s been exciting to explore the Golden State while living in San Diego and the Bay Area.
 
-From the picturesque homes of San Francisco to the seaside views of San Diego, it’s been exciting to explore the state during my time living in San Diego and the Bay Area. This album features scenes from around California.
+This album features scenes from around California.

@@ -178,7 +178,6 @@
 - image: ../../images/travel/japan-2025/japan_2025-009.jpg
   alt: Yoyogi Park, Tokyo
 
-
 # Set 13 (Kumamoto)
 - image: ../../images/travel/japan-2025/japan_2025-093.jpg
   alt: Amaterasu Railway, Takachiho, Miyazaki
@@ -236,7 +235,6 @@
   alt: Okawachiyama Village, Imari, Saga
 - image: ../../images/travel/japan-2025/japan_2025-123.jpg
   alt: Tozen Shrine, Arita, Saga
-
 
 # Set 18 (Saga)
 - image: ../../images/travel/japan-2025/japan_2025-119.jpg
@@ -300,4 +298,4 @@
 
 # Tokyo (12) + Kagoshima (25) + Miyazaki (11) + Kumamoto (51)
 # Saga (11) + Fukuoka (19)
-# TOTAL: 129
+# Total Photos: 129

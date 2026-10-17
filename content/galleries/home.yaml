@@ -27,16 +27,16 @@
   alt: Meguro River, Tokyo, Japan
 - image: ../images/travel/japan-2019/japan_2019-71.jpg
   alt: Mt Fuji, Japan
-- image: ../images/travel/japan-2017/japan_2017-41.jpg
-  alt: Odaiba, Tokyo, Japan
-- image: ../images/travel/japan-2017/japan_2017-25.jpg
-  alt: Fushimi Inari Taisha, Kyoto, Japan
-- image: ../images/travel/japan-2019/japan_2019-31.jpg
-  alt: Kagoshima, Japan
+- image: ../images/travel/japan-2019/japan_2019-43.jpg
+  alt: Yasaka Pagoda, Kyoto
+- image: ../images/travel/japan-2025/japan_2025-124.jpg
+  alt: Tozen Shrine, Arita, Saga
+- image: ../images/travel/japan-2025/japan_2025-098.jpg
+  alt: Jumanyama Observation Point, Amakusa, Kumamoto
 - image: ../images/travel/japan-2017/japan_2017-46.jpg
   alt: World Trade Center Observation Deck, Tokyo, Japan
-- image: ../images/travel/japan-2019/japan_2019-04.jpg
-  alt: Hakata Station, Fukuoka, Japan
+- image: ../images/travel/japan-2025/japan_2025-091.jpg
+  alt: Takachiho Gorge, Takachiho, Miyazaki
 - image: ../images/travel/japan-2019/japan_2019-75.jpg
   alt: Meguro River, Tokyo, Japan
 
@@ -47,6 +47,26 @@
   alt: Union Square, San Francisco
 - image: ../images/travel/california/california_2024-05.jpg
   alt: Alta Plaza Park, San Francisco, California
+
+# New England
+- image: ../images/travel/new-england/boston_2025-20.jpg
+  alt: Boston Common, Boston, MA
+- image: ../images/travel/new-england/boston_2025-19.jpg
+  alt: Boston Public Garden, Boston, MA
+- image: ../images/travel/new-england/boston_2025-12.jpg
+  alt: Alewife, Cambridge, MA
+- image: ../images/travel/new-england/boston_2023-24.jpg
+  alt: Boston Public Library, Boston, MA
+- image: ../images/travel/new-england/boston_2023-47.jpg
+  alt: Hardwick Lake, VT
+- image: ../images/travel/new-england/boston_2023-42.jpg
+  alt: Lake Elligo, VT
+- image: ../images/travel/new-england/boston_2026-023.jpg
+  alt: Alewife Brook Reservation, Cambridge, MA
+- image: ../images/travel/new-england/boston_2026-103.jpg
+  alt: Jetties Beach, Nantucket, MA
+- image: ../images/travel/new-england/boston_2026-080.jpg
+  alt: Town Neck Beach, Sandwich, MA
 
 # National Parks
 - image: ../images/travel/national-parks/colorado-01.jpg
@@ -70,20 +90,22 @@
 
 # China
 - image: ../images/travel/china-2024/china_2024-111.jpg
-  alt: Oriental Pearl TV Tower from the Huangpu River, Shanghai
-- image: ../images/travel/china-2014/china_2014-07.jpg
-  alt: Galaxy Soho, Beijing, China
-- image: ../images/travel/china-2014/china_2014-01.jpg
-  alt: Beijing Opera House, Beijing, China
-- image: ../images/travel/china-2014/china_2014-03.jpg
-  alt: Jinshanling, China
+  alt: Oriental Pearl TV Tower from the Huangpu River, Shanghai, China
+- image: ../images/travel/china-2024/china_2024-091.jpg
+  alt: Zhouzhuang, Kunshan, Jiangsu, China
 - image: ../images/travel/china-2014/china_2014-02.jpg
   alt: CCTV Headquarters, Beijing, China
-- image: ../images/travel/china-2024/china_2024-089.jpg
-  alt: Zhouzhuang
+- image: ../images/travel/china-2014/china_2014-03.jpg
+  alt: Jinshanling, Chengde, Hebei, China
 - image: ../images/travel/china-2014/china_2014-20.jpg
   alt: Potala Palace, Tibet, China
-- image: ../images/travel/china-2014/china_2014-18.jpg
-  alt: Zhangjiajie
+- image: ../images/travel/china-2024/china_2024-089.jpg
+  alt: Zhouzhuang, Kunshan, Jiangsu, China
+- image: ../images/travel/china-2024/china_2024-014.jpg
+  alt: Wuhou Shrine, Chengdu, Sichuan, China
+- image: ../images/travel/china-2014/china_2014-01.jpg
+  alt: Beijing Opera House, Beijing, China
 - image: ../images/travel/china-2014/china_2014-16.jpg
   alt: Yangtze River, China
+
+# Total Photos: 48

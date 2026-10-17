@@ -4,9 +4,9 @@
 - image: ../../images/travel/china-2014/china_2014-02.jpg
   alt: CCTV Headquarters, Beijing
 - image: ../../images/travel/china-2014/china_2014-03.jpg
-  alt: Jinshanling
+  alt: Jinshanling, Chengde, Hebei
 - image: ../../images/travel/china-2014/china_2014-04.jpg
-  alt: Jinshanling
+  alt: Jinshanling, Chengde, Hebei
 - image: ../../images/travel/china-2014/china_2016-01.jpg
   alt: The Temple of Heaven, Beijing
 - image: ../../images/travel/china-2014/china_2014-05.jpg
@@ -38,9 +38,9 @@
 - image: ../../images/travel/china-2014/china_2014-16.jpg
   alt: Yangtze River
 - image: ../../images/travel/china-2014/china_2014-17.jpg
-  alt: Zhangjiajie
+  alt: Zhangjiajie, Hunan
 - image: ../../images/travel/china-2014/china_2014-18.jpg
-  alt: Zhangjiajie
+  alt: Zhangjiajie, Hunan
 - image: ../../images/travel/china-2014/china_2016-03.jpg
   alt: Hunan
 - image: ../../images/travel/china-2014/china_2016-04.jpg
@@ -84,4 +84,4 @@
 - image: ../../images/travel/china-2014/china_2014-36.jpg
   alt: Tibet
 
-# Total photos: 39
+# Total Photos: 39
